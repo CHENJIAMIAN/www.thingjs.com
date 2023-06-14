@@ -148,7 +148,7 @@ if (name_m) {
 if (name) {
     var file = name.substring(name.lastIndexOf("/") + 1, name.lastIndexOf(".js"));
     var filenameArr = file.split('.');
-    var thingPath = 'thing.min.js'
+    var thingPath = 'thing.min.deuglify.js'
     var nameArr = name.split("/");
     // if (filenameArr.length > 2) {
     //     var version = file.substring(file.indexOf('.') + 1);
