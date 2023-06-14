@@ -1,0 +1,24 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\fa01024e74784fbe8c4caaf228b40183_999_转换中\\MAX\\22000货架.maxbk0.max",
+  "gltfFiles": [
+    "EAU1YF21OE47GADCWOQPIY7UUIFU1D3NO.gltf"
+  ],
+  "texFiles": {
+    "4E66TET1WROUOOO8KTW8NMQ2W2982RQU2": ".bin",
+    "EUNKTU1VQT8CMAJSWD7US2JYQGFDVR92V": "smd_1_f_png.jpg"
+  },
+  "size": [
+    2.81571,
+    8.66389,
+    1.47089
+  ],
+  "faces": 122,
+  "verts": 96,
+  "nodes": 1,
+  "createTime": "2021-06-09 17:18:59",
+  "author": "1854",
+  "computer": "CHR-224",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext"
+}

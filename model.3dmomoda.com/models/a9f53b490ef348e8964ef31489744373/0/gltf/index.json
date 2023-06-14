@@ -1,0 +1,28 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\a9f53b490ef348e8964ef31489744373_999_转换中\\MAX\\22000柜子.maxbk0.max",
+  "gltfFiles": [
+    "DH1251YNI3JW7DE67QQD6PE80RZYK2ZUO.gltf"
+  ],
+  "texFiles": {
+    "E810QQ6KQ3WN2QTUWYWU1P70NXU1VC8UU": ".bin",
+    "MU8W7Q9PNR7PC5ZN04ZP0OT12YFYNGUUO": "smd_1_f_png.jpg"
+  },
+  "size": [
+    0.441526,
+    0.599414,
+    1.3579
+  ],
+  "faces": 80,
+  "verts": 44,
+  "nodes": 2,
+  "createTime": "2021-06-08 11:42:56",
+  "author": "1854",
+  "computer": "CHR-200",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext",
+  "anim": [
+    "_OpenDoor_",
+    "_CloseDoor_"
+  ]
+}

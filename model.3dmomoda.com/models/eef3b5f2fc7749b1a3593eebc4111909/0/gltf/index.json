@@ -1,0 +1,24 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\eef3b5f2fc7749b1a3593eebc4111909_999_转换中\\MAX\\22000箱子.maxbk0.max",
+  "gltfFiles": [
+    "XOJO4OW1VMOZ0IEJQOE2SGA2Q41YKY31U.gltf"
+  ],
+  "texFiles": {
+    "IQ7VY10WQTP2YT0747W4NEJDQ2W01X1US": ".bin",
+    "PTW1WQH0WPT4VOU2QXUJSO1WORE2N5JU2": "smd_1_f_png.jpg"
+  },
+  "size": [
+    0.867724,
+    1.035,
+    0.623886
+  ],
+  "faces": 12,
+  "verts": 8,
+  "nodes": 1,
+  "createTime": "2021-06-08 11:31:56",
+  "author": "1854",
+  "computer": "CHR-200",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext"
+}

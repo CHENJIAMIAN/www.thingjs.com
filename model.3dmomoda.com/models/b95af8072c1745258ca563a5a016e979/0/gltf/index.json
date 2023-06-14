@@ -1,0 +1,33 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\b95af8072c1745258ca563a5a016e979_999_转换中\\MAX\\22000主楼.maxbk0.max",
+  "gltfFiles": [
+    "ARPVP8PSGU8STO40IJU6X1JKDE4COU7QT.gltf"
+  ],
+  "texFiles": {
+    "ARTVXA8OO94NPW1CD3UCOAWNR3YQMEYV5": ".bin",
+    "UY1CZZIDHRD2EUYVREPCC9J1P7J1DW72E": "smd_1_f_png.jpg",
+    "W60OJWS2111RTJCRARD1R8JKQTT6DU7KE": "smd_3_f_png.jpg",
+    "QTORD8TIITPKM3U2RTT22HT1YOY8YFYVM": "smd_6.jpg",
+    "Q8QRC9USQA02DUDSPUY04ETVGQ6VDETKQ": "smd_5_f_png.jpg",
+    "HUWDO4O472WIR74QCH2QRZDKQW6VT86S4": "smd_2_f_png.jpg",
+    "7D04APIPOR6UCZ675Z2KTJ61TTJKCUNQE": "smd_7.jpg"
+  },
+  "size": [
+    48.7345,
+    19.9749,
+    28.3111
+  ],
+  "faces": 5743,
+  "verts": 4368,
+  "nodes": 16,
+  "createTime": "2021-06-18 9:47:11",
+  "author": "1854",
+  "computer": "CHR-200",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext",
+  "anim": [
+    "_OpenDoor_",
+    "_CloseDoor_"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\47beb540e49245f09c301d33598f1cd1_999_转换中\\MAX\\22000旗杆.maxbk0.max",
+  "gltfFiles": [
+    "TS4QP62UYSO7Z843W8W4HD0TJ4CP7DS2J.gltf"
+  ],
+  "texFiles": {
+    "68R9U7Q93Y8XWPWEUUUQATVTQ8241N74Z": ".bin",
+    "073XJNKP8WSOHPWP322GA812921P3UNQJ": "smd_1_f_png.jpg",
+    "YUGHTWEWNSQATI3GOD72TJ8E8TWT12UT8": "smd_2_com.png",
+    "67M8U1EU3DNQU2CO342QF782HTOOA715U": "smd_3.jpg"
+  },
+  "size": [
+    4.43698,
+    1.76975,
+    15.9193
+  ],
+  "faces": 190,
+  "verts": 128,
+  "nodes": 4,
+  "createTime": "2021-06-23 13:48:55",
+  "author": "1854",
+  "computer": "CHR-221",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext"
+}

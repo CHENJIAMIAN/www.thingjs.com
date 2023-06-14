@@ -1,0 +1,24 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\f604b1c975e54d7aadf734dfcf3080b0_999_转换中\\MAX\\22000扩散地面.maxbk0.max",
+  "gltfFiles": [
+    "PAU2W2126EJTC4WWUXF1I53J05UTOGZDQ.gltf"
+  ],
+  "texFiles": {
+    "O8WITUYURT71OWF6NGJY628N1QFDIXEU8": ".bin",
+    "YHUNRHUVY110M1W00PFTKQZJU5OT1E1PS": "smd_1.png"
+  },
+  "size": [
+    165.3,
+    155.932,
+    0.001
+  ],
+  "faces": 2,
+  "verts": 4,
+  "nodes": 1,
+  "createTime": "2021-06-08 16:30:28",
+  "author": "1854",
+  "computer": "CHR-224",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext"
+}

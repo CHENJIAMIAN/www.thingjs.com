@@ -1,0 +1,31 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\2162a9b5c988464588bdd2ad056014fc_999_转换中\\MAX\\22000铲车.maxbk0.max",
+  "gltfFiles": [
+    "6YU12RE7H12U71Y3T7PJ6ORFPOYF6S2A8.gltf"
+  ],
+  "texFiles": {
+    "QRTHD22WP7CUDKQJJQP97KOUJN2TWQE94": ".bin",
+    "I27Y05O0WGZWQDW1CCHJ72C98O2WT8E3P": "smd_4_f_png.jpg",
+    "WOA2WGHYNOF2UGE82HYZU6DHJSQT4QIQP": "smd_2_f_png.jpg",
+    "NYE2QP7POPJ4HSQ3DVG1TVD8J2PU4V4T4": "smd_1_f_png.jpg",
+    "NIHNWRHNI594HOEO08IJD1MJD1MQ46P70": "smd_3_f_png.jpg"
+  },
+  "size": [
+    1.87733,
+    4.70157,
+    3.18017
+  ],
+  "faces": 23399,
+  "verts": 13288,
+  "nodes": 5,
+  "createTime": "2021-06-15 11:33:59",
+  "author": "1854",
+  "computer": "CHR-200",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext",
+  "anim": [
+    "_起_",
+    "_落_"
+  ]
+}

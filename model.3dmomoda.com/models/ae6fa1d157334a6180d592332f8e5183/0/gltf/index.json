@@ -1,0 +1,25 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\ae6fa1d157334a6180d592332f8e5183_999_转换中\\MAX\\22000圆柱装饰一.maxbk0.max",
+  "gltfFiles": [
+    "Q18DDF4UDT005O72EZ0SGE8QT1JQXQT2T.gltf"
+  ],
+  "texFiles": {
+    "8NOI1TUDIU6KGHD1DWUNCZNIQ78NOT78R": ".bin",
+    "7D04APIPOD6UCZ675Z2KTJ61TTJKCUNQE": "smd_2.jpg",
+    "J8D8X886XQYSQU1Q2HTSRF1UEW42DFDC2": "smd_1_f_png.jpg"
+  },
+  "size": [
+    5.96632,
+    7.13356,
+    16.6721
+  ],
+  "faces": 1558,
+  "verts": 1240,
+  "nodes": 2,
+  "createTime": "2021-06-16 18:08:43",
+  "author": "1854",
+  "computer": "CHR-200",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext"
+}

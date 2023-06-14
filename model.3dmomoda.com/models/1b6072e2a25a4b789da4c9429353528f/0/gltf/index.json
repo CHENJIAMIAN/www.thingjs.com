@@ -1,0 +1,25 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\1b6072e2a25a4b789da4c9429353528f_999_转换中\\MAX\\000辅助建筑_装饰二.maxbk0.max",
+  "gltfFiles": [
+    "Z1COFW6GA86RHYQXDFWS2F1OQ162O32VI.gltf"
+  ],
+  "texFiles": {
+    "J6D0OUY748W2GTU82AWQ43DOO3NUCAN0T": ".bin",
+    "7D04APIPOD6UCZ675Z2KTJ61TTJKCUNQE": "smd_2.jpg",
+    "AD87C9PVT92QC1N05J0QCQDVX17U2FJQP": "smd_1_f_png.jpg"
+  },
+  "size": [
+    6.28276,
+    5.25188,
+    5.51085
+  ],
+  "faces": 708,
+  "verts": 568,
+  "nodes": 2,
+  "createTime": "2021-06-09 14:27:43",
+  "author": "1854",
+  "computer": "CHR-200",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext"
+}

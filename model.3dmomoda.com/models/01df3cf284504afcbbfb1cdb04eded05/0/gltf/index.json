@@ -1,0 +1,25 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\01df3cf284504afcbbfb1cdb04eded05_999_转换中\\MAX\\22000铁架.maxbk0.max",
+  "gltfFiles": [
+    "3TCMW4S2U01D4TJIXAWUPW8IDFJVOWZVI.gltf"
+  ],
+  "texFiles": {
+    "UTNROUIP9DTND17W2JTVQ82STE60DWPCG": ".bin",
+    "QTODD8TIITPKM3U2RTT22HT1YOY8YFYVM": "smd_2.jpg",
+    "7D04APIPOD6UCZ675Z2KTJ61TTJKCUNQE": "smd_1.jpg"
+  },
+  "size": [
+    9.70412,
+    42.7834,
+    10.5734
+  ],
+  "faces": 1984,
+  "verts": 1272,
+  "nodes": 2,
+  "createTime": "2021-06-10 16:27:04",
+  "author": "1854",
+  "computer": "CHR-224",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext"
+}

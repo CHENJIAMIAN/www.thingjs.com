@@ -1,0 +1,25 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\e421e6940e594c62a3d66c5e0126ff57_999_转换中\\MAX\\2000辅助建筑_底座.maxbk0.max",
+  "gltfFiles": [
+    "9ZCRDZ8VRU1S4UP1MJWO2U7WOJ80Y120D.gltf"
+  ],
+  "texFiles": {
+    "ZTU5QYOX17247T14DO8Q481VIU705A0S5": ".bin",
+    "QTODD8TIITPKM3U2RTT22HT1YOY8YFYVM": "smd_2.jpg",
+    "E7CC1P6E928CE1CMDONKEU7CQUTKXUN7O": "smd_1_f_png.jpg"
+  },
+  "size": [
+    8.50686,
+    15.0,
+    4.11602
+  ],
+  "faces": 74,
+  "verts": 56,
+  "nodes": 2,
+  "createTime": "2021-06-17 18:20:02",
+  "author": "1854",
+  "computer": "CHR-200",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext"
+}

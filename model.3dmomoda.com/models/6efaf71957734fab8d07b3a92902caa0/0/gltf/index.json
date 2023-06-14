@@ -1,0 +1,27 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\6efaf71957734fab8d07b3a92902caa0_999_转换中\\MAX\\22000围墙.maxbk0.max",
+  "gltfFiles": [
+    "0RHE88RU81P716M9WUX7DIQTYURZ2VI7Z.gltf"
+  ],
+  "texFiles": {
+    "W4JN2R127YU0VCH7SHIE6UPWJNIUT2ROD": ".bin",
+    "W51YKCE6WOQY1XJNVHPAT0T9Z1YFJWDOJ": "smd_3_f_png.jpg",
+    "WYU8WY308CFWQ4O1QH4TZCI3P8TZ60TF6": "smd_1_f_png.jpg",
+    "6MWDKM1YHVC8TW2U2VMUUCM7N8IONNITT": "smd_4.jpg",
+    "12F6821HZ1PAWV2166X87SOHDW2QTCP96": "smd_2_f_png.jpg"
+  },
+  "size": [
+    73.324,
+    63.7921,
+    7.5862
+  ],
+  "faces": 550,
+  "verts": 431,
+  "nodes": 4,
+  "createTime": "2021-06-16 17:34:38",
+  "author": "1854",
+  "computer": "CHR-224",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext"
+}

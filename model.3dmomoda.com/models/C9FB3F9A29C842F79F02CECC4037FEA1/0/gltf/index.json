@@ -1,0 +1,25 @@
+{
+  "sourceFile": "D:\\work\\C9FB3F9A29C842F79F02CECC4037FEA1_999_转换中\\MAX\\000室内玻璃隔断墙1.maxbk0.max",
+  "gltfFiles": [
+    "811XTU1DOWNID8J6DAYSOA0CT928XWWKT.gltf"
+  ],
+  "texFiles": {
+    "102YOU7DGUZ6CT62DA40RO7NQ9Z8CW2IE": ".bin",
+    "1W7497WDG7ZUPEYKD966P7WQR7UNQO41Y": "smd_1_f_png.jpg",
+    "J8DC5AJ1DA0IE877MFDOTO4VI81141NWR": "smd_1.png"
+  },
+  "size": [
+    1.5,
+    0.0789483,
+    3.00034
+  ],
+  "faces": 44,
+  "verts": 0,
+  "nodes": 2,
+  "createTime": "2020-07-04 10:35:58",
+  "author": "1854",
+  "computer": "DHJP-20160806JM",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.json"
+}

@@ -1,0 +1,29 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\66ac98cca78c4ad2ad07abfceae85abe_999_转换中\\MAX\\22000升降杆.maxbk0.max",
+  "gltfFiles": [
+    "3PI4HP0CU7NDI1D75O4CMAZ1DT7QPO1QO.gltf"
+  ],
+  "texFiles": {
+    "QPSDCO6QEA805TJVI861RW7IEOPIQHNVO": ".bin",
+    "TDCOE0QY8YKREYOD237SE3214Z11GA7NE": "smd_2_f_png.jpg",
+    "H81OWUI4HUNXD90IIU8Q2O8OE161YEU7X": "smd_1_f_png.jpg"
+  },
+  "size": [
+    9.79619,
+    1.64234,
+    1.32682
+  ],
+  "faces": 242,
+  "verts": 148,
+  "nodes": 3,
+  "createTime": "2021-06-09 16:37:17",
+  "author": "1854",
+  "computer": "CHR-200",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext",
+  "anim": [
+    "_起_",
+    "_落_"
+  ]
+}

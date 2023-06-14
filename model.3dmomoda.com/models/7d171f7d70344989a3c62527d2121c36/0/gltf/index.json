@@ -1,0 +1,24 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\7d171f7d70344989a3c62527d2121c36_999_转换中\\MAX\\22000地面.maxbk0.max",
+  "gltfFiles": [
+    "OAY64TT7D70IGWOY6MW7QC3YVXFY8PZ8U.gltf"
+  ],
+  "texFiles": {
+    "DAJWEJUK5O6WV4OY7YJW0P176D8W6RU8V": ".bin",
+    "PWT2WE3UNEW18E9W623TNQ3ZIIFZ02EZI": "smd_1_f_png.jpg"
+  },
+  "size": [
+    73.024,
+    62.0,
+    0.001
+  ],
+  "faces": 30,
+  "verts": 32,
+  "nodes": 1,
+  "createTime": "2021-06-08 16:30:31",
+  "author": "1854",
+  "computer": "CHR-200",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext"
+}

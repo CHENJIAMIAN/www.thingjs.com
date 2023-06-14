@@ -1,0 +1,24 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\475c617db06d4718ae9d5ca5397cd332_999_转换中\\MAX\\22000停车位.maxbk0.max",
+  "gltfFiles": [
+    "4HD1I31KWM36K27Y8T7YUTF6CQTY6YF70.gltf"
+  ],
+  "texFiles": {
+    "TJP12ZJOOHWWC12WOX9PCDHJNDQ40M9W0": ".bin",
+    "GTTITWU2PAZ2O1DQY3WYIEW2IY1122WDO": "smd_1.png"
+  },
+  "size": [
+    25.658,
+    5.5715,
+    0.001
+  ],
+  "faces": 86,
+  "verts": 72,
+  "nodes": 1,
+  "createTime": "2021-06-07 16:51:23",
+  "author": "",
+  "computer": "CHR-224",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext"
+}

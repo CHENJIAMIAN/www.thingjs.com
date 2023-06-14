@@ -1,0 +1,25 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\632973ee42a34dbaac954db0acf02376_999_转换中\\MAX\\22000装饰机器.maxbk0.max",
+  "gltfFiles": [
+    "Q16DXJZK2WTSQHZVPEN1EJDVXHW6MFJ2Q.gltf"
+  ],
+  "texFiles": {
+    "J2DUOZJ2TQ6VOF602APKY94UX178YUZQG": ".bin",
+    "7D04APIPOD6UCZ675Z2KTJ61TTJKCUNQE": "smd_2.jpg",
+    "OJ027WK4UYSG8DN0XJNWIOYKROTUYZ7S5": "smd_1_f_png.jpg"
+  },
+  "size": [
+    2.81368,
+    1.71001,
+    1.36952
+  ],
+  "faces": 590,
+  "verts": 340,
+  "nodes": 3,
+  "createTime": "2021-06-08 11:19:57",
+  "author": "1854",
+  "computer": "CHR-200",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext"
+}

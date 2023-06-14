@@ -1,0 +1,25 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\1e8e912290d54223a1de81be24219a11_999_转换中\\MAX\\22000传送带.maxbk0.max",
+  "gltfFiles": [
+    "H26O97SEAU02DQZCXF124F8121T0RJ6VE.gltf"
+  ],
+  "texFiles": {
+    "F7OTF6DVOUYNOOU05WJ7EEU6PZPN4QTOP": ".bin",
+    "8UVTZ7VDIO41PTP7XW20DEZ859TCXE21Q": "smd_1_f_png.jpg",
+    "91K5D8UWYTUIEU0OQZ1NOZZNYQY65AJUC": "smd_2_f_png.jpg"
+  },
+  "size": [
+    6.99636,
+    15.0015,
+    1.72121
+  ],
+  "faces": 1568,
+  "verts": 976,
+  "nodes": 2,
+  "createTime": "2021-06-08 11:18:01",
+  "author": "1854",
+  "computer": "CHR-200",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext"
+}

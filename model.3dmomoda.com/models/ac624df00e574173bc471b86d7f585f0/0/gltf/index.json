@@ -1,0 +1,23 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\ac624df00e574173bc471b86d7f585f0_999_转换中\\MAX\\18000空窗户.maxbk0.max",
+  "gltfFiles": [
+    "7Y8U1DJ7S74E7UXOWIIQN0CT27X81U21W.gltf"
+  ],
+  "texFiles": {
+    "KO9POYE6IY8DWM1U8RQ72KMODUOF1IX8N": ".bin"
+  },
+  "size": [
+    2.0,
+    0.1,
+    1.0
+  ],
+  "faces": 8,
+  "verts": 8,
+  "nodes": 1,
+  "createTime": "2021-08-24 15:22:30",
+  "author": "1854",
+  "computer": "CHR-221",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext"
+}

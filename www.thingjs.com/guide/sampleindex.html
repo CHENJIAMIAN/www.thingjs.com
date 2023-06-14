@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="面向物联网的3D可视化开发平台.基于WebGL兼容各种浏览器及移动设备.零门槛、高效率、低成本开发各类3D应用" />
+    <meta name="keywords" content="ThingJS, Threejs Three 3D 三维 物联网 开发 优锘 开发平台" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>ThingJS演示</title>
+    <link rel="stylesheet" href="./lib/sweetalert2/sweetalert2.min.css" />
+    <script src="/guide/lib/jquery-3.2.1.js"></script>
+    <script src="./lib/sweetalert2/sweetalert2.all.min.js"></script>
+    <script src="/dist/thingjs_tip.js"></script>
+    <script type="text/javascript" src="/guide/lib/loader.js"></script>
+    <!-- 特别注意这一句 -->
+    <script src="https://www.thingjs.com/guide/lib/iconfont.js"></script>
+    <style>
+        a[title="站长统计"]{
+            display:none
+        }
+        html,body {
+            height:100%;
+            overflow: hidden;
+        }
+        #content {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: stretch;
+            flex-wrap:wrap;
+        }
+        #div3d {
+            z-index: 1;
+            flex: auto;
+        }
+        #div2d {
+            position: absolute;
+            top: 0;
+            left: 0;
+            /* z-index: 999; */
+            width: 100%;
+            height: 100%;
+        }
+        #div2d > div{
+            z-index: 2;
+        }
+        #div2d > div .ThingJS_nav-vertical{
+            overflow: auto;
+            max-height: 100%;
+        }
+        #div2d > div .ThingJS_nav-vertical::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        #div2d > div .ThingJS_nav-vertical::-webkit-scrollbar-thumb {
+            -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.35);
+            background: #c3c3c3;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 3px;
+        }
+        #content .ThingJS-Banner-top {
+            width: 100%;
+            height: 50px;
+            z-index: 10002;
+        }
+        #content .ThingJS-Banner-left {
+            width: 60px;
+            z-index: 10001;
+        }
+        #content .ThingJS-Banner-top + .ThingJS-banner-left {
+            height: calc(100% - 50px);
+        }
+        #content.ThingJS-top #div3d {
+            width: 100%;
+            height: calc(100% - 50px);
+        }
+        #content.ThingJS-top #div2d {
+            top: 50px;
+            height: calc(100% - 50px);
+        }
+        #content.ThingJS-left #div2d {
+            left: 60px;
+            width: calc(100% - 60px);
+        }
+        #content.ThingJS-left #div3d {
+            width: calc(100% - 60px);
+        }
+        #content.ThingJS-top .ThingJS_Banner-top{
+            flex-shrink: 1;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            display: flex;
+        }
+        #content.ThingJS-top .ThingJS_Banner-top.ThingJS_nav-vertical .menu1{
+            min-width: 150px;
+            overflow: visible;
+        }
+        #content.ThingJS-top .ThingJS_nav-vertical .menu1 .menu1:last-child{
+            overflow: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/sampleAlert.css">
+</head>
+
+<body>
+    <div id="content">
+        <div id="ThingJS-banner-top"></div>
+        <div id="ThingJS-banner-left"></div>
+        <div id="div3d"></div>
+        <div id="div2d" class="div2d"></div>
+    </div>
+    <script type="text/javascript" src="/guide/js/sampleindex.js"></script>
+    <script>
+        function newAlert(msg,type,title,fn) {
+            var content=setWH(msg,type);
+            swal({
+                    type: type,
+                    title:title||'温馨提示',
+                    html: content,
+                    confirmButtonText: '确定',
+                    showConfirmButton: true
+                }).then(function (value) {
+                    if(value) {
+                    if(fn) fn();
+                    }
+            })
+            $('.swal2-container').addClass('newalert');
+        }
+        function newConfirm(msg,btnArr,fnArr){
+            var str='';
+            fnArr=fnArr||[];
+            for(var i=0;i<btnArr.length;i++) {
+                str+="<button class='btn_item"+i+"'>"+btnArr[i]+"</button>";
+            }
+            var btn=`<div class='footer-btn'>`+str+`</div>`;
+            swal({
+                type: 'warning',
+                title:'温馨提示',
+                html: setWH(msg,'confirm'),
+                showConfirmButton: false,
+                footer:btn
+            });
+            $('.swal2-container').addClass('newalert');
+            $('.swal2-footer .footer-btn').on('click','button',function() {
+                if(fnArr[$(this).index()]) {
+                    fnArr[$(this).index()]();
+                } else {
+                    swal_close();
+                }
+            });
+        }
+        function swal_close() {
+            swal.close();
+        }
+        function getStrLength (str){
+            if(str) {
+                var r = /[^\x00-\xff]/g;
+                return (str.replace(r, "mm").length);
+            }
+            return 0;
+        };
+        function setWH(msg,type){
+            var type=type||'warning';
+            var strLength=getStrLength(msg)/40;
+            var lineNum=Math.ceil(strLength);
+            var width=465*(0.618+0.1*(lineNum-1))-40;
+            var newLineNum=Math.ceil(getStrLength(msg)*14*12/24/(width-50-48));
+            var msgHeight=newLineNum*20;
+            var height=(width+48)*0.618-102-32;
+            var marginH=(height-msgHeight-20)/2+(newLineNum>1?1:-4);
+            var typeIcon=`<div class="`+type+`-icon"></div>`;
+            var msgDiv=`<div class="msg" style='margin-top:`+(newLineNum>1?0:3)+`px'>`+msg+`</div>`;
+            var content=`<div class='main' style="width:`+width+`px;margin:`+marginH+`px auto">`+typeIcon+msgDiv+`</div>`;
+            return content;
+        }
+    </script>
+</body>
+
+</html>

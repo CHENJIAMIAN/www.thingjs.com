@@ -1,0 +1,27 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\7fbb5bff56af4cf681b32daca3b8d71d_999_转换中\\MAX\\22000汽车.maxbk0.max",
+  "gltfFiles": [
+    "CDO4QX7JCRHW6HDANN5F40PUNWRFPWTU7.gltf"
+  ],
+  "texFiles": {
+    "CQU0W5J6QY77SHTT7OE9JVQW2NQ8D15AW": ".bin",
+    "04H70WCENKIA68M9JSITW8RJU0DE1WO3T": "smd_1_f_png.jpg",
+    "KM82CPQNV4EN7XO12MJHDQMA86CQD75JD": "smd_2_f_png.jpg",
+    "UEQZWCZ02HYH4SCT7WIWWNIENVX10CD3U": "smd_3_f_png.jpg",
+    "8YZD1E3H4CEWNWYON7OJZ8REN7PJJCRAJ": "smd_4_f_png.jpg"
+  },
+  "size": [
+    2.11264,
+    4.25309,
+    1.72276
+  ],
+  "faces": 6696,
+  "verts": 4080,
+  "nodes": 5,
+  "createTime": "2021-06-07 17:23:14",
+  "author": "1854",
+  "computer": "TY-IP211",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext"
+}

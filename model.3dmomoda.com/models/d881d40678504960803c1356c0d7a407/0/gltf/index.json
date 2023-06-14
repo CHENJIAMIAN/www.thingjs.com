@@ -1,0 +1,29 @@
+{
+  "sourceFile": "D:\\work\\d881d40678504960803c1356c0d7a407_999_转换中\\MAX\\00医疗器具_20柜子.maxbk0.max",
+  "gltfFiles": [
+    "AD41MANKYWP1QAYVYT6Q5QJURE88ITY05.gltf"
+  ],
+  "texFiles": {
+    "FDQ4UNDIGQYNEJUNCTU1YOPC58D82T6Q2": ".bin",
+    "WYWR80NGWPICJ7U2ZD0UIZPOEA16DWW7Q": "44_f_bmp.jpg",
+    "TTNXO66M92KQJ8NDP9PWYQ4QO3415J81I": "naibai.jpg"
+  },
+  "size": [
+    0.900221,
+    0.47,
+    1.77
+  ],
+  "faces": 690,
+  "verts": 0,
+  "nodes": 6,
+  "createTime": "2020-06-22 11:55:40",
+  "author": "1854",
+  "computer": "DHJP-20160806JM",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.json",
+  "anim": [
+    "OpenDoor",
+    "CloseDoor"
+  ]
+}
