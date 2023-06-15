@@ -148,7 +148,7 @@ if (name_m) {
 if (name) {
     var file = name.substring(name.lastIndexOf("/") + 1, name.lastIndexOf(".js"));
     var filenameArr = file.split('.');
-    var thingPath = 'thing.min.deuglify.js'
+    var thingPath = 'thing.min.js'
     var nameArr = name.split("/");
     // if (filenameArr.length > 2) {
     //     var version = file.substring(file.indexOf('.') + 1);
@@ -318,7 +318,10 @@ function onLoadSceneJson(nerVer=false,newEarth=false){
                 <script src="`+ name + `"></script>`);
             }
         } else {
-            document.write(`<script src="/static/historyVersion/`+ thingPath + `"></script>
+            // 执行了这里
+            document.write(`
+            <script src="/static/historyVersion/`+ '' + `"></script>
+            <script src="/static/historyVersion/`+ '' + `"></script>
             <script type="text/javascript">THING.__auth_server_URL__='`+checkAuthPath+`';</script>
             <script type="text/javascript" src="/static/release/thing.widget.min.js"></script>
             <script src="`+ name + `"></script>`);
