@@ -1,3 +1,4 @@
+// MeshSPE
 MSPE.Particle = function(e) {
     "use strict";
     var utils = MSPE.utils
