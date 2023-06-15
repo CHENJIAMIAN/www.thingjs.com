@@ -104,5 +104,5 @@ window.addEventListener('message', function(e) {
     var funcName = data.funcName;
     var param = data.param;
     // 调用 ThingJS 页面方法
-    window[funcName](param);
+    // window[funcName](param);
 });
