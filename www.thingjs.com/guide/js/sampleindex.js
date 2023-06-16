@@ -320,8 +320,8 @@ function onLoadSceneJson(nerVer=false,newEarth=false){
         } else {
             // 执行了这里
             document.write(`
-            <script src="/static/historyVersion/`+ '' + `"></script>
-            <script src="/static/historyVersion/`+ '' + `"></script>
+            <script src="/static/historyVersion/`+ 'thing.min.deuglify.not.thing.js' + `"></script>
+            <script src="/static/historyVersion/`+ 'thing.min.deuglify.thing.js' + `"></script>
             <script type="text/javascript">THING.__auth_server_URL__='`+checkAuthPath+`';</script>
             <script type="text/javascript" src="/static/release/thing.widget.min.js"></script>
             <script src="`+ name + `"></script>`);
