@@ -9698,7 +9698,7 @@ function editShowScene() {
                 newAlert("森园区暂不支持编辑该场景");
             }
         } else if (app.sceneURL) {
-            var sceneCode = app.sceneURL.split('/api/scene/').pop();
+            var sceneCode = app.sceneURL.split('https://www.thingjs.com/api/scene/').pop();
             CHECKSCENEPREVIEW.checkSceneByUrl(null,sceneCode).then(res=>{
                 console.log(res);
             });
@@ -10671,7 +10671,7 @@ function hasOtherUrl(str) {
     if(sceneUrl) {
         for(var i=0;i<sceneUrl.length;i++) {
             str.replace(regUrl, function (match, capture) {
-                // data = data.replace(match, "'/api/scene/"+decodeSceneUrl(capture).scenePath+"'");
+                // data = data.replace(match, "'https://www.thingjs.com/api/scene/"+decodeSceneUrl(capture).scenePath+"'");
                 if(state&&!$('#list1 .curLi .curList .lifileResoure.lifile').length&&($('#list1 .curLi .curList .lifileResoure.lifile').hasClass('teamleader')||$('#list1 .curLi .curList .lifileResoure.lifile').hasClass('team'))) state=getCookie('mmdId')==decodeSceneUrl(capture).authorID?true:false;
             });
         }

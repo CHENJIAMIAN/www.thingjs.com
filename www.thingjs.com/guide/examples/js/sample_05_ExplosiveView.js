@@ -15,7 +15,7 @@
 
 // 加载场景代码 
 var app = new THING.App({
-    url: '/api/scene/406e419fae9000a47a4a8899'
+    url: 'https://www.thingjs.com/api/scene/406e419fae9000a47a4a8899'
 });
 
 // 发电机模型节点数据

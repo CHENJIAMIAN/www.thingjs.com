@@ -10,7 +10,7 @@
 
 // 加载场景代码 
 var app = new THING.App({
-    url: '/api/scene/790c29be8ff3ee2edaaced94'
+    url: 'https://www.thingjs.com/api/scene/790c29be8ff3ee2edaaced94'
 });
 
 // 引入资源文件

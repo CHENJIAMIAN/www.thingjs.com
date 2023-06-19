@@ -8,7 +8,7 @@
 
 // 加载场景代码 
 var app = new THING.App({
-    url: '/api/scene/612295eeb12ce31c334210e1'
+    url: 'https://www.thingjs.com/api/scene/612295eeb12ce31c334210e1'
 });
 
 var building = null; // 剖切建筑对象

@@ -23,7 +23,7 @@ let thingToEnter = null;
 
 // 加载场景代码 
 let app = new THING.App({
-    url: '/api/scene/0776bd36c1d8808e420cf4b1',
+    url: 'https://www.thingjs.com/api/scene/0776bd36c1d8808e420cf4b1',
     background: '#000000',
     env: 'Seaside',
     // 设置场景不做batch

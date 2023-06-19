@@ -9,7 +9,7 @@ THING.Utils.dynamicLoad(['/guide/lib/echarts.min.js'], function () {
 
     // 加载场景代码 
     var app = new THING.App({
-        url: '/api/scene/79b57763f86d7a451d71d18e',  // 场景地址
+        url: 'https://www.thingjs.com/api/scene/79b57763f86d7a451d71d18e',  // 场景地址
         background: '#000000',
         env: 'Seaside',
     });

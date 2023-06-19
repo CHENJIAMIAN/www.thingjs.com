@@ -5,7 +5,7 @@
 
 // 加载场景代码 
 var app = new THING.App({
-    url: '/api/scene/959fde4e708e02c3982dcb96',
+    url: 'https://www.thingjs.com/api/scene/959fde4e708e02c3982dcb96',
     background: '#001326'
 });
 

@@ -139,10 +139,12 @@ function getQueryString(name) {
 var name = getQueryString("name");
 // var name_m = getQueryString("m");
 var name_m = 'examples/js/sample_027_Iframe3D.js'
+// var name_m = 'examples/js/sample_02_BIM.js'
+// var name_m = 'examples/js/sample_02_SceneDynamicLoad.js'
 
 if (name_m) {
     name = name_m;
-    name = name.substr(0, name.lastIndexOf('/')) + name.substr(name.lastIndexOf('/')).replace(/01/g, '%').replace(/02/g, '0');
+    // name = name.substr(0, name.lastIndexOf('/')) + name.substr(name.lastIndexOf('/')).replace(/01/g, '%').replace(/02/g, '0');
 }
 
 if (name) {

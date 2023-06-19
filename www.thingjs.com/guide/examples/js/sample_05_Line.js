@@ -10,7 +10,7 @@
 
 // 加载场景代码 
 var app = new THING.App({
-    url: '/api/scene/b88ecfb351ea8313b9591bd0',
+    url: 'https://www.thingjs.com/api/scene/b88ecfb351ea8313b9591bd0',
     'skyBox': 'BlueSky'
 });
 
