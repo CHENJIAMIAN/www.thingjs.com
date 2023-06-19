@@ -57,7 +57,6 @@
  */
 
 // 加载场景代码 
-
 var app = new THING.App({
     url: 'https://www.thingjs.com/static/models/factory',  // 场景地址
     background: '#000000',
@@ -104,5 +103,5 @@ window.addEventListener('message', function(e) {
     var funcName = data.funcName;
     var param = data.param;
     // 调用 ThingJS 页面方法
-    // window[funcName](param);
+    window[funcName](param);
 });
