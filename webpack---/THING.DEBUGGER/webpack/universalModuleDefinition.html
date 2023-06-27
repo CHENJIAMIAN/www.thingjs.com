@@ -1,0 +1,11 @@
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory(require("@uino/thing"));
+	else if(typeof define === 'function' && define.amd)
+		define("THING", [], factory);
+	else if(typeof exports === 'object')
+		exports["THING"] = factory(require("@uino/thing"));
+	else
+		root["THING"] = root["THING"] || {}, root["THING"]["DEBUG"] = factory(root["THING"]);
+})(self, (__WEBPACK_EXTERNAL_MODULE__uino_thing__) => {
+return 
