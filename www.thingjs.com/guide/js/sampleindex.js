@@ -50,7 +50,7 @@ var failTip = `
                 checkLink();
             }
         });
-        function setCookie(name, value, d, domain) {
+        function setCookie(name1, value, d, domain) {
             var Days = 1;
             if (d) Days = d;
             var exp = new Date();
@@ -64,9 +64,9 @@ var failTip = `
             }
         
             if(domain){
-                document.cookie =name + "=" + escape(value) + ";domain="+domain+";expires=" + exp.toGMTString() + "; path=/;";
+                document.cookie =name1 + "=" + escape(value) + ";domain="+domain+";expires=" + exp.toGMTString() + "; path=/;";
             }else{
-                document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString() + "; path=/";
+                document.cookie = name1 + "=" + escape(value) + ";expires=" + exp.toGMTString() + "; path=/";
             }
         }
         function checkLink(){
@@ -102,7 +102,7 @@ var failTip = `
                         }
                         setCookie('role', res.role);
                         setCookie('token', res.token);
-                        setCookie('name', res.name);
+                        setCookie('name1', res.name1);
                         setCookie('openid', res.openid);
                         setCookie('id', res.id);
                         setCookie('accessToken', res.accessToken);
@@ -128,35 +128,39 @@ var failTip = `
             })
         }
     </script>`
-function getQueryString(name) {
-    var result = window.location.search.match(new RegExp("[\?\&]" + name + "=([^\&\?]+)", "i"));
+function getQueryString(name1) {
+    var result = window.location.search.match(new RegExp("[\?\&]" + name1 + "=([^\&\?]+)", "i"));
     if (result == null || result.length < 1) {
         return "";
     }
     return result[1];
 }
 
-var name = getQueryString("name");
+var name1 = getQueryString("name1");
+// thingjs1.0
 // var name_m = getQueryString("m");
-var name_m = 'examples/js/sample_027_Iframe3D.js'
+// var name_m = 'examples/js/sample_027_Iframe3D.js'
 // var name_m = 'examples/js/sample_02_BIM.js'
 // var name_m = 'examples/js/sample_02_SceneDynamicLoad.js'
 
+// thingjs2.0
+var name_m = 'official/js/basic_helloworld.js'
+
 if (name_m) {
-    name = name_m;
-    // name = name.substr(0, name.lastIndexOf('/')) + name.substr(name.lastIndexOf('/')).replace(/01/g, '%').replace(/02/g, '0');
+    name1 = name_m;
+    // name1 = name1.substr(0, name1.lastIndexOf('/')) + name1.substr(name1.lastIndexOf('/')).replace(/01/g, '%').replace(/02/g, '0');
 }
 
-if (name) {
-    var file = name.substring(name.lastIndexOf("/") + 1, name.lastIndexOf(".js"));
+if (name1) {
+    var file = name1.substring(name1.lastIndexOf("/") + 1, name1.lastIndexOf(".js"));
     var filenameArr = file.split('.');
     var thingPath = 'thing.min.js'
-    var nameArr = name.split("/");
+    var nameArr = name1.split("/");
     // if (filenameArr.length > 2) {
     //     var version = file.substring(file.indexOf('.') + 1);
     // }
     var ifSample = 0;
-    var thisPath = name;
+    var thisPath = name1;
     
     if (nameArr[2] == 'package' || nameArr[1] == 'p') {
         checkAuthPath='/api/processReques';
@@ -191,10 +195,10 @@ if (name) {
         $('style').append(`#div3d #dataAttribution{display:none;}`);
         var prj_id = nameArr[nameArr.length - 2];
     
-        if (nameArr[1] == 'p') name = "/uploads/package/" + name.substring(3);
+        if (nameArr[1] == 'p') name1 = "/uploads/package/" + name1.substring(3);
         var baseThing = '/static/historyVersion/';
 
-        var findThingPath = name.substring(0,name.lastIndexOf('/')) + "/" + thingPath;
+        var findThingPath = name1.substring(0,name1.lastIndexOf('/')) + "/" + thingPath;
         thingPath = baseThing + thingPath;
         
         $.ajax({
@@ -226,45 +230,48 @@ if (name) {
                         return;
                     }
                 }
-                t.code == 200 ? name
+                t.code == 200 ? name1
                     && (document.write("<script type='text/javascript' src='" + thingPath + "'><\/script>"),
                         document.write("<script type='text/javascript'>THING.__auth_server_URL__='"+checkAuthPath+"';<\/script>"),
                         document.write("<script type='text/javascript' src='/static/release/thing.widget.min.js'><\/script>"),
-                        document.write("<script src='" + name + "'><\/script>")) : alert("项目已到期，请到控制台续费", "error", "renewal")
+                        document.write("<script src='" + name1 + "'><\/script>")) : alert("项目已到期，请到控制台续费", "error", "renewal")
             }
         })
     } else {
         if (nameArr[0] != "examples"){
+            // eg:'official/js/basic_helloworld.js'
             var userId = '';
             if(nameArr[0] == 'official'){
                 userId = nameArr[0];
-                name =  name;
+                name1 =  name1;
             }else if (nameArr[1] != "uploads") {
                 userId = nameArr[0];
-                name = "/uploads/wechat/" + name;
+                name1 = "/uploads/wechat/" + name1;
             }else{
                 userId = nameArr[3];
             }
-            $.ajax({
-                type: "GET",
-                url: window.location.protocol + "//" + window.location.host + "/api/CheckUserId",
-                data: { userId: userId , projectJs: name},
-                async: false,
-                success: function (t) {
-                    if(t.state){
-                        onLoadChtIframe(userId,name.substring(name.lastIndexOf('/')+1),t.nerVer,t.newEarth);
-                    }else{
-                        // alert("该项目分享已失效。可联系项目作者重新设置项目分享！", "error", "renewal");
-                        $("#content").hide();
+
+            onLoadChtIframe(userId,name1.substring(name1.lastIndexOf('/')+1),true,true);
+            // $.ajax({
+            //     type: "GET",
+            //     url: window.location.protocol + "//" + window.location.host + "/api/CheckUserId",
+            //     data: { userId: userId , projectJs: name1},
+            //     async: false,
+            //     success: function (t) {
+            //         if(t.state){
+            //             onLoadChtIframe(userId,name1.substring(name1.lastIndexOf('/')+1),t.nerVer,t.newEarth);
+            //         }else{
+            //             // alert("该项目分享已失效。可联系项目作者重新设置项目分享！", "error", "renewal");
+            //             $("#content").hide();
                         
-                        document.write(failTip);
-                        document.close();
-                    }
-                },
-                error: function(error){
-                    console.log(error);
-                }
-            });
+            //             document.write(failTip);
+            //             document.close();
+            //         }
+            //     },
+            //     error: function(error){
+            //         console.log(error);
+            //     }
+            // });
         }else{
             onLoadSceneJson();
         } 
@@ -274,50 +281,52 @@ if (name) {
 function onLoadChtIframe(openid,namejs,nerVer=false,newEarth=false){
     var data = {
         "openid": openid,
-        "name": namejs
+        "name1": namejs
     };
     var urls ='http';
     if(window.location.origin.indexOf('https')>=0){
         urls = 'https';
     }
-    $.ajax({
-        url: urls + '://www.thingjs.com/chart/udatav/getSceneByOpenidAndName',
-        type: 'post',
-        data: JSON.stringify(data),
-        async: false,
-        contentType: "application/json", //必须有 
-        success: function (result) {
-            if (result && result.code == 200 && result.data.length > 0) {
-                chartId = result.data[0].id;
-                var iframeHtml1 = `\<\!DOCTYPE html\> \<html lang=\"zh\"\ style="height:100%">\<head\> \<meta charset=\"UTF-8\"\> \<meta name=\"description\" content=\"面向物联网的3D可视化开发平台.基于WebGL兼容各种浏览器及移动设备.零门槛、高效率、低成本开发各类3D应用\" \/\>\<meta name=\"keywords\" content=\"ThingJS, Threejs Three 3D 三维 物联网 开发 优锘 开发平台\" \/\>\<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no\"\>
-                \<title\>ThingJS演示\<\/title\>\<body\ style="margin:0;padding:0;height:100%"><iframe frameborder='0' style='width:100%;height:100%;display:block;position: absolute;top: 0;' src='`;
-                var iframeHtml2 = "'></iframe>\</body\>";
-                var ifR = iframeHtml1 + urls +'://www.thingjs.com/chart/publish/'+ chartId + iframeHtml2;
-                document.write(ifR);
-                document.close();
-            }else{
-                onLoadSceneJson(nerVer,newEarth)
-            }       
-        },
-        error: function (err){
-            onLoadSceneJson(nerVer,newEarth)
-        }
-    })
+    onLoadSceneJson(nerVer,newEarth)
+    // $.ajax({
+    //     url: urls + '://www.thingjs.com/chart/udatav/getSceneByOpenidAndName',
+    //     type: 'post',
+    //     data: JSON.stringify(data),
+    //     async: false,
+    //     contentType: "application/json", //必须有 
+    //     success: function (result) {
+    //         if (result && result.code == 200 && result.data.length > 0) {
+    //             chartId = result.data[0].id;
+    //             var iframeHtml1 = `\<\!DOCTYPE html\> \<html lang=\"zh\"\ style="height:100%">\<head\> \<meta charset=\"UTF-8\"\> \<meta name1=\"description\" content=\"面向物联网的3D可视化开发平台.基于WebGL兼容各种浏览器及移动设备.零门槛、高效率、低成本开发各类3D应用\" \/\>\<meta name1=\"keywords\" content=\"ThingJS, Threejs Three 3D 三维 物联网 开发 优锘 开发平台\" \/\>\<meta name1=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no\"\>
+    //             \<title\>ThingJS演示\<\/title\>\<body\ style="margin:0;padding:0;height:100%"><iframe frameborder='0' style='width:100%;height:100%;display:block;position: absolute;top: 0;' src='`;
+    //             var iframeHtml2 = "'></iframe>\</body\>";
+    //             var ifR = iframeHtml1 + urls +'://www.thingjs.com/chart/publish/'+ chartId + iframeHtml2;
+    //             document.write(ifR);
+    //             document.close();
+    //         }else{
+    //             onLoadSceneJson(nerVer,newEarth)
+    //         }       
+    //     },
+    //     error: function (err){
+    //         onLoadSceneJson(nerVer,newEarth)
+    //     }
+    // })
 }
 function onLoadSceneJson(nerVer=false,newEarth=false){
     if(window.location.href.indexOf('?m=official/js/')==-1){
+        // thingjs2.0
         if(nerVer) {
             if(newEarth) {
                 document.write(`<script src="/static/historyVersion/thing.umd.min.js"></script>
                 <script src="/static/historyVersion/thing.earth.umd.min.js"></script>
                 <script type="text/javascript">THING.__auth_server_URL__='`+checkAuthPath+`';</script>
                 <script type="text/javascript" src="/static/release/thing.widget.min.js"></script>
-                <script src="`+ name + `"></script>`);
+                <script src="`+ name1 + `"></script>`);
             } else {
                 document.write(`<script src="/static/historyVersion/thing.umd.min.js"></script>
                 <script type="text/javascript">THING.__auth_server_URL__='`+checkAuthPath+`';</script>
                 <script type="text/javascript" src="/static/release/thing.widget.min.js"></script>
-                <script src="`+ name + `"></script>`);
+                <script src="`+ name1 + `"></script>`);
             }
         } else {
             // 执行了这里
@@ -326,25 +335,25 @@ function onLoadSceneJson(nerVer=false,newEarth=false){
             <script src="/static/historyVersion/`+ 'thing.min.deuglify.thing.js' + `"></script>
             <script type="text/javascript">THING.__auth_server_URL__='`+checkAuthPath+`';</script>
             <script type="text/javascript" src="/static/release/thing.widget.min.js"></script>
-            <script src="`+ name + `"></script>`);
+            <script src="`+ name1 + `"></script>`);
         }
     } else {
         document.write(`<script src="/static/historyVersion/thing.umd.min.js"></script>`+(newEarth?`<script src="/static/historyVersion/thing.earth.umd.min.js"></script>`:``)+`
         <script type="text/javascript">THING.__auth_server_URL__='`+checkAuthPath+`';</script>
         <script type="text/javascript" src="/static/release/thing.widget.min.js"></script>
-        <script src="`+ name + `"></script>`);
+        <script src="`+ name1 + `"></script>`);
     }
-    if (name.indexOf('/package/') < 0) {
+    if (name1.indexOf('/package/') < 0) {
         document.write(`<script>setInterval(function() {document.title = "ThingJS 演示"},2000);</script>`)
     }
     $.ajax({
         type: "POST",
         url: window.location.protocol + "//" + window.location.host + "/api/updatePageView",
-        data: { projectJs: "." + name }
+        data: { projectJs: "." + name1 }
     })
 }
 
-function setCookie(name, value, d, domain) {
+function setCookie(name1, value, d, domain) {
     var Days = 2;
     if (d) Days = d;
     var exp = new Date();
@@ -358,9 +367,9 @@ function setCookie(name, value, d, domain) {
     }
 
     if(domain){
-        document.cookie =name + "=" + escape(value) + ";domain="+domain+";expires=" + exp.toGMTString() + "; path=/;";
+        document.cookie =name1 + "=" + escape(value) + ";domain="+domain+";expires=" + exp.toGMTString() + "; path=/;";
     }else{
-        document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString() + "; path=/";
+        document.cookie = name1 + "=" + escape(value) + ";expires=" + exp.toGMTString() + "; path=/";
     }
 }
 
