@@ -39,7 +39,7 @@ function addLayer() {
     if (!buildingLayer) {
         $.ajax({
             type: 'GET',
-            url: 'https://www.thingjs.com/uearth/uGeo/chaoyang_building.geojson',
+            url: '/uearth/uGeo/chaoyang_building.geojson',
             dataType: 'json',
             success: function (data) {
                 buildingLayer = new THING.EARTH.FeatureLayer({
@@ -48,7 +48,7 @@ function addLayer() {
                     geoObjectType: 'GeoBuilding',
                     extrudeField: 'height',
                     style: {
-                        url: ['https://www.thingjs.com/uearth/uGeo/building_top.png', 'https://www.thingjs.com/uearth/uGeo/building.png'], // 楼宇顶部贴图和侧边贴图
+                        url: ['/uearth/uGeo/building_top.png', '/uearth/uGeo/building.png'], // 楼宇顶部贴图和侧边贴图
                         textureWrap: THING.EARTH.TextureWrapMode.Stretch // 贴图循环方式为拉伸
                     }
                 });
@@ -92,10 +92,10 @@ function addLayer() {
 
                 new THING.widget.Button('整体修改贴图', function () {
                     // 贴图可以是两个元素的数组 分别代表顶面和侧面的贴图 也可以是一个元素的数组 顶面和侧面都使用这一个贴图
-                    if (buildingLayer.style.url && buildingLayer.style.url.toString() === ['https://www.thingjs.com/uearth/uGeo/building_top.png', 'https://www.thingjs.com/uearth/uGeo/building.png'].toString()) {
-                        buildingLayer.style.url = ['https://www.thingjs.com/uearth/uGeo/building.png', 'https://www.thingjs.com/uearth/uGeo/building_top.png'];
+                    if (buildingLayer.style.url && buildingLayer.style.url.toString() === ['/uearth/uGeo/building_top.png', '/uearth/uGeo/building.png'].toString()) {
+                        buildingLayer.style.url = ['/uearth/uGeo/building.png', '/uearth/uGeo/building_top.png'];
                     }else {
-                        buildingLayer.style.url = ['https://www.thingjs.com/uearth/uGeo/building_top.png', 'https://www.thingjs.com/uearth/uGeo/building.png'];
+                        buildingLayer.style.url = ['/uearth/uGeo/building_top.png', '/uearth/uGeo/building.png'];
                     }
                 });
 

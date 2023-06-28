@@ -1,7 +1,7 @@
 ## 运行
-- `cd www.thingjs.com`
-- `serve`
-- 改`var name_m = 案例名词` 
+- 在powershell中运行`cd .\www.thingjs.com; serve`
+- 或在cmd中运行`cd /d ".\www.thingjs.com" & serve`
+- 改`sampleindex.js`的 `var name_m = 案例名词` 
     - #1.0的案例名称在www.thingjs.com\guide\examples\js
     - #2.0的案例名称在www.thingjs.com\guide\official\js
 - 打开 http://localhost:3000/guide/sampleindex.html

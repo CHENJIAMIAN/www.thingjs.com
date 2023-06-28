@@ -144,7 +144,8 @@ var name1 = getQueryString("name1");
 // var name_m = 'examples/js/sample_02_SceneDynamicLoad.js'
 
 // thingjs2.0
-var name_m = 'official/js/basic_helloworld.js'
+// var name_m = 'official/js/basic_helloworld.js'
+var name_m = 'official/js/sampleB_03_earth_BuildingLayerStyle.js'
 
 if (name_m) {
     name1 = name_m;
