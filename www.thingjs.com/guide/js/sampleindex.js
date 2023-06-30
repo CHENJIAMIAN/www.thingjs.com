@@ -139,13 +139,15 @@ function getQueryString(name1) {
 var name1 = getQueryString("name1");
 // thingjs1.0
 // var name_m = getQueryString("m");
-// var name_m = 'examples/js/sample_027_Iframe3D.js'
+
+var name_m = 'examples/js/sample_01_Hello.js'
+// var name_m = 'examples/js/sample_07_Iframe3D.js'
 // var name_m = 'examples/js/sample_02_BIM.js'
 // var name_m = 'examples/js/sample_02_SceneDynamicLoad.js'
 
 // thingjs2.0
 // var name_m = 'official/js/basic_helloworld.js'
-var name_m = 'official/js/sampleB_03_earth_BuildingLayerStyle.js'
+// var name_m = 'official/js/sampleB_03_earth_BuildingLayerStyle.js'
 
 if (name_m) {
     name1 = name_m;
