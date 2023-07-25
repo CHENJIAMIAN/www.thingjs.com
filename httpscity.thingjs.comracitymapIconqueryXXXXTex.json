@@ -1,0 +1,178 @@
+{
+  "success": 1,
+  "data": {
+      "mapIcons": [],
+      "systemIcons": [
+          {
+              "code": null,
+              "name": "g_1_t_0.png",
+              "type": "buildingSideIcons",
+              "url": "buildingIcons/systemIcons/g_1_t_0.png",
+              "size": 0,
+              "width": 0,
+              "height": 0,
+              "author": null
+          },
+          {
+              "code": null,
+              "name": "g_2_t_1.png",
+              "type": "buildingSideIcons",
+              "url": "buildingIcons/systemIcons/g_2_t_1.png",
+              "size": 0,
+              "width": 0,
+              "height": 0,
+              "author": null
+          }
+      ]
+  }
+}{
+  "success": 1,
+  "data": {
+      "mapIcons": [],
+      "systemIcons": [
+          {
+              "code": null,
+              "name": "g_1_w_1.png",
+              "type": "buildingSideIcons",
+              "url": "buildingIcons/systemIcons/g_1_w_1.png",
+              "size": 0,
+              "width": 0,
+              "height": 0,
+              "author": null
+          },
+          {
+              "code": null,
+              "name": "g_1_w_2.png",
+              "type": "buildingSideIcons",
+              "url": "buildingIcons/systemIcons/g_1_w_2.png",
+              "size": 0,
+              "width": 0,
+              "height": 0,
+              "author": null
+          },
+          {
+              "code": null,
+              "name": "g_1_w_3.png",
+              "type": "buildingSideIcons",
+              "url": "buildingIcons/systemIcons/g_1_w_3.png",
+              "size": 0,
+              "width": 0,
+              "height": 0,
+              "author": null
+          },
+          {
+              "code": null,
+              "name": "g_1_w_4.png",
+              "type": "buildingSideIcons",
+              "url": "buildingIcons/systemIcons/g_1_w_4.png",
+              "size": 0,
+              "width": 0,
+              "height": 0,
+              "author": null
+          },
+          {
+              "code": null,
+              "name": "g_1_w_5.png",
+              "type": "buildingSideIcons",
+              "url": "buildingIcons/systemIcons/g_1_w_5.png",
+              "size": 0,
+              "width": 0,
+              "height": 0,
+              "author": null
+          },
+          {
+              "code": null,
+              "name": "g_1_w_6.png",
+              "type": "buildingSideIcons",
+              "url": "buildingIcons/systemIcons/g_1_w_6.png",
+              "size": 0,
+              "width": 0,
+              "height": 0,
+              "author": null
+          },
+          {
+              "code": null,
+              "name": "g_1_w_7.png",
+              "type": "buildingSideIcons",
+              "url": "buildingIcons/systemIcons/g_1_w_7.png",
+              "size": 0,
+              "width": 0,
+              "height": 0,
+              "author": null
+          },
+          {
+              "code": null,
+              "name": "g_1_w_8.png",
+              "type": "buildingSideIcons",
+              "url": "buildingIcons/systemIcons/g_1_w_8.png",
+              "size": 0,
+              "width": 0,
+              "height": 0,
+              "author": null
+          },
+          {
+              "code": null,
+              "name": "g_2_w_1.png",
+              "type": "buildingSideIcons",
+              "url": "buildingIcons/systemIcons/g_2_w_1.png",
+              "size": 0,
+              "width": 0,
+              "height": 0,
+              "author": null
+          },
+          {
+              "code": null,
+              "name": "horizonWall.png",
+              "type": "buildingSideIcons",
+              "url": "buildingIcons/systemIcons/horizonWall.png",
+              "size": 0,
+              "width": 0,
+              "height": 0,
+              "author": null
+          },
+          {
+              "code": null,
+              "name": "verticalWall.png",
+              "type": "buildingSideIcons",
+              "url": "buildingIcons/systemIcons/verticalWall.png",
+              "size": 0,
+              "width": 0,
+              "height": 0,
+              "author": null
+          }
+      ]
+  }
+}{
+  "success": 1,
+  "data": {
+      "mapIcons": [],
+      "systemIcons": [
+          "{\"name\":\"buildingMask1.jpg\",\"url\":\"windowIcons/buildingMask1.jpg\"}"
+      ]
+  }
+}{
+  "success": 1,
+  "data": {
+      "mapIcons": [],
+      "systemIcons": [
+          {
+              "code": null,
+              "name": "build",
+              "type": "skybox",
+              "url": "skybox/system/build",
+              "size": 0,
+              "width": 0,
+              "height": 0,
+              "author": null
+          }
+      ]
+  }
+}{
+  "success": 1,
+  "data": {
+      "mapIcons": [],
+      "systemIcons": [
+          "{\"name\":\"uvMap20.png\",\"url\":\"uvMap/uvMap20.png\"}"
+      ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "揭东区",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        116.4121296580875,
+        23.566131421872804
+      ]
+    },
+    "code": 445203,
+    "type": null,
+    "adType": null
+  }

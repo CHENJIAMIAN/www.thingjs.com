@@ -1,0 +1,2563 @@
+[
+    {
+        "code": 4778276,
+        "projectId": 1501242,
+        "name": "全球国家面",
+        "type": "PolygonLayer",
+        "enable": true,
+        "editable": null,
+        "order": 0,
+        "geoType": 0,
+        "dataId": 38,
+        "config": [
+            {
+                "offsetHeight": 0,
+                "offsetHeightAdded": 0,
+                "color": {
+                    "type": "single",
+                    "single": {
+                        "value": "rgba(11,11,11,1)"
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "image": {
+                    "type": "single",
+                    "single": {
+                        "value": [
+                            "buildingIcons/systemIcons/g_1_t_0.png",
+                            "buildingIcons/systemIcons/g_1_w_8.png"
+                        ]
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "colorOverlay": {
+                    "useColor": false,
+                    "color": "rgba(255,64,39,1)"
+                },
+                "type": "vector",
+                "effect": true,
+                "outlineColor": "rgba(255,64,39,1)",
+                "outlineUseColor": false,
+                "outlineImageUrl": "lineIcons/icon_20200806165622546_803071.png",
+                "outlineWidth": 0,
+                "outlineGlowStrength": 1,
+                "outlinePostRadialBlur": false,
+                "outlineType": "image",
+                "outlineLineType": "Plane",
+                "outlineSizeAttenuation": true,
+                "outlineSpeed": 0,
+                "outlineEffect": false,
+                "outlineOpacity": 0.34,
+                "outlineBlending": false,
+                "useBoundary": false,
+                "boundaryExtrudeHeight": 8000,
+                "boundaryUseColor": false,
+                "boundaryColor": "rgba(255,255,255,1)",
+                "boundaryBlending": false,
+                "boundaryOpacity": 0.7,
+                "boundaryPostRadialBlur": false,
+                "boundaryOffsetHeight": 0,
+                "boundaryOffsetHeightAdded": 0,
+                "boundaryImageConfig1": {
+                    "boundaryImageUrl": "buildingIcons/systemIcons/g_1_w_2.png",
+                    "boundarySpeed": [
+                        0.25,
+                        0
+                    ],
+                    "boundaryUvRatio": [
+                        1,
+                        1
+                    ],
+                    "checked": true,
+                    "animation": true,
+                    "speedReverse": {
+                        "xReverse": false,
+                        "yReverse": false
+                    },
+                    "texType": "image",
+                    "index": 0
+                },
+                "boundaryImageConfig2": {
+                    "boundaryImageUrl": "mapIcons/systemIcons/circle.png",
+                    "boundarySpeed": [
+                        0.25,
+                        0
+                    ],
+                    "boundaryUvRatio": [
+                        1,
+                        1
+                    ],
+                    "checked": false,
+                    "animation": false,
+                    "speedReverse": {
+                        "xReverse": false,
+                        "yReverse": false
+                    },
+                    "texType": "image",
+                    "index": 1
+                },
+                "boundaryAlphaImage": {
+                    "boundaryAlphaImageUrl": "uvMap/systemIcons/uvMap20.png",
+                    "boundaryAlphaSpeed": [
+                        1.5,
+                        0
+                    ],
+                    "animation": true,
+                    "boundaryUseAlphaMap": true,
+                    "speedReverse": {
+                        "xReverse": false,
+                        "yReverse": false
+                    },
+                    "checked": false
+                },
+                "extrudeFactor": 1,
+                "extrudeField": "无",
+                "alpha": 0.86,
+                "lights": false,
+                "postRadialBlur": false,
+                "postRadialBlur2": false,
+                "textureSize": [
+                    100,
+                    100
+                ],
+                "blending": false,
+                "openEnvMap": true,
+                "envMapIntensity": 0.98,
+                "envMapUrl": "skybox/system/build/up.jpg",
+                "reflectedPanorama": false,
+                "reflectedPanoramaAngle": "",
+                "transparent": false,
+                "glowStrength": 0.5,
+                "offset": [
+                    -0.33,
+                    -0.09
+                ],
+                "metalness": [
+                    0.59,
+                    0.55
+                ],
+                "roughness": [
+                    0.65,
+                    0.65
+                ],
+                "repeat": [
+                    0.2,
+                    0.09
+                ],
+                "windowBrightness": 1.7,
+                "windowColor": "rgb(7,168,255)",
+                "windowImageUrl": "windowIcons/buildingMask1.jpg",
+                "isOpenWindow": false,
+                "isCool": true,
+                "AOConfig": {
+                    "normal": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    },
+                    "lights": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0.6,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    },
+                    "cool": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    }
+                },
+                "windowTextureWrap": "normal",
+                "windowTextureSize": [
+                    10,
+                    10
+                ],
+                "windowTextureAroundType": "windowTextureSize",
+                "label": {
+                    "dropShadow": false,
+                    "stringOrNumber": "String",
+                    "showLabel": false,
+                    "labelField": "",
+                    "font": {
+                        "name": "",
+                        "option": [
+                            "微软雅黑",
+                            "宋体",
+                            "仿宋",
+                            "黑体",
+                            "Arial"
+                        ]
+                    },
+                    "height": 20,
+                    "color": {
+                        "text": "#000000",
+                        "shadow": "#FFFFFF"
+                    },
+                    "imgUrl": "buildingIcons/systemIcons/g_1_t_0.png",
+                    "offset": [
+                        0,
+                        0
+                    ],
+                    "conditionOffset": [],
+                    "labelOffsetField": "constant",
+                    "addBackground": false,
+                    "imagePadding": [
+                        5,
+                        5
+                    ],
+                    "zoomByView": false,
+                    "faceCamera": false,
+                    "position": {
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "conditionPosition": [],
+                        "labelPositionField": "constant",
+                        "stringOrNumber": "String"
+                    },
+                    "alwaysOnTop": false
+                },
+                "geoType": 0,
+                "relative": true
+            },
+            {
+                "geoType": 1,
+                "specularFactor": [
+                    1,
+                    1
+                ],
+                "offsetHeightAdded": 0,
+                "alpha": 1,
+                "blending": false,
+                "openEnvMap": false,
+                "envMapUrl": "skybox/system/build/up.jpg",
+                "type": "vector",
+                "extrudeFactor": 1,
+                "color": {
+                    "type": "single",
+                    "single": {
+                        "value": "rgba(255,64,39,1)"
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "image": {
+                    "type": "single",
+                    "single": {
+                        "value": [
+                            "buildingIcons/systemIcons/g_1_t_0.png",
+                            "buildingIcons/systemIcons/g_1_w_8.png"
+                        ]
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": [
+                                "buildingIcons/systemIcons/g_1_t_0.png",
+                                "buildingIcons/systemIcons/g_1_w_8.png"
+                            ]
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "colorOverlay": {
+                    "useColor": false,
+                    "color": "rgba(255,64,39,1)"
+                },
+                "extrudeField": "无",
+                "transparent": false,
+                "textureWrap": "repeatY",
+                "postRadialBlur": false,
+                "postRadialBlur2": false,
+                "glowStrength": 0.5,
+                "effect": false,
+                "offset": [
+                    -0.33,
+                    -0.09
+                ],
+                "roughness": [
+                    0.4,
+                    0.4
+                ],
+                "metalness": [
+                    0.6,
+                    0.6
+                ],
+                "repeat": [
+                    0.2,
+                    0.09
+                ],
+                "windowBrightness": 1.7,
+                "windowColor": "rgb(7,168,255)",
+                "windowImage": {
+                    "type": "single",
+                    "single": {
+                        "value": "windowIcons/buildingMask1.jpg"
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "isOpenWindow": false,
+                "windowSpeed": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    0,
+                    0
+                ],
+                "lights": false,
+                "reflectedPanorama": false,
+                "reflectedPanoramaAngle": "",
+                "textureSize": [
+                    3,
+                    3
+                ],
+                "AOConfig": {
+                    "normal": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0.6,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    },
+                    "lights": null,
+                    "cool": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0.6,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    }
+                },
+                "windowTextureWrap": "normal",
+                "windowTextureSize": [
+                    10,
+                    10
+                ],
+                "windowTextureAroundType": "windowTextureSize",
+                "label": {
+                    "dropShadow": false,
+                    "color": {
+                        "shadow": "#FFFFFF",
+                        "text": "rgba(250,240,240,1)"
+                    },
+                    "alwaysOnTop": false,
+                    "offset": [
+                        0,
+                        20
+                    ],
+                    "addBackground": true,
+                    "conditionOffset": [],
+                    "zoomByView": false,
+                    "showLabel": false,
+                    "imagePadding": [
+                        16,
+                        8
+                    ],
+                    "labelField": "",
+                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                    "faceCamera": false,
+                    "stringOrNumber": "String",
+                    "font": {
+                        "name": "",
+                        "option": [
+                            "微软雅黑",
+                            "宋体",
+                            "仿宋",
+                            "黑体",
+                            "Arial"
+                        ]
+                    },
+                    "height": 12,
+                    "labelOffsetField": "constant",
+                    "position": {
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "conditionPosition": [],
+                        "labelPositionField": "constant",
+                        "stringOrNumber": "String"
+                    }
+                },
+                "relative": true,
+                "isCool": false,
+                "envMapIntensity": 0.98
+            },
+            {
+                "geoType": 2,
+                "offsetHeightAdded": 0,
+                "color": "rgba(0,250,255,1)",
+                "flowSpeed": 1,
+                "alpha": 1,
+                "waveLength": 1,
+                "reflectionNormal": "normal/systemIcons/waternormals.jpg",
+                "refractionNormal": "normal/systemIcons/Water_2_M_Normal.jpg",
+                "reflectionImage": "polygonIcons/systemIcons/refraction.jpg",
+                "refractionImage": "polygonIcons/systemIcons/refraction.jpg",
+                "label": {
+                    "dropShadow": false,
+                    "color": {
+                        "shadow": "#FFFFFF",
+                        "text": "rgba(250,240,240,1)"
+                    },
+                    "alwaysOnTop": false,
+                    "offset": [
+                        0,
+                        20
+                    ],
+                    "addBackground": true,
+                    "conditionOffset": [],
+                    "zoomByView": false,
+                    "showLabel": false,
+                    "imagePadding": [
+                        16,
+                        8
+                    ],
+                    "labelField": "",
+                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                    "faceCamera": false,
+                    "stringOrNumber": "String",
+                    "font": {
+                        "name": "",
+                        "option": [
+                            "微软雅黑",
+                            "宋体",
+                            "仿宋",
+                            "黑体",
+                            "Arial"
+                        ]
+                    },
+                    "height": 12,
+                    "labelOffsetField": "constant",
+                    "position": {
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "conditionPosition": [],
+                        "labelPositionField": "constant",
+                        "stringOrNumber": "String"
+                    }
+                }
+            }
+        ],
+        "infoWindow": {
+            "title": "",
+            "enable": true,
+            "displayMode": "none",
+            "type": "standard",
+            "style": "default",
+            "customHtml": "<div style='position: absolute;'>Hello Pop Form</div>",
+            "fieldData": [
+                {
+                    "enable": true,
+                    "field": "name",
+                    "alias": "name",
+                    "url": "",
+                    "param": "",
+                    "target": "new",
+                    "width": 100,
+                    "height": 100
+                }
+            ]
+        },
+        "service": {
+            "enable": false,
+            "url": "",
+            "lon_field": "",
+            "lat_field": "",
+            "refresh": false,
+            "interval": 10,
+            "lon_check": 0,
+            "lat_check": 0
+        },
+        "groupId": -2,
+        "labelId": 171,
+        "templateId": 311,
+        "scanId": null,
+        "isAd": false,
+        "createTime": 20230724154828,
+        "modifyTime": 20230725093821,
+        "dataConfig": {
+            "visibleLevel": [
+                0,
+                4
+            ]
+        },
+        "parentCode": 0,
+        "level": null,
+        "levelName": null,
+        "data": {
+            "code": 38,
+            "name": "全球国家面",
+            "author": "cityadmin",
+            "dataNum": 176,
+            "dataSize": 276480,
+            "dataType": "Polygon",
+            "picPath": "images/2021/11/pic20211130134223872_140193.png",
+            "state": 4,
+            "createTime": 20211130134223,
+            "modifyTime": 20211130134223,
+            "dataPath": "earthEffectData/2021/11/file_20211130134223515_624677.geojson.cbencrypt",
+            "fieldNames": [
+                {
+                    "name": "name",
+                    "type": "String",
+                    "value": [
+                        "Northern Cyprus",
+                        "Afghanistan",
+                        "Angola",
+                        "Albania",
+                        "United Arab Emirates",
+                        "Argentina",
+                        "Armenia",
+                        "French Southern and Antarctic Lands",
+                        "Australia",
+                        "Austria",
+                        "Azerbaijan",
+                        "Burundi",
+                        "Belgium",
+                        "Benin",
+                        "Burkina Faso",
+                        "Bangladesh",
+                        "Bulgaria",
+                        "The Bahamas",
+                        "Bosnia and Herzegovina",
+                        "Belarus",
+                        "Belize",
+                        "Bermuda",
+                        "Bolivia",
+                        "Brazil",
+                        "Brunei",
+                        "Bhutan",
+                        "Botswana",
+                        "Central African Republic",
+                        "Canada",
+                        "Switzerland",
+                        "Chile",
+                        "China",
+                        "Ivory Coast",
+                        "Cameroon",
+                        "Democratic Republic of the Congo",
+                        "Republic of the Congo",
+                        "Colombia",
+                        "Costa Rica",
+                        "Kosovo",
+                        "Cuba",
+                        "Cyprus",
+                        "Czech Republic",
+                        "Germany",
+                        "Djibouti",
+                        "Denmark",
+                        "Dominican Republic",
+                        "Algeria",
+                        "Ecuador",
+                        "Egypt",
+                        "Eritrea"
+                    ]
+                }
+            ],
+            "boundingSphere": {
+                "center": [
+                    -161254.16,
+                    136954.04,
+                    -2060.88
+                ],
+                "radius": 6588482.34
+            },
+            "relativeBoundingSphere": null,
+            "groupId": 0,
+            "devidePath": null,
+            "loadHeight": 0,
+            "group": null,
+            "pathMd5": "783d81b73ea7be6727f2a843fa3c201c",
+            "relativeCrsDataPath": "",
+            "crs": "02",
+            "dataAttribution": null,
+            "statusId": null,
+            "fieldConfig": null,
+            "isTerrain": null,
+            "terrainUrl": null,
+            "isEarthEffect": true,
+            "dataEarthEffect": true,
+            "upload": true
+        },
+        "scanData": null,
+        "layerLabel": {
+            "code": 171,
+            "name": "earth",
+            "enname": "地球",
+            "author": "cityadmin",
+            "geometryType": "Earth",
+            "createTime": 20220816111600,
+            "modifyTime": 20220816111600,
+            "status": 1,
+            "labelOrder": 10
+        },
+        "isEarthEffect": 1,
+        "dataEarthEffect": 1,
+        "groupEnable": false,
+        "dataResource": null,
+        "childLevelStyle": null,
+        "cityOrderId": 0,
+        "crs": "02",
+        "checked": null,
+        "geoData": null,
+        "crsFixAbled": true,
+        "orginid": null
+    },
+    {
+        "code": 4778272,
+        "projectId": 1501242,
+        "name": "全球国家面",
+        "type": "PolygonLayer",
+        "enable": true,
+        "editable": null,
+        "order": 1,
+        "geoType": 0,
+        "dataId": 38,
+        "config": [
+            {
+                "offsetHeight": 0,
+                "offsetHeightAdded": 0,
+                "color": {
+                    "type": "single",
+                    "single": {
+                        "value": "rgba(255,64,39,1)"
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "image": {
+                    "type": "single",
+                    "single": {
+                        "value": [
+                            "buildingTopIcons/icon_20200826135728680_6831.jpg",
+                            "buildingSideIcons/icon_20210830164501048_827000.jpg"
+                        ]
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "colorOverlay": {
+                    "useColor": true,
+                    "color": "rgba(173,169,155,1)"
+                },
+                "type": "image",
+                "effect": true,
+                "outlineColor": "rgba(255,64,39,1)",
+                "outlineUseColor": false,
+                "outlineImageUrl": "lineIcons/icon_20210929112546465_180900.png",
+                "outlineWidth": 1,
+                "outlineGlowStrength": 1,
+                "outlinePostRadialBlur": false,
+                "outlineType": "image",
+                "outlineLineType": "Plane",
+                "outlineSizeAttenuation": true,
+                "outlineSpeed": 0.1,
+                "outlineEffect": false,
+                "outlineOpacity": 0.64,
+                "outlineBlending": false,
+                "useBoundary": false,
+                "boundaryExtrudeHeight": 8000,
+                "boundaryUseColor": false,
+                "boundaryColor": "rgba(255,255,255,1)",
+                "boundaryBlending": false,
+                "boundaryOpacity": 0.7,
+                "boundaryPostRadialBlur": false,
+                "boundaryOffsetHeight": 0,
+                "boundaryOffsetHeightAdded": 0,
+                "boundaryImageConfig1": {
+                    "boundaryImageUrl": "buildingIcons/systemIcons/g_1_w_2.png",
+                    "boundarySpeed": [
+                        0.25,
+                        0
+                    ],
+                    "boundaryUvRatio": [
+                        1,
+                        1
+                    ],
+                    "checked": true,
+                    "animation": true,
+                    "speedReverse": {
+                        "xReverse": false,
+                        "yReverse": false
+                    },
+                    "texType": "image",
+                    "index": 0
+                },
+                "boundaryImageConfig2": {
+                    "boundaryImageUrl": "mapIcons/systemIcons/circle.png",
+                    "boundarySpeed": [
+                        0.25,
+                        0
+                    ],
+                    "boundaryUvRatio": [
+                        1,
+                        1
+                    ],
+                    "checked": false,
+                    "animation": false,
+                    "speedReverse": {
+                        "xReverse": false,
+                        "yReverse": false
+                    },
+                    "texType": "image",
+                    "index": 1
+                },
+                "boundaryAlphaImage": {
+                    "boundaryAlphaImageUrl": "uvMap/systemIcons/uvMap20.png",
+                    "boundaryAlphaSpeed": [
+                        1.5,
+                        0
+                    ],
+                    "animation": true,
+                    "boundaryUseAlphaMap": true,
+                    "speedReverse": {
+                        "xReverse": false,
+                        "yReverse": false
+                    },
+                    "checked": false
+                },
+                "extrudeFactor": 1,
+                "alpha": 0.18,
+                "lights": false,
+                "postRadialBlur": false,
+                "postRadialBlur2": false,
+                "textureSize": [
+                    100,
+                    100
+                ],
+                "blending": false,
+                "openEnvMap": true,
+                "envMapIntensity": 0.98,
+                "envMapUrl": "skybox/system/build/up.jpg",
+                "reflectedPanorama": false,
+                "reflectedPanoramaAngle": "",
+                "transparent": false,
+                "glowStrength": 0.2,
+                "offset": [
+                    -0.33,
+                    -0.09
+                ],
+                "metalness": [
+                    0.15,
+                    0.2
+                ],
+                "roughness": [
+                    0.66,
+                    0.62
+                ],
+                "repeat": [
+                    0.2,
+                    0.09
+                ],
+                "windowBrightness": 1.7,
+                "windowColor": "rgb(7,168,255)",
+                "windowImageUrl": "windowIcons/buildingMask1.jpg",
+                "isOpenWindow": false,
+                "isCool": true,
+                "AOConfig": {
+                    "normal": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0.73,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    },
+                    "lights": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0.6,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    },
+                    "cool": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0.73,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    }
+                },
+                "windowTextureWrap": "normal",
+                "windowTextureSize": [
+                    10,
+                    10
+                ],
+                "windowTextureAroundType": "windowTextureSize",
+                "label": {
+                    "dropShadow": false,
+                    "stringOrNumber": "String",
+                    "showLabel": false,
+                    "labelField": "",
+                    "font": {
+                        "name": "",
+                        "option": [
+                            "微软雅黑",
+                            "宋体",
+                            "仿宋",
+                            "黑体",
+                            "Arial"
+                        ]
+                    },
+                    "height": 20,
+                    "color": {
+                        "text": "#000000",
+                        "shadow": "#FFFFFF"
+                    },
+                    "imgUrl": "buildingIcons/systemIcons/g_1_t_0.png",
+                    "offset": [
+                        0,
+                        0
+                    ],
+                    "conditionOffset": [],
+                    "labelOffsetField": "constant",
+                    "addBackground": false,
+                    "imagePadding": [
+                        5,
+                        5
+                    ],
+                    "zoomByView": false,
+                    "faceCamera": false,
+                    "position": {
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "conditionPosition": [],
+                        "labelPositionField": "constant",
+                        "stringOrNumber": "String"
+                    },
+                    "alwaysOnTop": false
+                },
+                "extrudeHeight": 60000,
+                "geoType": 0,
+                "extrudeField": "无",
+                "relative": true
+            },
+            {
+                "geoType": 1,
+                "specularFactor": [
+                    1,
+                    1
+                ],
+                "offsetHeightAdded": 0,
+                "alpha": 1,
+                "blending": false,
+                "openEnvMap": false,
+                "envMapUrl": "skybox/system/build/up.jpg",
+                "type": "vector",
+                "extrudeFactor": 1,
+                "color": {
+                    "type": "single",
+                    "single": {
+                        "value": "rgba(255,64,39,1)"
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "image": {
+                    "type": "single",
+                    "single": {
+                        "value": [
+                            "buildingIcons/systemIcons/g_1_t_0.png",
+                            "buildingIcons/systemIcons/g_1_w_8.png"
+                        ]
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": [
+                                "buildingIcons/systemIcons/g_1_t_0.png",
+                                "buildingIcons/systemIcons/g_1_w_8.png"
+                            ]
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "colorOverlay": {
+                    "useColor": false,
+                    "color": "rgba(255,64,39,1)"
+                },
+                "extrudeField": "无",
+                "transparent": false,
+                "textureWrap": "repeatY",
+                "postRadialBlur": false,
+                "postRadialBlur2": false,
+                "glowStrength": 0.5,
+                "effect": false,
+                "offset": [
+                    -0.33,
+                    -0.09
+                ],
+                "roughness": [
+                    0.4,
+                    0.4
+                ],
+                "metalness": [
+                    0.6,
+                    0.6
+                ],
+                "repeat": [
+                    0.2,
+                    0.09
+                ],
+                "windowBrightness": 1.7,
+                "windowColor": "rgb(7,168,255)",
+                "windowImage": {
+                    "type": "single",
+                    "single": {
+                        "value": "windowIcons/buildingMask1.jpg"
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "isOpenWindow": false,
+                "windowSpeed": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    0,
+                    0
+                ],
+                "lights": false,
+                "reflectedPanorama": false,
+                "reflectedPanoramaAngle": "",
+                "textureSize": [
+                    3,
+                    3
+                ],
+                "AOConfig": {
+                    "normal": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0.6,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    },
+                    "lights": null,
+                    "cool": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0.6,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    }
+                },
+                "windowTextureWrap": "normal",
+                "windowTextureSize": [
+                    10,
+                    10
+                ],
+                "windowTextureAroundType": "windowTextureSize",
+                "label": {
+                    "dropShadow": false,
+                    "color": {
+                        "shadow": "#FFFFFF",
+                        "text": "rgba(250,240,240,1)"
+                    },
+                    "alwaysOnTop": false,
+                    "offset": [
+                        0,
+                        20
+                    ],
+                    "addBackground": true,
+                    "conditionOffset": [],
+                    "zoomByView": false,
+                    "showLabel": false,
+                    "imagePadding": [
+                        16,
+                        8
+                    ],
+                    "labelField": "",
+                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                    "faceCamera": false,
+                    "stringOrNumber": "String",
+                    "font": {
+                        "name": "",
+                        "option": [
+                            "微软雅黑",
+                            "宋体",
+                            "仿宋",
+                            "黑体",
+                            "Arial"
+                        ]
+                    },
+                    "height": 12,
+                    "labelOffsetField": "constant",
+                    "position": {
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "conditionPosition": [],
+                        "labelPositionField": "constant",
+                        "stringOrNumber": "String"
+                    }
+                },
+                "relative": true,
+                "isCool": false,
+                "envMapIntensity": 0.98
+            },
+            {
+                "geoType": 2,
+                "offsetHeightAdded": 0,
+                "color": "rgba(0,250,255,1)",
+                "flowSpeed": 1,
+                "alpha": 1,
+                "waveLength": 1,
+                "reflectionNormal": "normal/systemIcons/waternormals.jpg",
+                "refractionNormal": "normal/systemIcons/Water_2_M_Normal.jpg",
+                "reflectionImage": "polygonIcons/systemIcons/refraction.jpg",
+                "refractionImage": "polygonIcons/systemIcons/refraction.jpg",
+                "label": {
+                    "dropShadow": false,
+                    "color": {
+                        "shadow": "#FFFFFF",
+                        "text": "rgba(250,240,240,1)"
+                    },
+                    "alwaysOnTop": false,
+                    "offset": [
+                        0,
+                        20
+                    ],
+                    "addBackground": true,
+                    "conditionOffset": [],
+                    "zoomByView": false,
+                    "showLabel": false,
+                    "imagePadding": [
+                        16,
+                        8
+                    ],
+                    "labelField": "",
+                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                    "faceCamera": false,
+                    "stringOrNumber": "String",
+                    "font": {
+                        "name": "",
+                        "option": [
+                            "微软雅黑",
+                            "宋体",
+                            "仿宋",
+                            "黑体",
+                            "Arial"
+                        ]
+                    },
+                    "height": 12,
+                    "labelOffsetField": "constant",
+                    "position": {
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "conditionPosition": [],
+                        "labelPositionField": "constant",
+                        "stringOrNumber": "String"
+                    }
+                }
+            }
+        ],
+        "infoWindow": {
+            "title": "",
+            "enable": true,
+            "displayMode": "none",
+            "type": "standard",
+            "style": "default",
+            "customHtml": "<div style='position: absolute;'>Hello Pop Form</div>",
+            "fieldData": [
+                {
+                    "enable": true,
+                    "field": "name",
+                    "alias": "name",
+                    "url": "",
+                    "param": "",
+                    "target": "new",
+                    "width": 100,
+                    "height": 100
+                }
+            ]
+        },
+        "service": {
+            "enable": false,
+            "url": "",
+            "lon_field": "",
+            "lat_field": "",
+            "refresh": false,
+            "interval": 10,
+            "lon_check": 0,
+            "lat_check": 0
+        },
+        "groupId": -2,
+        "labelId": 171,
+        "templateId": 311,
+        "scanId": null,
+        "isAd": false,
+        "createTime": 20230724154828,
+        "modifyTime": 20230725093821,
+        "dataConfig": {
+            "visibleLevel": [
+                0,
+                4
+            ]
+        },
+        "parentCode": 0,
+        "level": null,
+        "levelName": null,
+        "data": {
+            "code": 38,
+            "name": "全球国家面",
+            "author": "cityadmin",
+            "dataNum": 176,
+            "dataSize": 276480,
+            "dataType": "Polygon",
+            "picPath": "images/2021/11/pic20211130134223872_140193.png",
+            "state": 4,
+            "createTime": 20211130134223,
+            "modifyTime": 20211130134223,
+            "dataPath": "earthEffectData/2021/11/file_20211130134223515_624677.geojson.cbencrypt",
+            "fieldNames": [
+                {
+                    "name": "name",
+                    "type": "String",
+                    "value": [
+                        "Northern Cyprus",
+                        "Afghanistan",
+                        "Angola",
+                        "Albania",
+                        "United Arab Emirates",
+                        "Argentina",
+                        "Armenia",
+                        "French Southern and Antarctic Lands",
+                        "Australia",
+                        "Austria",
+                        "Azerbaijan",
+                        "Burundi",
+                        "Belgium",
+                        "Benin",
+                        "Burkina Faso",
+                        "Bangladesh",
+                        "Bulgaria",
+                        "The Bahamas",
+                        "Bosnia and Herzegovina",
+                        "Belarus",
+                        "Belize",
+                        "Bermuda",
+                        "Bolivia",
+                        "Brazil",
+                        "Brunei",
+                        "Bhutan",
+                        "Botswana",
+                        "Central African Republic",
+                        "Canada",
+                        "Switzerland",
+                        "Chile",
+                        "China",
+                        "Ivory Coast",
+                        "Cameroon",
+                        "Democratic Republic of the Congo",
+                        "Republic of the Congo",
+                        "Colombia",
+                        "Costa Rica",
+                        "Kosovo",
+                        "Cuba",
+                        "Cyprus",
+                        "Czech Republic",
+                        "Germany",
+                        "Djibouti",
+                        "Denmark",
+                        "Dominican Republic",
+                        "Algeria",
+                        "Ecuador",
+                        "Egypt",
+                        "Eritrea"
+                    ]
+                }
+            ],
+            "boundingSphere": {
+                "center": [
+                    -161254.16,
+                    136954.04,
+                    -2060.88
+                ],
+                "radius": 6588482.34
+            },
+            "relativeBoundingSphere": null,
+            "groupId": 0,
+            "devidePath": null,
+            "loadHeight": 0,
+            "group": null,
+            "pathMd5": "783d81b73ea7be6727f2a843fa3c201c",
+            "relativeCrsDataPath": "",
+            "crs": "02",
+            "dataAttribution": null,
+            "statusId": null,
+            "fieldConfig": null,
+            "isTerrain": null,
+            "terrainUrl": null,
+            "isEarthEffect": true,
+            "dataEarthEffect": true,
+            "upload": true
+        },
+        "scanData": null,
+        "layerLabel": {
+            "code": 171,
+            "name": "earth",
+            "enname": "地球",
+            "author": "cityadmin",
+            "geometryType": "Earth",
+            "createTime": 20220816111600,
+            "modifyTime": 20220816111600,
+            "status": 1,
+            "labelOrder": 10
+        },
+        "isEarthEffect": 1,
+        "dataEarthEffect": 1,
+        "groupEnable": false,
+        "dataResource": null,
+        "childLevelStyle": null,
+        "cityOrderId": 0,
+        "crs": "02",
+        "checked": null,
+        "geoData": null,
+        "crsFixAbled": true,
+        "orginid": null
+    },
+    {
+        "code": 4778273,
+        "projectId": 1501242,
+        "name": "中国国家面",
+        "type": "PolygonLayer",
+        "enable": true,
+        "editable": null,
+        "order": 2,
+        "geoType": 0,
+        "dataId": 24,
+        "config": [
+            {
+                "offsetHeightAdded": 200000,
+                "color": {
+                    "type": "single",
+                    "single": {
+                        "value": "rgba(11,10,9,1)"
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "image": {
+                    "type": "single",
+                    "single": {
+                        "value": [
+                            "buildingIcons/systemIcons/g_1_t_0.png",
+                            "buildingIcons/systemIcons/g_1_w_8.png"
+                        ]
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "colorOverlay": {
+                    "useColor": false,
+                    "color": "rgba(255,64,39,1)"
+                },
+                "type": "vector",
+                "effect": true,
+                "outlineColor": "rgba(255,64,39,1)",
+                "outlineUseColor": false,
+                "outlineImageUrl": "lineIcons/icon_20210929112717971_977031.png",
+                "outlineWidth": 1,
+                "outlineGlowStrength": 1.8,
+                "outlinePostRadialBlur": true,
+                "outlineType": "image",
+                "outlineLineType": "Plane",
+                "outlineSizeAttenuation": true,
+                "outlineSpeed": 0,
+                "outlineEffect": true,
+                "outlineOpacity": 1,
+                "outlineBlending": false,
+                "useBoundary": false,
+                "boundaryExtrudeHeight": 8000,
+                "boundaryUseColor": false,
+                "boundaryColor": "rgba(255,255,255,1)",
+                "boundaryBlending": false,
+                "boundaryOpacity": 0.7,
+                "boundaryPostRadialBlur": false,
+                "boundaryOffsetHeight": 0,
+                "boundaryOffsetHeightAdded": 0,
+                "boundaryImageConfig1": {
+                    "boundaryImageUrl": "buildingIcons/systemIcons/g_1_w_2.png",
+                    "boundarySpeed": [
+                        0.25,
+                        0
+                    ],
+                    "boundaryUvRatio": [
+                        1,
+                        1
+                    ],
+                    "checked": true,
+                    "animation": true,
+                    "speedReverse": {
+                        "xReverse": false,
+                        "yReverse": false
+                    },
+                    "texType": "image",
+                    "index": 0
+                },
+                "boundaryImageConfig2": {
+                    "boundaryImageUrl": "mapIcons/systemIcons/circle.png",
+                    "boundarySpeed": [
+                        0.25,
+                        0
+                    ],
+                    "boundaryUvRatio": [
+                        1,
+                        1
+                    ],
+                    "checked": false,
+                    "animation": false,
+                    "speedReverse": {
+                        "xReverse": false,
+                        "yReverse": false
+                    },
+                    "texType": "image",
+                    "index": 1
+                },
+                "boundaryAlphaImage": {
+                    "boundaryAlphaImageUrl": "uvMap/systemIcons/uvMap20.png",
+                    "boundaryAlphaSpeed": [
+                        1.5,
+                        0
+                    ],
+                    "animation": true,
+                    "boundaryUseAlphaMap": true,
+                    "speedReverse": {
+                        "xReverse": false,
+                        "yReverse": false
+                    },
+                    "checked": false
+                },
+                "extrudeFactor": 1,
+                "alpha": 1,
+                "lights": false,
+                "postRadialBlur": false,
+                "postRadialBlur2": false,
+                "textureSize": [
+                    100,
+                    100
+                ],
+                "blending": false,
+                "openEnvMap": true,
+                "envMapIntensity": 0.98,
+                "envMapUrl": "skybox/system/build/up.jpg",
+                "reflectedPanorama": false,
+                "reflectedPanoramaAngle": "",
+                "transparent": false,
+                "glowStrength": 0.5,
+                "offset": [
+                    -0.33,
+                    -0.09
+                ],
+                "metalness": [
+                    0.6,
+                    0.6
+                ],
+                "roughness": [
+                    0.63,
+                    0.2
+                ],
+                "repeat": [
+                    0.2,
+                    0.09
+                ],
+                "windowBrightness": 1.7,
+                "windowColor": "rgb(7,168,255)",
+                "windowImageUrl": "windowIcons/buildingMask1.jpg",
+                "isOpenWindow": false,
+                "isCool": true,
+                "AOConfig": {
+                    "normal": {
+                        "useAoMap": false,
+                        "aoMapIntensity": 0,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    },
+                    "lights": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0.6,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    },
+                    "cool": {
+                        "useAoMap": false,
+                        "aoMapIntensity": 0,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    }
+                },
+                "windowTextureWrap": "normal",
+                "windowTextureSize": [
+                    10,
+                    10
+                ],
+                "windowTextureAroundType": "windowTextureSize",
+                "label": {
+                    "dropShadow": false,
+                    "stringOrNumber": "String",
+                    "showLabel": false,
+                    "labelField": "",
+                    "font": {
+                        "name": "",
+                        "option": [
+                            "微软雅黑",
+                            "宋体",
+                            "仿宋",
+                            "黑体",
+                            "Arial"
+                        ]
+                    },
+                    "height": 20,
+                    "color": {
+                        "text": "#000000",
+                        "shadow": "#FFFFFF"
+                    },
+                    "imgUrl": "buildingIcons/systemIcons/g_1_t_0.png",
+                    "offset": [
+                        0,
+                        0
+                    ],
+                    "conditionOffset": [],
+                    "labelOffsetField": "constant",
+                    "addBackground": false,
+                    "imagePadding": [
+                        5,
+                        5
+                    ],
+                    "zoomByView": false,
+                    "faceCamera": false,
+                    "position": {
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "conditionPosition": [],
+                        "labelPositionField": "constant",
+                        "stringOrNumber": "String"
+                    },
+                    "alwaysOnTop": false
+                },
+                "extrudeHeight": 40000,
+                "geoType": 0,
+                "extrudeField": "无",
+                "relative": true
+            },
+            {
+                "geoType": 1,
+                "specularFactor": [
+                    1,
+                    1
+                ],
+                "offsetHeightAdded": 0,
+                "alpha": 1,
+                "blending": false,
+                "openEnvMap": false,
+                "envMapUrl": "skybox/system/build/up.jpg",
+                "type": "vector",
+                "extrudeFactor": 1,
+                "color": {
+                    "type": "single",
+                    "single": {
+                        "value": "rgba(255,64,39,1)"
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "image": {
+                    "type": "single",
+                    "single": {
+                        "value": [
+                            "buildingIcons/systemIcons/g_1_t_0.png",
+                            "buildingIcons/systemIcons/g_1_w_8.png"
+                        ]
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": [
+                                "buildingIcons/systemIcons/g_1_t_0.png",
+                                "buildingIcons/systemIcons/g_1_w_8.png"
+                            ]
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "colorOverlay": {
+                    "useColor": false,
+                    "color": "rgba(255,64,39,1)"
+                },
+                "extrudeField": "无",
+                "transparent": false,
+                "textureWrap": "repeatY",
+                "postRadialBlur": false,
+                "postRadialBlur2": false,
+                "glowStrength": 0.5,
+                "effect": false,
+                "offset": [
+                    -0.33,
+                    -0.09
+                ],
+                "roughness": [
+                    0.4,
+                    0.4
+                ],
+                "metalness": [
+                    0.6,
+                    0.6
+                ],
+                "repeat": [
+                    0.2,
+                    0.09
+                ],
+                "windowBrightness": 1.7,
+                "windowColor": "rgb(7,168,255)",
+                "windowImage": {
+                    "type": "single",
+                    "single": {
+                        "value": "windowIcons/buildingMask1.jpg"
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "isOpenWindow": false,
+                "windowSpeed": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    0,
+                    0
+                ],
+                "lights": false,
+                "reflectedPanorama": false,
+                "reflectedPanoramaAngle": "",
+                "textureSize": [
+                    3,
+                    3
+                ],
+                "AOConfig": {
+                    "normal": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0.6,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    },
+                    "lights": null,
+                    "cool": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0.6,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    }
+                },
+                "windowTextureWrap": "normal",
+                "windowTextureSize": [
+                    10,
+                    10
+                ],
+                "windowTextureAroundType": "windowTextureSize",
+                "label": {
+                    "dropShadow": false,
+                    "color": {
+                        "shadow": "#FFFFFF",
+                        "text": "rgba(250,240,240,1)"
+                    },
+                    "alwaysOnTop": false,
+                    "offset": [
+                        0,
+                        20
+                    ],
+                    "addBackground": true,
+                    "conditionOffset": [],
+                    "zoomByView": false,
+                    "showLabel": false,
+                    "imagePadding": [
+                        16,
+                        8
+                    ],
+                    "labelField": "",
+                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                    "faceCamera": false,
+                    "stringOrNumber": "String",
+                    "font": {
+                        "name": "",
+                        "option": [
+                            "微软雅黑",
+                            "宋体",
+                            "仿宋",
+                            "黑体",
+                            "Arial"
+                        ]
+                    },
+                    "height": 12,
+                    "labelOffsetField": "constant",
+                    "position": {
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "conditionPosition": [],
+                        "labelPositionField": "constant",
+                        "stringOrNumber": "String"
+                    }
+                },
+                "relative": true,
+                "isCool": false,
+                "envMapIntensity": 0.98
+            },
+            {
+                "geoType": 2,
+                "offsetHeightAdded": 0,
+                "color": "rgba(0,250,255,1)",
+                "flowSpeed": 1,
+                "alpha": 1,
+                "waveLength": 1,
+                "reflectionNormal": "normal/systemIcons/waternormals.jpg",
+                "refractionNormal": "normal/systemIcons/Water_2_M_Normal.jpg",
+                "reflectionImage": "polygonIcons/systemIcons/refraction.jpg",
+                "refractionImage": "polygonIcons/systemIcons/refraction.jpg",
+                "label": {
+                    "dropShadow": false,
+                    "color": {
+                        "shadow": "#FFFFFF",
+                        "text": "rgba(250,240,240,1)"
+                    },
+                    "alwaysOnTop": false,
+                    "offset": [
+                        0,
+                        20
+                    ],
+                    "addBackground": true,
+                    "conditionOffset": [],
+                    "zoomByView": false,
+                    "showLabel": false,
+                    "imagePadding": [
+                        16,
+                        8
+                    ],
+                    "labelField": "",
+                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                    "faceCamera": false,
+                    "stringOrNumber": "String",
+                    "font": {
+                        "name": "",
+                        "option": [
+                            "微软雅黑",
+                            "宋体",
+                            "仿宋",
+                            "黑体",
+                            "Arial"
+                        ]
+                    },
+                    "height": 12,
+                    "labelOffsetField": "constant",
+                    "position": {
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "conditionPosition": [],
+                        "labelPositionField": "constant",
+                        "stringOrNumber": "String"
+                    }
+                }
+            }
+        ],
+        "infoWindow": {
+            "title": "",
+            "enable": true,
+            "displayMode": "none",
+            "type": "standard",
+            "style": "default",
+            "customHtml": "<div style='position: absolute;'>Hello Pop Form</div>",
+            "fieldData": [
+                {
+                    "enable": true,
+                    "field": "NAME",
+                    "alias": "NAME",
+                    "url": "",
+                    "param": "",
+                    "target": "new",
+                    "width": 100,
+                    "height": 100
+                },
+                {
+                    "enable": true,
+                    "field": "adcode",
+                    "alias": "adcode",
+                    "url": "",
+                    "param": "",
+                    "target": "new",
+                    "width": 100,
+                    "height": 100
+                },
+                {
+                    "enable": true,
+                    "field": "level",
+                    "alias": "level",
+                    "url": "",
+                    "param": "",
+                    "target": "new",
+                    "width": 100,
+                    "height": 100
+                }
+            ]
+        },
+        "service": {
+            "enable": false,
+            "url": "",
+            "lon_field": "",
+            "lat_field": "",
+            "refresh": false,
+            "interval": 10,
+            "lon_check": 0,
+            "lat_check": 0
+        },
+        "groupId": -2,
+        "labelId": 171,
+        "templateId": 311,
+        "scanId": null,
+        "isAd": false,
+        "createTime": 20230724154828,
+        "modifyTime": 20230725093821,
+        "dataConfig": {
+            "visibleLevel": [
+                0,
+                4
+            ]
+        },
+        "parentCode": 0,
+        "level": null,
+        "levelName": null,
+        "data": {
+            "code": 24,
+            "name": "中国国家面",
+            "author": "cityadmin",
+            "dataNum": 1,
+            "dataSize": 40960,
+            "dataType": "Polygon",
+            "picPath": "images/2021/11/pic20211103101810582_816602.png",
+            "state": 4,
+            "createTime": 20211103101810,
+            "modifyTime": 20211103101810,
+            "dataPath": "earthEffectData/2021/11/file_20211103101810537_747731.geojson.cbencrypt",
+            "fieldNames": [
+                {
+                    "name": "NAME",
+                    "type": "String"
+                },
+                {
+                    "name": "adcode",
+                    "type": "Number",
+                    "value": [
+                        100000,
+                        100000
+                    ]
+                },
+                {
+                    "name": "level",
+                    "type": "String"
+                }
+            ],
+            "boundingSphere": {
+                "center": [
+                    1350703.41,
+                    2754587.11,
+                    4389390.27
+                ],
+                "radius": 3954396.16
+            },
+            "relativeBoundingSphere": null,
+            "groupId": 0,
+            "devidePath": null,
+            "loadHeight": 0,
+            "group": null,
+            "pathMd5": "e0c1ed4465833f6449c25c0785d01383",
+            "relativeCrsDataPath": "",
+            "crs": "02",
+            "dataAttribution": null,
+            "statusId": null,
+            "fieldConfig": null,
+            "isTerrain": null,
+            "terrainUrl": null,
+            "isEarthEffect": true,
+            "dataEarthEffect": true,
+            "upload": true
+        },
+        "scanData": null,
+        "layerLabel": {
+            "code": 171,
+            "name": "earth",
+            "enname": "地球",
+            "author": "cityadmin",
+            "geometryType": "Earth",
+            "createTime": 20220816111600,
+            "modifyTime": 20220816111600,
+            "status": 1,
+            "labelOrder": 10
+        },
+        "isEarthEffect": 1,
+        "dataEarthEffect": 1,
+        "groupEnable": false,
+        "dataResource": null,
+        "childLevelStyle": null,
+        "cityOrderId": 0,
+        "crs": "02",
+        "checked": null,
+        "geoData": null,
+        "crsFixAbled": true,
+        "orginid": null
+    },
+    {
+        "code": 4778274,
+        "projectId": 1501242,
+        "name": "全球海洋面",
+        "type": "PolygonLayer",
+        "enable": true,
+        "editable": null,
+        "order": 3,
+        "geoType": 0,
+        "dataId": 35,
+        "config": [
+            {
+                "offsetHeight": 0,
+                "offsetHeightAdded": 0,
+                "color": {
+                    "type": "single",
+                    "single": {
+                        "value": "rgba(15,15,14,1)"
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "image": {
+                    "type": "single",
+                    "single": {
+                        "value": [
+                            "buildingIcons/systemIcons/g_1_t_0.png",
+                            "buildingIcons/systemIcons/g_1_w_8.png"
+                        ]
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "colorOverlay": {
+                    "useColor": false,
+                    "color": "rgba(255,64,39,1)"
+                },
+                "type": "vector",
+                "effect": true,
+                "outlineColor": "rgba(255,64,39,1)",
+                "outlineUseColor": false,
+                "outlineImageUrl": "lineIcons/icon_20200806165622546_803071.png",
+                "outlineWidth": 0,
+                "outlineGlowStrength": 1,
+                "outlinePostRadialBlur": false,
+                "outlineType": "image",
+                "outlineLineType": "Plane",
+                "outlineSizeAttenuation": true,
+                "outlineSpeed": 0,
+                "outlineEffect": false,
+                "outlineOpacity": 0.34,
+                "outlineBlending": false,
+                "useBoundary": false,
+                "boundaryExtrudeHeight": 8000,
+                "boundaryUseColor": false,
+                "boundaryColor": "rgba(255,255,255,1)",
+                "boundaryBlending": false,
+                "boundaryOpacity": 0.7,
+                "boundaryPostRadialBlur": false,
+                "boundaryOffsetHeight": 0,
+                "boundaryOffsetHeightAdded": 0,
+                "boundaryImageConfig1": {
+                    "boundaryImageUrl": "buildingIcons/systemIcons/g_1_w_2.png",
+                    "boundarySpeed": [
+                        0.25,
+                        0
+                    ],
+                    "boundaryUvRatio": [
+                        1,
+                        1
+                    ],
+                    "checked": true,
+                    "animation": true,
+                    "speedReverse": {
+                        "xReverse": false,
+                        "yReverse": false
+                    },
+                    "texType": "image",
+                    "index": 0
+                },
+                "boundaryImageConfig2": {
+                    "boundaryImageUrl": "mapIcons/systemIcons/circle.png",
+                    "boundarySpeed": [
+                        0.25,
+                        0
+                    ],
+                    "boundaryUvRatio": [
+                        1,
+                        1
+                    ],
+                    "checked": false,
+                    "animation": false,
+                    "speedReverse": {
+                        "xReverse": false,
+                        "yReverse": false
+                    },
+                    "texType": "image",
+                    "index": 1
+                },
+                "boundaryAlphaImage": {
+                    "boundaryAlphaImageUrl": "uvMap/systemIcons/uvMap20.png",
+                    "boundaryAlphaSpeed": [
+                        1.5,
+                        0
+                    ],
+                    "animation": true,
+                    "boundaryUseAlphaMap": true,
+                    "speedReverse": {
+                        "xReverse": false,
+                        "yReverse": false
+                    },
+                    "checked": false
+                },
+                "extrudeFactor": 1,
+                "extrudeField": "无",
+                "alpha": 0.86,
+                "lights": false,
+                "postRadialBlur": false,
+                "postRadialBlur2": false,
+                "textureSize": [
+                    100,
+                    100
+                ],
+                "blending": false,
+                "openEnvMap": true,
+                "envMapIntensity": 0.98,
+                "envMapUrl": "skybox/system/build/up.jpg",
+                "reflectedPanorama": false,
+                "reflectedPanoramaAngle": "",
+                "transparent": false,
+                "glowStrength": 0.5,
+                "offset": [
+                    -0.33,
+                    -0.09
+                ],
+                "metalness": [
+                    0.59,
+                    0.55
+                ],
+                "roughness": [
+                    0.65,
+                    0.65
+                ],
+                "repeat": [
+                    0.2,
+                    0.09
+                ],
+                "windowBrightness": 1.7,
+                "windowColor": "rgb(7,168,255)",
+                "windowImageUrl": "windowIcons/buildingMask1.jpg",
+                "isOpenWindow": false,
+                "isCool": true,
+                "AOConfig": {
+                    "normal": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    },
+                    "lights": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0.6,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    },
+                    "cool": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    }
+                },
+                "windowTextureWrap": "normal",
+                "windowTextureSize": [
+                    10,
+                    10
+                ],
+                "windowTextureAroundType": "windowTextureSize",
+                "label": {
+                    "dropShadow": false,
+                    "stringOrNumber": "String",
+                    "showLabel": false,
+                    "labelField": "",
+                    "font": {
+                        "name": "",
+                        "option": [
+                            "微软雅黑",
+                            "宋体",
+                            "仿宋",
+                            "黑体",
+                            "Arial"
+                        ]
+                    },
+                    "height": 20,
+                    "color": {
+                        "text": "#000000",
+                        "shadow": "#FFFFFF"
+                    },
+                    "imgUrl": "buildingIcons/systemIcons/g_1_t_0.png",
+                    "offset": [
+                        0,
+                        0
+                    ],
+                    "conditionOffset": [],
+                    "labelOffsetField": "constant",
+                    "addBackground": false,
+                    "imagePadding": [
+                        5,
+                        5
+                    ],
+                    "zoomByView": false,
+                    "faceCamera": false,
+                    "position": {
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "conditionPosition": [],
+                        "labelPositionField": "constant",
+                        "stringOrNumber": "String"
+                    },
+                    "alwaysOnTop": false
+                },
+                "geoType": 0,
+                "relative": true
+            },
+            {
+                "geoType": 1,
+                "specularFactor": [
+                    1,
+                    1
+                ],
+                "offsetHeightAdded": 0,
+                "alpha": 1,
+                "blending": false,
+                "openEnvMap": false,
+                "envMapUrl": "skybox/system/build/up.jpg",
+                "type": "vector",
+                "extrudeFactor": 1,
+                "color": {
+                    "type": "single",
+                    "single": {
+                        "value": "rgba(255,64,39,1)"
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "image": {
+                    "type": "single",
+                    "single": {
+                        "value": [
+                            "buildingIcons/systemIcons/g_1_t_0.png",
+                            "buildingIcons/systemIcons/g_1_w_8.png"
+                        ]
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": [
+                                "buildingIcons/systemIcons/g_1_t_0.png",
+                                "buildingIcons/systemIcons/g_1_w_8.png"
+                            ]
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "colorOverlay": {
+                    "useColor": false,
+                    "color": "rgba(255,64,39,1)"
+                },
+                "extrudeField": "无",
+                "transparent": false,
+                "textureWrap": "repeatY",
+                "postRadialBlur": false,
+                "postRadialBlur2": false,
+                "glowStrength": 0.5,
+                "effect": false,
+                "offset": [
+                    -0.33,
+                    -0.09
+                ],
+                "roughness": [
+                    0.4,
+                    0.4
+                ],
+                "metalness": [
+                    0.6,
+                    0.6
+                ],
+                "repeat": [
+                    0.2,
+                    0.09
+                ],
+                "windowBrightness": 1.7,
+                "windowColor": "rgb(7,168,255)",
+                "windowImage": {
+                    "type": "single",
+                    "single": {
+                        "value": "windowIcons/buildingMask1.jpg"
+                    },
+                    "prop": "",
+                    "stringOrNumber": "String",
+                    "multiple": [
+                        {
+                            "cnd": "",
+                            "value": ""
+                        }
+                    ],
+                    "config": {
+                        "multiple_index": 0
+                    }
+                },
+                "isOpenWindow": false,
+                "windowSpeed": [
+                    0,
+                    0
+                ],
+                "speed": [
+                    0,
+                    0
+                ],
+                "lights": false,
+                "reflectedPanorama": false,
+                "reflectedPanoramaAngle": "",
+                "textureSize": [
+                    3,
+                    3
+                ],
+                "AOConfig": {
+                    "normal": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0.6,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    },
+                    "lights": null,
+                    "cool": {
+                        "useAoMap": true,
+                        "aoMapIntensity": 0.6,
+                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                    }
+                },
+                "windowTextureWrap": "normal",
+                "windowTextureSize": [
+                    10,
+                    10
+                ],
+                "windowTextureAroundType": "windowTextureSize",
+                "label": {
+                    "dropShadow": false,
+                    "color": {
+                        "shadow": "#FFFFFF",
+                        "text": "rgba(250,240,240,1)"
+                    },
+                    "alwaysOnTop": false,
+                    "offset": [
+                        0,
+                        20
+                    ],
+                    "addBackground": true,
+                    "conditionOffset": [],
+                    "zoomByView": false,
+                    "showLabel": false,
+                    "imagePadding": [
+                        16,
+                        8
+                    ],
+                    "labelField": "",
+                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                    "faceCamera": false,
+                    "stringOrNumber": "String",
+                    "font": {
+                        "name": "",
+                        "option": [
+                            "微软雅黑",
+                            "宋体",
+                            "仿宋",
+                            "黑体",
+                            "Arial"
+                        ]
+                    },
+                    "height": 12,
+                    "labelOffsetField": "constant",
+                    "position": {
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "conditionPosition": [],
+                        "labelPositionField": "constant",
+                        "stringOrNumber": "String"
+                    }
+                },
+                "relative": true,
+                "isCool": false,
+                "envMapIntensity": 0.98
+            },
+            {
+                "geoType": 2,
+                "offsetHeightAdded": 0,
+                "color": "rgba(0,250,255,1)",
+                "flowSpeed": 1,
+                "alpha": 1,
+                "waveLength": 1,
+                "reflectionNormal": "normal/systemIcons/waternormals.jpg",
+                "refractionNormal": "normal/systemIcons/Water_2_M_Normal.jpg",
+                "reflectionImage": "polygonIcons/systemIcons/refraction.jpg",
+                "refractionImage": "polygonIcons/systemIcons/refraction.jpg",
+                "label": {
+                    "dropShadow": false,
+                    "color": {
+                        "shadow": "#FFFFFF",
+                        "text": "rgba(250,240,240,1)"
+                    },
+                    "alwaysOnTop": false,
+                    "offset": [
+                        0,
+                        20
+                    ],
+                    "addBackground": true,
+                    "conditionOffset": [],
+                    "zoomByView": false,
+                    "showLabel": false,
+                    "imagePadding": [
+                        16,
+                        8
+                    ],
+                    "labelField": "",
+                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                    "faceCamera": false,
+                    "stringOrNumber": "String",
+                    "font": {
+                        "name": "",
+                        "option": [
+                            "微软雅黑",
+                            "宋体",
+                            "仿宋",
+                            "黑体",
+                            "Arial"
+                        ]
+                    },
+                    "height": 12,
+                    "labelOffsetField": "constant",
+                    "position": {
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "conditionPosition": [],
+                        "labelPositionField": "constant",
+                        "stringOrNumber": "String"
+                    }
+                }
+            }
+        ],
+        "infoWindow": {
+            "title": "",
+            "enable": true,
+            "displayMode": "none",
+            "type": "standard",
+            "style": "default",
+            "customHtml": "<div style='position: absolute;'>Hello Pop Form</div>",
+            "fieldData": [
+                {
+                    "enable": true,
+                    "field": "Id",
+                    "alias": "Id",
+                    "url": "",
+                    "param": "",
+                    "target": "new",
+                    "width": 100,
+                    "height": 100
+                },
+                {
+                    "enable": true,
+                    "field": "id_2",
+                    "alias": "id_2",
+                    "url": "",
+                    "param": "",
+                    "target": "new",
+                    "width": 100,
+                    "height": 100
+                },
+                {
+                    "enable": true,
+                    "field": "name",
+                    "alias": "name",
+                    "url": "",
+                    "param": "",
+                    "target": "new",
+                    "width": 100,
+                    "height": 100
+                }
+            ]
+        },
+        "service": {
+            "enable": false,
+            "url": "",
+            "lon_field": "",
+            "lat_field": "",
+            "refresh": false,
+            "interval": 10,
+            "lon_check": 0,
+            "lat_check": 0
+        },
+        "groupId": -2,
+        "labelId": 171,
+        "templateId": 311,
+        "scanId": null,
+        "isAd": false,
+        "createTime": 20230724154828,
+        "modifyTime": 20230725093821,
+        "dataConfig": {
+            "visibleLevel": [
+                0,
+                4
+            ]
+        },
+        "parentCode": 0,
+        "level": null,
+        "levelName": null,
+        "data": {
+            "code": 35,
+            "name": "全球海洋面",
+            "author": "cityadmin",
+            "dataNum": 18,
+            "dataSize": 118784,
+            "dataType": "Polygon",
+            "picPath": "images/2021/11/pic20211103102102509_500674.png",
+            "state": 4,
+            "createTime": 20211103102102,
+            "modifyTime": 20211103102102,
+            "dataPath": "earthEffectData/2021/11/file_20211103102102409_198585.geojson.cbencrypt",
+            "fieldNames": [
+                {
+                    "name": "Id",
+                    "type": "Number",
+                    "value": [
+                        0,
+                        5e-324
+                    ]
+                },
+                {
+                    "name": "id_2",
+                    "type": "String"
+                },
+                {
+                    "name": "name",
+                    "type": "String"
+                }
+            ],
+            "boundingSphere": {
+                "center": [
+                    0,
+                    0,
+                    0
+                ],
+                "radius": 6378000
+            },
+            "relativeBoundingSphere": null,
+            "groupId": 0,
+            "devidePath": null,
+            "loadHeight": 0,
+            "group": null,
+            "pathMd5": "d858d642acbe3abc90353b5b5d88f0f2",
+            "relativeCrsDataPath": "",
+            "crs": "02",
+            "dataAttribution": null,
+            "statusId": null,
+            "fieldConfig": null,
+            "isTerrain": null,
+            "terrainUrl": null,
+            "isEarthEffect": true,
+            "dataEarthEffect": true,
+            "upload": true
+        },
+        "scanData": null,
+        "layerLabel": {
+            "code": 171,
+            "name": "earth",
+            "enname": "地球",
+            "author": "cityadmin",
+            "geometryType": "Earth",
+            "createTime": 20220816111600,
+            "modifyTime": 20220816111600,
+            "status": 1,
+            "labelOrder": 10
+        },
+        "isEarthEffect": 1,
+        "dataEarthEffect": 1,
+        "groupEnable": false,
+        "dataResource": null,
+        "childLevelStyle": null,
+        "cityOrderId": 0,
+        "crs": "02",
+        "checked": null,
+        "geoData": null,
+        "crsFixAbled": true,
+        "orginid": null
+    }
+]

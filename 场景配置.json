@@ -1,0 +1,855 @@
+{
+    "code": 1501242,
+    "map": {
+        "terrain": {
+            "terrainExaggeration": 1,
+            "url": "https://city.thingjs.com/rn/ch-terrain-14-g-1?ext=pak",
+            "covered": false,
+            "enable": false
+        },
+        "referencePosition": [
+            2614094.09,
+            2524819.09,
+            5241212.42
+        ],
+        "terrainExaggeration": 1
+    },
+    "templateId": 266,
+    "baseMap": [
+        {
+            "level": [
+                0,
+                5
+            ],
+            "levelName": "层级1",
+            "value": {
+                "maximumLevel": 18,
+                "name": "高德街道(02)",
+                "imgSrc": "baseMap/system/baseMap04.png",
+                "url": "https://webrd01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=7&x={x}&y={y}&z={z}"
+            }
+        },
+        {
+            "level": [
+                5,
+                22
+            ],
+            "levelName": "层级1",
+            "value": {
+                "maximumLevel": 18,
+                "name": "高德街道(02)",
+                "imgSrc": "baseMap/system/baseMap04.png",
+                "url": "https://webrd01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=7&x={x}&y={y}&z={z}"
+            }
+        }
+    ],
+    "tileLayerStyle": [
+        {
+            "levelName": "层级1",
+            "level": [
+                0,
+                5
+            ],
+            "value": {
+                "style": "custom",
+                "type": "grayFilter",
+                "grayFilterColorBar": [
+                    [
+                        22,
+                        25,
+                        40,
+                        0.3
+                    ],
+                    [
+                        60,
+                        62,
+                        76,
+                        0.6
+                    ],
+                    [
+                        44,
+                        67,
+                        88,
+                        1
+                    ]
+                ],
+                "grayFilterPerBar": [
+                    0,
+                    0.83,
+                    1
+                ],
+                "rgba": "rgba(6,2,2,1)",
+                "singleFilterEnable": false,
+                "grayFilterEnable": true,
+                "brightness": 1,
+                "contrast": 1,
+                "hue": 0,
+                "saturation": 1,
+                "gamma": 1,
+                "gradientColorOverlayEnable": true,
+                "gradientCustomColorPerBar": [
+                    0,
+                    0.5,
+                    0.7,
+                    1
+                ],
+                "gradientCustomColorBar": [
+                    [
+                        255,
+                        255,
+                        255
+                    ],
+                    [
+                        255,
+                        255,
+                        255
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "angleX": 0,
+                "angleY": 0,
+                "angleZ": 0,
+                "gradientColorOverlayType": "''",
+                "gradientColorBar": [
+                    [
+                        255,
+                        255,
+                        255
+                    ],
+                    [
+                        255,
+                        255,
+                        255
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "gradientColorPerBar": [
+                    0,
+                    0.5,
+                    0.7,
+                    1
+                ],
+                "gradientMapDirection": [
+                    0.6560590289905069,
+                    -0.7547095802227722,
+                    1.8485053434113212e-16
+                ]
+            }
+        },
+        {
+            "levelName": "层级1",
+            "level": [
+                5,
+                22
+            ],
+            "value": {
+                "style": "custom",
+                "type": "grayFilter",
+                "grayFilterColorBar": [
+                    [
+                        164,
+                        189,
+                        255,
+                        0.3
+                    ],
+                    [
+                        38,
+                        48,
+                        60,
+                        0.6
+                    ],
+                    [
+                        27,
+                        35,
+                        44,
+                        1
+                    ]
+                ],
+                "grayFilterPerBar": [
+                    0,
+                    0.83,
+                    1
+                ],
+                "rgba": "rgba(255,255,255,1)",
+                "singleFilterEnable": false,
+                "grayFilterEnable": true,
+                "brightness": 1,
+                "contrast": 1,
+                "hue": 0,
+                "saturation": 1,
+                "gamma": 1,
+                "gradientColorOverlayEnable": true,
+                "gradientCustomColorPerBar": [
+                    0,
+                    0.5,
+                    0.7,
+                    1
+                ],
+                "gradientCustomColorBar": [
+                    [
+                        255,
+                        255,
+                        255
+                    ],
+                    [
+                        255,
+                        255,
+                        255
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "angleX": 0,
+                "angleY": 0,
+                "angleZ": 0,
+                "gradientColorOverlayType": "''",
+                "gradientColorBar": [
+                    [
+                        255,
+                        255,
+                        255
+                    ],
+                    [
+                        255,
+                        255,
+                        255
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "gradientColorPerBar": [
+                    0,
+                    0.5,
+                    0.7,
+                    1
+                ],
+                "gradientMapDirection": [
+                    0.6560590289905069,
+                    -0.7547095802227722,
+                    1.8485053434113212e-16
+                ]
+            }
+        }
+    ],
+    "light": [
+        {
+            "levelName": "全局参数1",
+            "level": [
+                0,
+                10
+            ],
+            "value": {
+                "code": 2521,
+                "name": "new",
+                "type": "light",
+                "filter": [
+                    {
+                        "showHelper": false,
+                        "ambientLight": {
+                            "intensity": 0.37,
+                            "color": 16777215,
+                            "ambientFlag": true
+                        },
+                        "hemisphereLight": {
+                            "intensity": 0.3,
+                            "color": 16773301,
+                            "groundColor": 10066329,
+                            "hemisphereFlag": true
+                        },
+                        "mainLight": {
+                            "flag": true,
+                            "shadow": true,
+                            "shadowQuality": "ultra",
+                            "shadowBias": 0,
+                            "intensity": 0.8,
+                            "color": 16777215,
+                            "alpha": 45,
+                            "beta": 334
+                        },
+                        "secondaryLight": {
+                            "flag": true,
+                            "shadow": false,
+                            "shadowQuality": "medium",
+                            "shadowBias": 0,
+                            "intensity": 0.34,
+                            "color": 16777215,
+                            "alpha": 45,
+                            "beta": 120
+                        },
+                        "tertiaryLight": {
+                            "flag": true,
+                            "shadow": false,
+                            "shadowQuality": "medium",
+                            "shadowBias": 0,
+                            "intensity": 0.32,
+                            "color": 16777215,
+                            "alpha": 45,
+                            "beta": -120
+                        },
+                        "distance": 2000
+                    },
+                    {}
+                ]
+            }
+        },
+        {
+            "levelName": "全局参数1",
+            "level": [
+                10,
+                22
+            ],
+            "value": {
+                "code": 2521,
+                "name": "new",
+                "type": "light",
+                "filter": [
+                    {
+                        "showHelper": false,
+                        "ambientLight": {
+                            "intensity": 0.37,
+                            "color": 16777215,
+                            "ambientFlag": true
+                        },
+                        "hemisphereLight": {
+                            "intensity": 0.3,
+                            "color": 16773301,
+                            "groundColor": 10066329,
+                            "hemisphereFlag": true
+                        },
+                        "mainLight": {
+                            "flag": true,
+                            "shadow": true,
+                            "shadowQuality": "ultra",
+                            "shadowBias": 0,
+                            "intensity": 0.8,
+                            "color": 16777215,
+                            "alpha": 45,
+                            "beta": 334
+                        },
+                        "secondaryLight": {
+                            "flag": true,
+                            "shadow": false,
+                            "shadowQuality": "medium",
+                            "shadowBias": 0,
+                            "intensity": 0.34,
+                            "color": 16777215,
+                            "alpha": 45,
+                            "beta": 120
+                        },
+                        "tertiaryLight": {
+                            "flag": true,
+                            "shadow": false,
+                            "shadowQuality": "medium",
+                            "shadowBias": 0,
+                            "intensity": 0.32,
+                            "color": 16777215,
+                            "alpha": 45,
+                            "beta": -120
+                        },
+                        "distance": 2000
+                    },
+                    {}
+                ]
+            }
+        }
+    ],
+    "postEffect": [
+        {
+            "levelName": "全局参数1",
+            "level": [
+                0,
+                10
+            ],
+            "value": {
+                "code": 2,
+                "name": "默认后期",
+                "type": "postEffect",
+                "filter": [
+                    {
+                        "postEffect": {
+                            "enable": true,
+                            "bloom": {
+                                "enable": false,
+                                "strength": 0.14,
+                                "radius": 0.4,
+                                "threshold": 0.7
+                            },
+                            "colorCorrection": {
+                                "enable": true,
+                                "exposure": 0.2,
+                                "brightness": 0,
+                                "contrast": 1.2,
+                                "saturation": 1.1,
+                                "gamma": 1.1
+                            },
+                            "vignetting": {
+                                "enable": false,
+                                "color": "0x61839b",
+                                "offset": 0.6
+                            },
+                            "blurEdge": {
+                                "enable": true,
+                                "offset": 0.6
+                            },
+                            "film": {
+                                "enable": false,
+                                "grayscale": false,
+                                "noiseIntensity": 0.35,
+                                "scanlinesIntensity": 0,
+                                "scanlinesCount": 2048
+                            },
+                            "chromaticAberration": {
+                                "enable": true,
+                                "chromaFactor": 0.01
+                            },
+                            "screenSpaceReflection": {
+                                "enable": false,
+                                "minGlossiness": 0.2
+                            },
+                            "SmallGlowBloom": {
+                                "enable": true,
+                                "strength": 0.91,
+                                "radius": 0.4,
+                                "threshold": 0.2
+                            },
+                            "MiddleGlowBloom": {
+                                "enable": true,
+                                "strength": 1.9,
+                                "radius": 0,
+                                "threshold": 0
+                            },
+                            "FXAA": {
+                                "enable": false
+                            },
+                            "screenSpaceAmbientOcclusion": {
+                                "enable": false,
+                                "radius": 0.2,
+                                "quality": "medium",
+                                "intensity": 0.8,
+                                "temporalFilter": true,
+                                "ignoreTransparent": false
+                            },
+                            "GlowBloom": {
+                                "enable": false,
+                                "strength": 0.52,
+                                "radius": 0.4,
+                                "threshold": 0.2
+                            }
+                        }
+                    },
+                    {}
+                ],
+                "postEffect": {
+                    "enable": true,
+                    "bloom": {
+                        "enable": false,
+                        "strength": 0.14,
+                        "radius": 0.4,
+                        "threshold": 0.7
+                    },
+                    "screenSpaceAmbientOcclusion": {
+                        "enable": false,
+                        "radius": 0.2,
+                        "quality": "medium",
+                        "intensity": 0.8,
+                        "temporalFilter": true,
+                        "ignoreTransparent": false
+                    },
+                    "colorCorrection": {
+                        "enable": true,
+                        "exposure": 0.2,
+                        "brightness": 0,
+                        "contrast": 1.2,
+                        "saturation": 1.1,
+                        "gamma": 1.1
+                    },
+                    "FXAA": {
+                        "enable": false
+                    },
+                    "SmallGlowBloom": {
+                        "enable": true,
+                        "strength": 0.91,
+                        "radius": 0.4,
+                        "threshold": 0.2
+                    },
+                    "GlowBloom": {
+                        "enable": false,
+                        "strength": 0.52,
+                        "radius": 0.4,
+                        "threshold": 0.2
+                    },
+                    "MiddleGlowBloom": {
+                        "enable": true,
+                        "strength": 1.9,
+                        "radius": 0,
+                        "threshold": 0
+                    },
+                    "vignette": {
+                        "enable": true,
+                        "type": "blur",
+                        "color": "0x61839b",
+                        "offset": 0.6
+                    },
+                    "film": {
+                        "enable": false,
+                        "grayscale": false,
+                        "noiseIntensity": 0.35,
+                        "scanlinesIntensity": 0,
+                        "scanlinesCount": 2048
+                    },
+                    "chromaticAberration": {
+                        "enable": true,
+                        "chromaFactor": 0.01
+                    },
+                    "screenSpaceReflection": {
+                        "enable": false,
+                        "minGlossiness": 0.2
+                    }
+                }
+            }
+        },
+        {
+            "levelName": "全局参数1",
+            "level": [
+                10,
+                22
+            ],
+            "value": {
+                "code": 2,
+                "name": "默认后期",
+                "type": "postEffect",
+                "filter": [
+                    {
+                        "postEffect": {
+                            "enable": true,
+                            "bloom": {
+                                "enable": false,
+                                "strength": 0.14,
+                                "radius": 0.4,
+                                "threshold": 0.7
+                            },
+                            "colorCorrection": {
+                                "enable": true,
+                                "exposure": 0.2,
+                                "brightness": 0,
+                                "contrast": 1.2,
+                                "saturation": 1.1,
+                                "gamma": 1.1
+                            },
+                            "vignetting": {
+                                "enable": false,
+                                "color": "0x61839b",
+                                "offset": 0.6
+                            },
+                            "blurEdge": {
+                                "enable": true,
+                                "offset": 0.6
+                            },
+                            "film": {
+                                "enable": false,
+                                "grayscale": false,
+                                "noiseIntensity": 0.35,
+                                "scanlinesIntensity": 0,
+                                "scanlinesCount": 2048
+                            },
+                            "chromaticAberration": {
+                                "enable": true,
+                                "chromaFactor": 0.01
+                            },
+                            "screenSpaceReflection": {
+                                "enable": false,
+                                "minGlossiness": 0.2
+                            },
+                            "SmallGlowBloom": {
+                                "enable": true,
+                                "strength": 0.91,
+                                "radius": 0.4,
+                                "threshold": 0.2
+                            },
+                            "MiddleGlowBloom": {
+                                "enable": true,
+                                "strength": 1.9,
+                                "radius": 0,
+                                "threshold": 0
+                            },
+                            "FXAA": {
+                                "enable": false
+                            },
+                            "screenSpaceAmbientOcclusion": {
+                                "enable": false,
+                                "radius": 0.2,
+                                "quality": "medium",
+                                "intensity": 0.8,
+                                "temporalFilter": true,
+                                "ignoreTransparent": false
+                            },
+                            "GlowBloom": {
+                                "enable": false,
+                                "strength": 0.52,
+                                "radius": 0.4,
+                                "threshold": 0.2
+                            }
+                        }
+                    },
+                    {}
+                ],
+                "postEffect": {
+                    "enable": true,
+                    "bloom": {
+                        "enable": false,
+                        "strength": 0.14,
+                        "radius": 0.4,
+                        "threshold": 0.7
+                    },
+                    "screenSpaceAmbientOcclusion": {
+                        "enable": false,
+                        "radius": 0.2,
+                        "quality": "medium",
+                        "intensity": 0.8,
+                        "temporalFilter": true,
+                        "ignoreTransparent": false
+                    },
+                    "colorCorrection": {
+                        "enable": true,
+                        "exposure": 0.2,
+                        "brightness": 0,
+                        "contrast": 1.2,
+                        "saturation": 1.1,
+                        "gamma": 1.1
+                    },
+                    "FXAA": {
+                        "enable": false
+                    },
+                    "SmallGlowBloom": {
+                        "enable": true,
+                        "strength": 0.91,
+                        "radius": 0.4,
+                        "threshold": 0.2
+                    },
+                    "GlowBloom": {
+                        "enable": false,
+                        "strength": 0.52,
+                        "radius": 0.4,
+                        "threshold": 0.2
+                    },
+                    "MiddleGlowBloom": {
+                        "enable": true,
+                        "strength": 1.9,
+                        "radius": 0,
+                        "threshold": 0
+                    },
+                    "vignette": {
+                        "enable": true,
+                        "type": "blur",
+                        "color": "0x61839b",
+                        "offset": 0.6
+                    },
+                    "film": {
+                        "enable": false,
+                        "grayscale": false,
+                        "noiseIntensity": 0.35,
+                        "scanlinesIntensity": 0,
+                        "scanlinesCount": 2048
+                    },
+                    "chromaticAberration": {
+                        "enable": true,
+                        "chromaFactor": 0.01
+                    },
+                    "screenSpaceReflection": {
+                        "enable": false,
+                        "minGlossiness": 0.2
+                    }
+                }
+            }
+        }
+    ],
+    "background": [
+        {
+            "levelName": "全局参数1",
+            "level": [
+                0,
+                10
+            ],
+            "value": {
+                "type": "image",
+                "value": "background/icon_20211220150547367_388795.jpg"
+            }
+        },
+        {
+            "levelName": "全局参数1",
+            "level": [
+                10,
+                22
+            ],
+            "value": {
+                "type": "image",
+                "value": "background/icon_20211206154320566_759517.jpg"
+            }
+        }
+    ],
+    "mapStyle": [
+        {
+            "levelName": "全局参数1",
+            "level": [
+                0,
+                10
+            ],
+            "value": {
+                "fog": true,
+                "fogExp": true,
+                "fogDensity": 1,
+                "fogExpDensity": 1.04,
+                "fogExpColor": "#272e3e",
+                "atmosphere": false
+            }
+        },
+        {
+            "levelName": "全局参数1",
+            "level": [
+                10,
+                22
+            ],
+            "value": {
+                "fog": true,
+                "fogExp": true,
+                "fogDensity": 1,
+                "fogExpDensity": 1.04,
+                "fogExpColor": "#272e3e",
+                "atmosphere": false
+            }
+        }
+    ],
+    "overlay": {
+        "cloud": {
+            "visible": false
+        },
+        "gradient": {
+            "gradientColorOverlayType": "custom",
+            "gradientColorOverlayEnable": true,
+            "gradientColorPerBar": [
+                0,
+                0.16,
+                0.37,
+                0.7,
+                1
+            ],
+            "gradientColorBar": [
+                [
+                    234,
+                    255,
+                    251,
+                    1
+                ],
+                [
+                    255,
+                    255,
+                    255,
+                    1
+                ],
+                [
+                    255,
+                    255,
+                    255,
+                    1
+                ],
+                [
+                    161,
+                    161,
+                    161,
+                    1
+                ],
+                [
+                    123,
+                    123,
+                    123,
+                    1
+                ]
+            ],
+            "gradientCustomColorPerBar": [
+                0,
+                0.16,
+                0.37,
+                0.7,
+                1
+            ],
+            "gradientCustomColorBar": [
+                [
+                    234,
+                    255,
+                    251,
+                    1
+                ],
+                [
+                    255,
+                    255,
+                    255,
+                    1
+                ],
+                [
+                    255,
+                    255,
+                    255,
+                    1
+                ],
+                [
+                    161,
+                    161,
+                    161,
+                    1
+                ],
+                [
+                    123,
+                    123,
+                    123,
+                    1
+                ]
+            ],
+            "angleX": 0,
+            "angleY": 0,
+            "angleZ": 320,
+            "gradientMapDirection": [
+                0.7660444431189778,
+                -0.6427876096865396,
+                0
+            ]
+        }
+    },
+    "postEffectId": 6981,
+    "lightId": 4,
+    "scanId": -1,
+    "skyBoxId": -1
+}

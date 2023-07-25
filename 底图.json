@@ -1,0 +1,47 @@
+[
+    {
+      "code": 1000001,
+      "name": "高德卫星(02)",
+      "url": "https://webst01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=6&x={x}&y={y}&z={z}",
+      "imgSrc": "baseMap/system/amap_satellite.png",
+      "createTime": 20190216153148,
+      "modifyTime": 20190216153148,
+      "crs": "02"
+    },
+    {
+      "code": 1000002,
+      "name": "高德街道(02)",
+      "url": "https://webrd01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=7&x={x}&y={y}&z={z}",
+      "imgSrc": "baseMap/system/baseMap04.png",
+      "createTime": 20190216153148,
+      "modifyTime": 20190216153148,
+      "crs": "02"
+    },
+    {
+      "code": 1000008,
+      "name": "谷歌卫星无标注(02)",
+      "url": "https://gac-geo.googlecnapps.cn/maps/vt?lyrs=s&gl=CN&x={x}&y={y}&z={z}",
+      "imgSrc": "baseMap/system/googlesatelite.png",
+      "createTime": 20210111144854,
+      "modifyTime": 20210111144854,
+      "crs": "02"
+    },
+    {
+      "code": 1000019,
+      "name": "GeoQ灰色无标注(02)",
+      "url": "https://thematic.geoq.cn/arcgis/rest/services/StreetThematicMaps/Gray_OnlySymbol/MapServer/tile/{z}/{y}/{x}",
+      "imgSrc": "baseMap/system/geoq_gray_nolabel.png",
+      "createTime": 20210116103626,
+      "modifyTime": 20210116103626,
+      "crs": "02"
+    },
+    {
+      "code": 1000024,
+      "name": "GeoQ蓝色无标注(02)",
+      "url": "https://thematic.geoq.cn/arcgis/rest/services/StreetThematicMaps/PurplishBlue_OnlySymbol/MapServer/tile/{z}/{y}/{x}",
+      "imgSrc": "baseMap/system/geoq_blue_nolabel.png",
+      "createTime": 20210116103707,
+      "modifyTime": 20210116103707,
+      "crs": "02"
+    }
+  ]

@@ -1,0 +1,3760 @@
+[
+    {
+        "code": -1,
+        "name": "我的数据",
+        "layers": []
+    },
+    {
+        "code": 0,
+        "name": "森城市",
+        "layers": [
+            {
+                "code": 1176446,
+                "projectId": 1501242,
+                "name": "榕城区",
+                "type": "folder",
+                "enabled": true,
+                "order": 1,
+                "createTime": 1690253091340,
+                "modifyTime": 20230725104451,
+                "layers": [
+                    {
+                        "code": 4784549,
+                        "projectId": 1501242,
+                        "name": "Building",
+                        "type": "PolygonLayer",
+                        "enable": true,
+                        "order": 1010,
+                        "geoType": 1,
+                        "dataId": 2520665,
+                        "config": [
+                            {
+                                "postRadialBlur2": false,
+                                "extrudeFactor": 1,
+                                "openEnvMap": false,
+                                "outlineType": "vector",
+                                "type": "vector",
+                                "envMapUrl": "skybox/system/build/up.jpg",
+                                "textureSize": [
+                                    100,
+                                    100
+                                ],
+                                "roughness": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "useBoundary": false,
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "blending": false,
+                                "extrudeField": "无",
+                                "windowTextureSize": [
+                                    10,
+                                    10
+                                ],
+                                "image": {
+                                    "single": {
+                                        "value": [
+                                            "buildingIcons/systemIcons/g_1_t_0.png",
+                                            "buildingIcons/systemIcons/g_1_w_8.png"
+                                        ]
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "outlineBlending": false,
+                                "outlineEffect": false,
+                                "boundaryOpacity": 1,
+                                "offset": [
+                                    -0.33,
+                                    -0.09
+                                ],
+                                "metalness": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "outlineSizeAttenuation": true,
+                                "boundaryExtrudeHeight": 8000,
+                                "windowTextureAroundType": "windowTextureSize",
+                                "offsetHeightAdded": 0,
+                                "isCool": true,
+                                "effect": false,
+                                "outlinePostRadialBlur": false,
+                                "boundaryBlending": false,
+                                "reflectedPanorama": false,
+                                "outlineImageUrl": "lineIcons/3d/lightFlow_strip.png",
+                                "outlineSpeed": 0,
+                                "outlineGlowStrength": 1,
+                                "color": {
+                                    "single": {
+                                        "value": "rgba(255,64,39,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "windowTextureWrap": "normal",
+                                "windowColor": "rgb(7,168,255)",
+                                "isOpenWindow": false,
+                                "AOConfig": {
+                                    "normal": {
+                                        "useAoMap": true,
+                                        "aoMapIntensity": 0.85,
+                                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                                    },
+                                    "cool": {
+                                        "useAoMap": true,
+                                        "aoMapIntensity": 0.6,
+                                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                                    }
+                                },
+                                "boundaryUseColor": false,
+                                "transparent": false,
+                                "outlineLineType": "Plane",
+                                "postRadialBlur": false,
+                                "glowStrength": 0,
+                                "alpha": 1,
+                                "repeat": [
+                                    0.2,
+                                    0.09
+                                ],
+                                "boundaryAlphaImage": {
+                                    "boundaryUseAlphaMap": true,
+                                    "boundaryAlphaSpeed": [
+                                        1.5,
+                                        0
+                                    ],
+                                    "speedReverse": {
+                                        "xReverse": false,
+                                        "yReverse": false
+                                    },
+                                    "boundaryAlphaImageUrl": "uvMap/systemIcons/uvMap20.png",
+                                    "animation": true
+                                },
+                                "lights": false,
+                                "windowImageUrl": "windowIcons/buildingMask1.jpg",
+                                "envMapIntensity": 0.98,
+                                "label": {
+                                    "dropShadow": false,
+                                    "color": {
+                                        "shadow": "#FFFFFF",
+                                        "text": "rgba(250,240,240,1)"
+                                    },
+                                    "offset": [
+                                        0,
+                                        0
+                                    ],
+                                    "addBackground": true,
+                                    "conditionOffset": [],
+                                    "zoomByView": false,
+                                    "showLabel": false,
+                                    "imagePadding": [
+                                        16,
+                                        8
+                                    ],
+                                    "labelField": "",
+                                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                                    "faceCamera": false,
+                                    "position": {
+                                        "conditionPosition": [],
+                                        "labelPositionField": "constant",
+                                        "stringOrNumber": "String",
+                                        "value": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    },
+                                    "font": {
+                                        "name": "",
+                                        "option": [
+                                            "微软雅黑",
+                                            "宋体",
+                                            "仿宋",
+                                            "黑体",
+                                            "Arial"
+                                        ]
+                                    },
+                                    "height": 12,
+                                    "labelOffsetField": "constant"
+                                },
+                                "boundaryColor": "rgba(255,255,255,1)",
+                                "boundaryImageConfig1": {
+                                    "boundaryUvRatio": [
+                                        1,
+                                        1
+                                    ],
+                                    "boundaryImageUrl": "buildingIcons/systemIcons/g_1_w_2.png",
+                                    "checked": true,
+                                    "index": 0,
+                                    "boundarySpeed": [
+                                        0.25,
+                                        0
+                                    ],
+                                    "speedReverse": {
+                                        "xReverse": false,
+                                        "yReverse": false
+                                    },
+                                    "texType": "image",
+                                    "animation": true
+                                },
+                                "boundaryImageConfig2": {
+                                    "boundaryUvRatio": [
+                                        1,
+                                        1
+                                    ],
+                                    "boundaryImageUrl": "buildingIcons/systemIcons/g_1_w_6.png",
+                                    "checked": false,
+                                    "index": 1,
+                                    "boundarySpeed": [
+                                        0.25,
+                                        0
+                                    ],
+                                    "speedReverse": {
+                                        "xReverse": false,
+                                        "yReverse": false
+                                    },
+                                    "texType": "image",
+                                    "animation": true
+                                },
+                                "reflectedPanoramaAngle": "",
+                                "windowBrightness": 1.7,
+                                "outlineWidth": 1,
+                                "offsetHeight": 0,
+                                "outlineColor": "rgba(255,64,39,1)",
+                                "outlineOpacity": 1
+                            },
+                            {
+                                "offsetHeightField": "无",
+                                "windowSpeed": [
+                                    0,
+                                    0
+                                ],
+                                "extrudeFactor": 0.8,
+                                "color": {
+                                    "single": {
+                                        "value": "rgba(39,186,255,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "windowTextureWrap": "around",
+                                "windowColor": "rgb(255,179,110)",
+                                "openEnvMap": true,
+                                "type": "image",
+                                "isOpenWindow": true,
+                                "AOConfig": {
+                                    "normal": {
+                                        "useAoMap": true,
+                                        "aoMapIntensity": 0.85,
+                                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                                    },
+                                    "cool": {
+                                        "useAoMap": true,
+                                        "aoMapIntensity": 0,
+                                        "aoMapUrl": "uvMap/systemIcons/defaultAoMap.png"
+                                    }
+                                },
+                                "specularFactor": [
+                                    1,
+                                    1
+                                ],
+                                "transparent": false,
+                                "speed": [
+                                    0,
+                                    0
+                                ],
+                                "envMapUrl": "skybox/20210422181850175_733310/20210422181850176_762781.jpg",
+                                "postRadialBlur": false,
+                                "glowStrength": 0.28,
+                                "textureSize": [
+                                    3,
+                                    3
+                                ],
+                                "roughness": [
+                                    0.81,
+                                    0.8
+                                ],
+                                "alpha": 0.8,
+                                "repeat": [
+                                    0.2,
+                                    0.09
+                                ],
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "blending": false,
+                                "extrudeField": "height",
+                                "windowTextureSize": [
+                                    20,
+                                    10
+                                ],
+                                "lights": false,
+                                "image": {
+                                    "single": {
+                                        "value": [
+                                            "buildingIcons/systemIcons/g_1_t_0.png",
+                                            "buildingIcons/systemIcons/g_1_w_8.png"
+                                        ]
+                                    },
+                                    "prop": "height",
+                                    "multiple": [
+                                        {
+                                            "cnd": 0,
+                                            "value": [
+                                                "buildingSideIcons/icon_20210705153617669_666716.png",
+                                                "buildingSideIcons/icon_20210705153914377_78335.png"
+                                            ]
+                                        },
+                                        {
+                                            "cnd": 50,
+                                            "value": [
+                                                "buildingTopIcons/icon_20211013100646278_238652.png",
+                                                "buildingSideIcons/icon_20211123113506512_748696.png"
+                                            ]
+                                        },
+                                        {
+                                            "cnd": 95,
+                                            "value": [
+                                                "buildingTopIcons/icon_20211013104730098_404443.png",
+                                                "buildingSideIcons/icon_20211123113517511_203536.png"
+                                            ]
+                                        },
+                                        {
+                                            "cnd": 190,
+                                            "value": [
+                                                "buildingTopIcons/icon_20211013104730098_404443.png",
+                                                "buildingSideIcons/icon_20211123110027743_601871.png"
+                                            ]
+                                        },
+                                        {
+                                            "cnd": 285,
+                                            "value": [
+                                                "buildingTopIcons/icon_20211123113257568_206251.png",
+                                                "buildingSideIcons/icon_20211123123833410_547758.png"
+                                            ]
+                                        },
+                                        {
+                                            "cnd": 380,
+                                            "value": [
+                                                "buildingTopIcons/icon_20211123113228587_341516.png",
+                                                "buildingSideIcons/icon_20211123123851020_584675.png"
+                                            ]
+                                        },
+                                        {
+                                            "cnd": 475,
+                                            "value": [
+                                                "buildingTopIcons/icon_20211123113257568_206251.png",
+                                                "buildingSideIcons/icon_20211123123851020_584675.png"
+                                            ]
+                                        }
+                                    ],
+                                    "type": "multiple",
+                                    "stringOrNumber": "Number",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "windowImageUrl": "windowIcons/icon_20210423164704298_383968.jpg",
+                                "offset": [
+                                    -0.33,
+                                    -0.09
+                                ],
+                                "metalness": [
+                                    0.79,
+                                    0.9
+                                ],
+                                "envMapIntensity": 1.13,
+                                "label": {
+                                    "dropShadow": false,
+                                    "color": {
+                                        "shadow": "#FFFFFF",
+                                        "text": "rgba(250,240,240,1)"
+                                    },
+                                    "offset": [
+                                        0,
+                                        0
+                                    ],
+                                    "addBackground": true,
+                                    "conditionOffset": [],
+                                    "zoomByView": false,
+                                    "showLabel": false,
+                                    "imagePadding": [
+                                        16,
+                                        8
+                                    ],
+                                    "labelField": "",
+                                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                                    "faceCamera": false,
+                                    "position": {
+                                        "conditionPosition": [],
+                                        "labelPositionField": "constant",
+                                        "stringOrNumber": "String",
+                                        "value": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    },
+                                    "font": {
+                                        "name": "",
+                                        "option": [
+                                            "微软雅黑",
+                                            "宋体",
+                                            "仿宋",
+                                            "黑体",
+                                            "Arial"
+                                        ]
+                                    },
+                                    "height": 12,
+                                    "labelOffsetField": "constant"
+                                },
+                                "windowImage": {
+                                    "single": {
+                                        "value": "windowIcons/icon_20211123141857319_304851.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "reflectedPanoramaAngle": "",
+                                "windowTextureAroundType": "windowTextureSize",
+                                "windowBrightness": 1.8,
+                                "offsetHeightAdded": 0,
+                                "isCool": true,
+                                "textureWrap": "stretch",
+                                "effect": true,
+                                "reflectedPanorama": false
+                            },
+                            {
+                                "offsetHeightAdded": 0,
+                                "color": "rgba(0,250,255,1)",
+                                "flowSpeed": 1,
+                                "reflectionNormal": "normal/systemIcons/waternormals.jpg",
+                                "refractionImage": "polygonIcons/systemIcons/refraction.jpg",
+                                "offsetHeight": 0,
+                                "alpha": 1,
+                                "waveLength": 1,
+                                "reflectionImage": "polygonIcons/systemIcons/refraction.jpg",
+                                "label": {
+                                    "dropShadow": false,
+                                    "color": {
+                                        "shadow": "#FFFFFF",
+                                        "text": "rgba(250,240,240,1)"
+                                    },
+                                    "offset": [
+                                        0,
+                                        0
+                                    ],
+                                    "addBackground": true,
+                                    "conditionOffset": [],
+                                    "zoomByView": false,
+                                    "showLabel": false,
+                                    "imagePadding": [
+                                        16,
+                                        8
+                                    ],
+                                    "labelField": "",
+                                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                                    "faceCamera": false,
+                                    "position": {
+                                        "conditionPosition": [],
+                                        "labelPositionField": "constant",
+                                        "stringOrNumber": "String",
+                                        "value": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    },
+                                    "font": {
+                                        "name": "",
+                                        "option": [
+                                            "微软雅黑",
+                                            "宋体",
+                                            "仿宋",
+                                            "黑体",
+                                            "Arial"
+                                        ]
+                                    },
+                                    "height": 12,
+                                    "labelOffsetField": "constant"
+                                },
+                                "refractionNormal": "normal/systemIcons/Water_2_M_Normal.jpg"
+                            }
+                        ],
+                        "infoWindow": {
+                            "fieldData": [
+                                {
+                                    "alias": "孪生体ID",
+                                    "enable": true,
+                                    "field": "孪生体ID",
+                                    "height": 100,
+                                    "param": "",
+                                    "target": "new",
+                                    "url": "",
+                                    "width": 100
+                                },
+                                {
+                                    "alias": "height",
+                                    "enable": true,
+                                    "field": "height",
+                                    "height": 100,
+                                    "param": "",
+                                    "target": "new",
+                                    "url": "",
+                                    "width": 100
+                                }
+                            ],
+                            "enable": true,
+                            "style": "default",
+                            "title": "",
+                            "type": "standard",
+                            "displayMode": "none",
+                            "customHtml": "<div class='sign' id='PopupBoard' style='width: 210px;background-color: rgba(192, 192, 192, 0.6);color: #cccccc;top: 0;left: 0;z-index: 100;display: inline-block;position: absolute;border-radius: 4px 4px 0 0;'>    <div class = 'headline' style = 'font-size:12px;color:rgb(238,238,238);padding: 6px 10px;background:linear-gradient(rgba(43,135,230,0.8), rgba(43,135,230,1));line-height:20px;border-radius: 4px 4px 0 0;'>        详细信息    </div>    <div class= 'info' style= 'background-color: rgba(43, 135, 230, 0.6);padding: 10px 8px;'>        <ul class='info-list' style = 'color:#eeeeee;list-style: none;margin:0;padding: 0;' >            <li class='info-item' style = 'font-size:12px;padding: 8px 0px;'>                <div class='info-key' style = 'width: 66px;float:left;text-align: left;text-align:center;overflow: hidden;text-overflow:ellipsis;white-space:nowrap;'>                    height                </div>                <div class='info-value' style = 'margin-left: 66px;'>                    :  {{height}}                </div>            </li>        </ul>    </div>    <div class='point-top' style='position: absolute;top: 5px;right: 5px;cursor:pointer;width: 14px;text-align: center;transform: scale(1.2);'>        x    </div></div>"
+                        },
+                        "service": {
+                            "enable": false,
+                            "url": "",
+                            "lon_field": "",
+                            "lat_field": "",
+                            "refresh": false,
+                            "interval": 10,
+                            "lon_check": 0,
+                            "lat_check": 0
+                        },
+                        "groupId": 1176446,
+                        "labelId": 1,
+                        "templateId": 311,
+                        "scanId": 0,
+                        "isAd": false,
+                        "createTime": 20230725104451,
+                        "modifyTime": 20230725104451,
+                        "dataConfig": {
+                            "visibleLevel": [
+                                0,
+                                22
+                            ]
+                        },
+                        "parentCode": 0,
+                        "data": {
+                            "code": 2520665,
+                            "name": "Building",
+                            "author": 822998,
+                            "dataNum": 5,
+                            "dataSize": 1489,
+                            "dataType": "Polygon",
+                            "picPath": "group5/mapCache/445202/1/GCJ02/Building.png",
+                            "state": 2,
+                            "createTime": 20230725104451,
+                            "modifyTime": 20230725104451,
+                            "dataPath": "cache/layer/ECEB82A6FF06FC348A3969077A1D0B9B26AC0E2DC63C4D34",
+                            "fieldNames": [
+                                {
+                                    "name": "height",
+                                    "type": "Number",
+                                    "value": [
+                                        6,
+                                        18
+                                    ]
+                                }
+                            ],
+                            "boundingSphere": {
+                                "center": [
+                                    2598706.1,
+                                    2549912.18,
+                                    5236750.75
+                                ],
+                                "radius": 174.21
+                            },
+                            "groupId": 11,
+                            "loadHeight": 0,
+                            "pathMd5": "",
+                            "relativeCrsDataPath": "",
+                            "crs": "02",
+                            "dataAttribution": 0,
+                            "statusId": 53111,
+                            "isTerrain": true,
+                            "isEarthEffect": false,
+                            "dataEarthEffect": false,
+                            "upload": false
+                        },
+                        "layerLabel": {
+                            "code": 1,
+                            "name": "building",
+                            "enname": "建筑",
+                            "author": "cityadmin",
+                            "geometryType": "Polygon",
+                            "createTime": 20200102101921,
+                            "modifyTime": 20200102101921,
+                            "status": 1,
+                            "labelOrder": 1
+                        },
+                        "isEarthEffect": 0,
+                        "dataEarthEffect": 0,
+                        "groupEnable": true,
+                        "cityOrderId": 0,
+                        "crs": "02",
+                        "payFlag": false,
+                        "checked": true,
+                        "crsFixAbled": false
+                    },
+                    {
+                        "code": 4784552,
+                        "projectId": 1501242,
+                        "name": "RoadImportant",
+                        "type": "LineLayer",
+                        "enable": true,
+                        "order": 1008,
+                        "geoType": 0,
+                        "dataId": 2520668,
+                        "config": [
+                            {
+                                "sizeAttenuation": true,
+                                "type": "Plane",
+                                "uvRatio": 1,
+                                "texType": "image",
+                                "texImage": {
+                                    "single": {
+                                        "value": "lineIcons/icon_20211013145109837_634585.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "speed": 0.8,
+                                "postRadialBlur": false,
+                                "offsetHeightAdded": 0,
+                                "glowStrength": 0.1,
+                                "textureSize": 100,
+                                "textureWrap": "stretch",
+                                "offsetHeight": 0,
+                                "effect": true,
+                                "alpha": 0.8,
+                                "width": {
+                                    "single": {
+                                        "value": 16
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": 3
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "texColor": {
+                                    "single": {
+                                        "value": "rgba(255,163,101,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "blending": false
+                            },
+                            {
+                                "label": {
+                                    "dropShadow": false,
+                                    "color": {
+                                        "shadow": "#FFFFFF",
+                                        "text": "rgba(250,240,240,1)"
+                                    },
+                                    "offset": [
+                                        0,
+                                        20
+                                    ],
+                                    "addBackground": true,
+                                    "conditionOffset": [],
+                                    "zoomByView": false,
+                                    "showLabel": false,
+                                    "imagePadding": [
+                                        16,
+                                        8
+                                    ],
+                                    "labelField": "",
+                                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                                    "faceCamera": false,
+                                    "font": {
+                                        "name": "",
+                                        "option": [
+                                            "微软雅黑",
+                                            "宋体",
+                                            "仿宋",
+                                            "黑体",
+                                            "Arial"
+                                        ]
+                                    },
+                                    "height": 12,
+                                    "labelOffsetField": "constant"
+                                },
+                                "type": "Plane",
+                                "uvRatio": 1,
+                                "texType": "vector",
+                                "texImage": {
+                                    "single": {
+                                        "value": "lineIcons/icon_20211013145109837_634585.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "speed": 0,
+                                "postRadialBlur": false,
+                                "offsetHeightAdded": 0,
+                                "glowStrength": 1,
+                                "textureSize": 100,
+                                "textureWrap": "stretch",
+                                "offsetHeight": 0,
+                                "effect": false,
+                                "alpha": 1,
+                                "width": {
+                                    "single": {
+                                        "value": 3
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": 3
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "texColor": {
+                                    "single": {
+                                        "value": "rgba(255,64,39,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "blending": false
+                            },
+                            {
+                                "type": "Plane",
+                                "uvRatio": 1,
+                                "texType": "vector",
+                                "texImage": {
+                                    "single": {
+                                        "value": "lineIcons/icon_20211013145109837_634585.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "speed": 0,
+                                "postRadialBlur": false,
+                                "offsetHeightAdded": 0,
+                                "glowStrength": 1,
+                                "textureSize": 100,
+                                "textureWrap": "stretch",
+                                "offsetHeight": 0,
+                                "effect": false,
+                                "alpha": 1,
+                                "width": {
+                                    "single": {
+                                        "value": 3
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": 3
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "texColor": {
+                                    "single": {
+                                        "value": "rgba(255,64,39,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "blending": false
+                            },
+                            null,
+                            null,
+                            {
+                                "horizontal": {
+                                    "wallImage": "buildingIcons/systemIcons/g_1_w_7.png",
+                                    "lineCount": 5,
+                                    "lineImage": "lineIcons/3d/light_line.png"
+                                },
+                                "offsetHeightAdded": 0,
+                                "extrudeHeight": 8000,
+                                "alpha": 1,
+                                "vertical": {
+                                    "alphaImage": "uvMap/systemIcons/uvMap20.png",
+                                    "alphaSpeed": [
+                                        1.5,
+                                        0
+                                    ],
+                                    "wallImage": "buildingIcons/systemIcons/g_1_w_2.png"
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "blending": true,
+                                "scrollSpeed": [
+                                    0.25,
+                                    0
+                                ],
+                                "type": "vertical"
+                            }
+                        ],
+                        "infoWindow": {
+                            "fieldData": [
+                                {
+                                    "alias": "孪生体ID",
+                                    "enable": true,
+                                    "field": "孪生体ID",
+                                    "height": 100,
+                                    "param": "",
+                                    "target": "new",
+                                    "url": "",
+                                    "width": 100
+                                }
+                            ],
+                            "enable": true,
+                            "style": "default",
+                            "title": "",
+                            "type": "standard",
+                            "displayMode": "none",
+                            "customHtml": "<div class='sign' id='PopupBoard' style='width: 210px;background-color: rgba(192, 192, 192, 0.6);color: #cccccc;top: 0;left: 0;z-index: 100;display: inline-block;position: absolute;border-radius: 4px 4px 0 0;'>    <div class = 'headline' style = 'font-size:12px;color:rgb(238,238,238);padding: 6px 10px;background:linear-gradient(rgba(43,135,230,0.8), rgba(43,135,230,1));line-height:20px;border-radius: 4px 4px 0 0;'>        详细信息    </div>    <div class= 'info' style= 'background-color: rgba(43, 135, 230, 0.6);padding: 10px 8px;'>        <ul class='info-list' style = 'color:#eeeeee;list-style: none;margin:0;padding: 0;' >            <li class='info-item' style = 'font-size:12px;padding: 8px 0px;'>                <div class='info-key' style = 'width: 66px;float:left;text-align: left;text-align:center;overflow: hidden;text-overflow:ellipsis;white-space:nowrap;'>                    height                </div>                <div class='info-value' style = 'margin-left: 66px;'>                    :  {{height}}                </div>            </li>        </ul>    </div>    <div class='point-top' style='position: absolute;top: 5px;right: 5px;cursor:pointer;width: 14px;text-align: center;transform: scale(1.2);'>        x    </div></div>"
+                        },
+                        "service": {
+                            "enable": false,
+                            "url": "",
+                            "lon_field": "",
+                            "lat_field": "",
+                            "refresh": false,
+                            "interval": 10,
+                            "lon_check": 0,
+                            "lat_check": 0
+                        },
+                        "groupId": 1176446,
+                        "labelId": 6,
+                        "templateId": 311,
+                        "scanId": 0,
+                        "isAd": false,
+                        "createTime": 20230725104451,
+                        "modifyTime": 20230725104451,
+                        "dataConfig": {
+                            "visibleLevel": [
+                                0,
+                                22
+                            ]
+                        },
+                        "parentCode": 0,
+                        "data": {
+                            "code": 2520668,
+                            "name": "RoadImportant",
+                            "author": 822998,
+                            "dataNum": 1,
+                            "dataSize": 39705,
+                            "dataType": "Line",
+                            "picPath": "group5/mapCache/445202/1/GCJ02/RoadImportant.png",
+                            "state": 2,
+                            "createTime": 20230725104451,
+                            "modifyTime": 20230725104451,
+                            "dataPath": "cache/layer/C49063425ED2F7EFC37F5DF47989ACDD94414CA04ABE0A02E5E9C0901F08FF7B",
+                            "fieldNames": [],
+                            "boundingSphere": {
+                                "center": [
+                                    2606983.72,
+                                    2541385.17,
+                                    5236741.5
+                                ],
+                                "radius": 20487.92
+                            },
+                            "groupId": 11,
+                            "loadHeight": 0,
+                            "pathMd5": "",
+                            "relativeCrsDataPath": "",
+                            "crs": "02",
+                            "dataAttribution": 0,
+                            "statusId": 53111,
+                            "isTerrain": true,
+                            "isEarthEffect": false,
+                            "dataEarthEffect": false,
+                            "upload": false
+                        },
+                        "layerLabel": {
+                            "code": 6,
+                            "name": "motorway",
+                            "enname": "重要道路",
+                            "author": "cityadmin",
+                            "geometryType": "Line",
+                            "createTime": 20200102102710,
+                            "modifyTime": 20200102102710,
+                            "status": 1,
+                            "labelOrder": 3
+                        },
+                        "isEarthEffect": 0,
+                        "dataEarthEffect": 0,
+                        "groupEnable": true,
+                        "cityOrderId": 0,
+                        "crs": "02",
+                        "payFlag": false,
+                        "checked": true,
+                        "crsFixAbled": false
+                    },
+                    {
+                        "code": 4784553,
+                        "projectId": 1501242,
+                        "name": "RoadMain",
+                        "type": "LineLayer",
+                        "enable": true,
+                        "order": 1007,
+                        "geoType": 0,
+                        "dataId": 2520669,
+                        "config": [
+                            {
+                                "sizeAttenuation": true,
+                                "type": "Plane",
+                                "uvRatio": 1,
+                                "texType": "image",
+                                "texImage": {
+                                    "single": {
+                                        "value": "lineIcons/icon_20211008163556563_43307.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "speed": 0.2,
+                                "postRadialBlur": false,
+                                "offsetHeightAdded": 0,
+                                "glowStrength": 0.1,
+                                "textureSize": 100,
+                                "textureWrap": "stretch",
+                                "offsetHeight": 0,
+                                "effect": false,
+                                "alpha": 0.5,
+                                "width": {
+                                    "single": {
+                                        "value": 2
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": 3
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "texColor": {
+                                    "single": {
+                                        "value": "rgba(255,163,101,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "blending": false
+                            },
+                            {
+                                "label": {
+                                    "dropShadow": false,
+                                    "color": {
+                                        "shadow": "#FFFFFF",
+                                        "text": "rgba(250,240,240,1)"
+                                    },
+                                    "offset": [
+                                        0,
+                                        20
+                                    ],
+                                    "addBackground": true,
+                                    "conditionOffset": [],
+                                    "zoomByView": false,
+                                    "showLabel": false,
+                                    "imagePadding": [
+                                        16,
+                                        8
+                                    ],
+                                    "labelField": "",
+                                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                                    "faceCamera": false,
+                                    "font": {
+                                        "name": "",
+                                        "option": [
+                                            "微软雅黑",
+                                            "宋体",
+                                            "仿宋",
+                                            "黑体",
+                                            "Arial"
+                                        ]
+                                    },
+                                    "height": 12,
+                                    "labelOffsetField": "constant"
+                                },
+                                "type": "Plane",
+                                "uvRatio": 1,
+                                "texType": "vector",
+                                "texImage": {
+                                    "single": {
+                                        "value": "lineIcons/icon_20211008163556563_43307.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "speed": 0,
+                                "postRadialBlur": false,
+                                "offsetHeightAdded": 0,
+                                "glowStrength": 1,
+                                "textureSize": 100,
+                                "textureWrap": "stretch",
+                                "offsetHeight": 0,
+                                "effect": false,
+                                "alpha": 1,
+                                "width": {
+                                    "single": {
+                                        "value": 3
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": 3
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "texColor": {
+                                    "single": {
+                                        "value": "rgba(255,64,39,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "blending": false
+                            },
+                            {
+                                "type": "Plane",
+                                "uvRatio": 1,
+                                "texType": "vector",
+                                "texImage": {
+                                    "single": {
+                                        "value": "lineIcons/icon_20211008163556563_43307.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "speed": 0,
+                                "postRadialBlur": false,
+                                "offsetHeightAdded": 0,
+                                "glowStrength": 1,
+                                "textureSize": 100,
+                                "textureWrap": "stretch",
+                                "offsetHeight": 0,
+                                "effect": false,
+                                "alpha": 1,
+                                "width": {
+                                    "single": {
+                                        "value": 3
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": 3
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "texColor": {
+                                    "single": {
+                                        "value": "rgba(255,64,39,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "blending": false
+                            },
+                            null,
+                            null,
+                            {
+                                "horizontal": {
+                                    "wallImage": "buildingIcons/systemIcons/g_1_w_7.png",
+                                    "lineCount": 5,
+                                    "lineImage": "lineIcons/3d/light_line.png"
+                                },
+                                "offsetHeightAdded": 0,
+                                "extrudeHeight": 8000,
+                                "alpha": 1,
+                                "vertical": {
+                                    "alphaImage": "uvMap/systemIcons/uvMap20.png",
+                                    "alphaSpeed": [
+                                        1.5,
+                                        0
+                                    ],
+                                    "wallImage": "buildingIcons/systemIcons/g_1_w_2.png"
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "blending": true,
+                                "scrollSpeed": [
+                                    0.25,
+                                    0
+                                ],
+                                "type": "vertical"
+                            }
+                        ],
+                        "infoWindow": {
+                            "fieldData": [
+                                {
+                                    "alias": "孪生体ID",
+                                    "enable": true,
+                                    "field": "孪生体ID",
+                                    "height": 100,
+                                    "param": "",
+                                    "target": "new",
+                                    "url": "",
+                                    "width": 100
+                                }
+                            ],
+                            "enable": true,
+                            "style": "default",
+                            "title": "",
+                            "type": "standard",
+                            "displayMode": "none",
+                            "customHtml": "<div class='sign' id='PopupBoard' style='width: 210px;background-color: rgba(192, 192, 192, 0.6);color: #cccccc;top: 0;left: 0;z-index: 100;display: inline-block;position: absolute;border-radius: 4px 4px 0 0;'>    <div class = 'headline' style = 'font-size:12px;color:rgb(238,238,238);padding: 6px 10px;background:linear-gradient(rgba(43,135,230,0.8), rgba(43,135,230,1));line-height:20px;border-radius: 4px 4px 0 0;'>        详细信息    </div>    <div class= 'info' style= 'background-color: rgba(43, 135, 230, 0.6);padding: 10px 8px;'>        <ul class='info-list' style = 'color:#eeeeee;list-style: none;margin:0;padding: 0;' >            <li class='info-item' style = 'font-size:12px;padding: 8px 0px;'>                <div class='info-key' style = 'width: 66px;float:left;text-align: left;text-align:center;overflow: hidden;text-overflow:ellipsis;white-space:nowrap;'>                    height                </div>                <div class='info-value' style = 'margin-left: 66px;'>                    :  {{height}}                </div>            </li>        </ul>    </div>    <div class='point-top' style='position: absolute;top: 5px;right: 5px;cursor:pointer;width: 14px;text-align: center;transform: scale(1.2);'>        x    </div></div>"
+                        },
+                        "service": {
+                            "enable": false,
+                            "url": "",
+                            "lon_field": "",
+                            "lat_field": "",
+                            "refresh": false,
+                            "interval": 10,
+                            "lon_check": 0,
+                            "lat_check": 0
+                        },
+                        "groupId": 1176446,
+                        "labelId": 2,
+                        "templateId": 311,
+                        "scanId": 0,
+                        "isAd": false,
+                        "createTime": 20230725104451,
+                        "modifyTime": 20230725104451,
+                        "dataConfig": {
+                            "visibleLevel": [
+                                0,
+                                22
+                            ]
+                        },
+                        "parentCode": 0,
+                        "data": {
+                            "code": 2520669,
+                            "name": "RoadMain",
+                            "author": 822998,
+                            "dataNum": 1,
+                            "dataSize": 16771,
+                            "dataType": "Line",
+                            "picPath": "group5/mapCache/445202/1/GCJ02/RoadMain.png",
+                            "state": 2,
+                            "createTime": 20230725104451,
+                            "modifyTime": 20230725104451,
+                            "dataPath": "cache/layer/C49063425ED2F7EF642AD1739300E3C626AC0E2DC63C4D34",
+                            "fieldNames": [],
+                            "boundingSphere": {
+                                "center": [
+                                    2603117.12,
+                                    2544782,
+                                    5237038.94
+                                ],
+                                "radius": 14907.38
+                            },
+                            "groupId": 11,
+                            "loadHeight": 0,
+                            "pathMd5": "",
+                            "relativeCrsDataPath": "",
+                            "crs": "02",
+                            "dataAttribution": 0,
+                            "statusId": 53111,
+                            "isTerrain": true,
+                            "isEarthEffect": false,
+                            "dataEarthEffect": false,
+                            "upload": false
+                        },
+                        "layerLabel": {
+                            "code": 2,
+                            "name": "primary",
+                            "enname": "主要道路",
+                            "author": "cityadmin",
+                            "geometryType": "Line",
+                            "createTime": 20200102102600,
+                            "modifyTime": 20200102102600,
+                            "status": 1,
+                            "labelOrder": 4
+                        },
+                        "isEarthEffect": 0,
+                        "dataEarthEffect": 0,
+                        "groupEnable": true,
+                        "cityOrderId": 0,
+                        "crs": "02",
+                        "payFlag": false,
+                        "checked": true,
+                        "crsFixAbled": false
+                    },
+                    {
+                        "code": 4784555,
+                        "projectId": 1501242,
+                        "name": "RoadSub",
+                        "type": "LineLayer",
+                        "enable": true,
+                        "order": 1006,
+                        "geoType": 0,
+                        "dataId": 2520671,
+                        "config": [
+                            {
+                                "sizeAttenuation": true,
+                                "type": "Plane",
+                                "uvRatio": 1,
+                                "texType": "image",
+                                "texImage": {
+                                    "single": {
+                                        "value": "lineIcons/icon_20200806165622546_803071.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "speed": 0.4,
+                                "postRadialBlur": false,
+                                "offsetHeightAdded": 0,
+                                "glowStrength": 1,
+                                "textureSize": 100,
+                                "textureWrap": "stretch",
+                                "offsetHeight": 0,
+                                "effect": false,
+                                "alpha": 0.3,
+                                "width": {
+                                    "single": {
+                                        "value": 1
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": 3
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "texColor": {
+                                    "single": {
+                                        "value": "rgba(247,172,112,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "blending": false
+                            },
+                            {
+                                "label": {
+                                    "dropShadow": false,
+                                    "color": {
+                                        "shadow": "#FFFFFF",
+                                        "text": "rgba(250,240,240,1)"
+                                    },
+                                    "offset": [
+                                        0,
+                                        20
+                                    ],
+                                    "addBackground": true,
+                                    "conditionOffset": [],
+                                    "zoomByView": false,
+                                    "showLabel": false,
+                                    "imagePadding": [
+                                        16,
+                                        8
+                                    ],
+                                    "labelField": "",
+                                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                                    "faceCamera": false,
+                                    "stringOrNumber": "String",
+                                    "font": {
+                                        "name": "",
+                                        "option": [
+                                            "微软雅黑",
+                                            "宋体",
+                                            "仿宋",
+                                            "黑体",
+                                            "Arial"
+                                        ]
+                                    },
+                                    "height": 12,
+                                    "labelOffsetField": "constant"
+                                },
+                                "type": "Plane",
+                                "uvRatio": 1,
+                                "texType": "vector",
+                                "texImage": {
+                                    "single": {
+                                        "value": "lineIcons/icon_20200806165622546_803071.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "speed": 0,
+                                "postRadialBlur": false,
+                                "offsetHeightAdded": 0,
+                                "glowStrength": 1,
+                                "textureSize": 100,
+                                "textureWrap": "stretch",
+                                "offsetHeight": 0,
+                                "effect": false,
+                                "alpha": 1,
+                                "width": {
+                                    "single": {
+                                        "value": 3
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": 3
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "texColor": {
+                                    "single": {
+                                        "value": "rgba(255,64,39,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "blending": false
+                            },
+                            {
+                                "type": "Plane",
+                                "uvRatio": 1,
+                                "texType": "vector",
+                                "texImage": {
+                                    "single": {
+                                        "value": "lineIcons/icon_20200806165622546_803071.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "speed": 0,
+                                "postRadialBlur": false,
+                                "offsetHeightAdded": 0,
+                                "glowStrength": 1,
+                                "textureSize": 100,
+                                "textureWrap": "stretch",
+                                "offsetHeight": 0,
+                                "effect": false,
+                                "alpha": 1,
+                                "width": {
+                                    "single": {
+                                        "value": 3
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": 3
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "texColor": {
+                                    "single": {
+                                        "value": "rgba(255,64,39,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "blending": false
+                            },
+                            null,
+                            null,
+                            {
+                                "horizontal": {
+                                    "wallImage": "buildingIcons/systemIcons/g_1_w_7.png",
+                                    "lineCount": 5,
+                                    "lineImage": "lineIcons/3d/light_line.png"
+                                },
+                                "offsetHeightAdded": 0,
+                                "extrudeHeight": 8000,
+                                "alpha": 1,
+                                "vertical": {
+                                    "alphaImage": "uvMap/systemIcons/uvMap20.png",
+                                    "alphaSpeed": [
+                                        1.5,
+                                        0
+                                    ],
+                                    "wallImage": "buildingIcons/systemIcons/g_1_w_2.png"
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "blending": true,
+                                "scrollSpeed": [
+                                    0.25,
+                                    0
+                                ],
+                                "type": "vertical"
+                            }
+                        ],
+                        "infoWindow": {
+                            "fieldData": [
+                                {
+                                    "alias": "孪生体ID",
+                                    "enable": true,
+                                    "field": "孪生体ID",
+                                    "height": 100,
+                                    "param": "",
+                                    "target": "new",
+                                    "url": "",
+                                    "width": 100
+                                }
+                            ],
+                            "enable": true,
+                            "style": "default",
+                            "title": "",
+                            "type": "standard",
+                            "displayMode": "none",
+                            "customHtml": "<div class='sign' id='PopupBoard' style='width: 210px;background-color: rgba(192, 192, 192, 0.6);color: #cccccc;top: 0;left: 0;z-index: 100;display: inline-block;position: absolute;border-radius: 4px 4px 0 0;'>    <div class = 'headline' style = 'font-size:12px;color:rgb(238,238,238);padding: 6px 10px;background:linear-gradient(rgba(43,135,230,0.8), rgba(43,135,230,1));line-height:20px;border-radius: 4px 4px 0 0;'>        详细信息    </div>    <div class= 'info' style= 'background-color: rgba(43, 135, 230, 0.6);padding: 10px 8px;'>        <ul class='info-list' style = 'color:#eeeeee;list-style: none;margin:0;padding: 0;' >            <li class='info-item' style = 'font-size:12px;padding: 8px 0px;'>                <div class='info-key' style = 'width: 66px;float:left;text-align: left;text-align:center;overflow: hidden;text-overflow:ellipsis;white-space:nowrap;'>                    height                </div>                <div class='info-value' style = 'margin-left: 66px;'>                    :  {{height}}                </div>            </li>        </ul>    </div>    <div class='point-top' style='position: absolute;top: 5px;right: 5px;cursor:pointer;width: 14px;text-align: center;transform: scale(1.2);'>        x    </div></div>"
+                        },
+                        "service": {
+                            "enable": false,
+                            "url": "",
+                            "lon_field": "",
+                            "lat_field": "",
+                            "refresh": false,
+                            "interval": 10,
+                            "lon_check": 0,
+                            "lat_check": 0
+                        },
+                        "groupId": 1176446,
+                        "labelId": 3,
+                        "templateId": 311,
+                        "scanId": 0,
+                        "isAd": false,
+                        "createTime": 20230725104451,
+                        "modifyTime": 20230725104451,
+                        "dataConfig": {
+                            "visibleLevel": [
+                                0,
+                                22
+                            ]
+                        },
+                        "parentCode": 0,
+                        "data": {
+                            "code": 2520671,
+                            "name": "RoadSub",
+                            "author": 822998,
+                            "dataNum": 1,
+                            "dataSize": 53548,
+                            "dataType": "Line",
+                            "picPath": "group5/mapCache/445202/1/GCJ02/RoadSub.png",
+                            "state": 2,
+                            "createTime": 20230725104451,
+                            "modifyTime": 20230725104451,
+                            "dataPath": "cache/layer/C49063425ED2F7EFDF1ACC3783064E7EAEE7D71107B51A2A",
+                            "fieldNames": [],
+                            "boundingSphere": {
+                                "center": [
+                                    2605576.46,
+                                    2544468.82,
+                                    5235946.27
+                                ],
+                                "radius": 20009.13
+                            },
+                            "groupId": 11,
+                            "loadHeight": 0,
+                            "pathMd5": "",
+                            "relativeCrsDataPath": "",
+                            "crs": "02",
+                            "dataAttribution": 0,
+                            "statusId": 53111,
+                            "isTerrain": true,
+                            "isEarthEffect": false,
+                            "dataEarthEffect": false,
+                            "upload": false
+                        },
+                        "layerLabel": {
+                            "code": 3,
+                            "name": "secondary",
+                            "enname": "次要道路",
+                            "author": "cityadmin",
+                            "geometryType": "Line",
+                            "createTime": 20200102102608,
+                            "modifyTime": 20200102102608,
+                            "status": 1,
+                            "labelOrder": 5
+                        },
+                        "isEarthEffect": 0,
+                        "dataEarthEffect": 0,
+                        "groupEnable": true,
+                        "cityOrderId": 0,
+                        "crs": "02",
+                        "payFlag": false,
+                        "checked": true,
+                        "crsFixAbled": false
+                    },
+                    {
+                        "code": 4784554,
+                        "projectId": 1501242,
+                        "name": "RoadNorm",
+                        "type": "LineLayer",
+                        "enable": true,
+                        "order": 1005,
+                        "geoType": 0,
+                        "dataId": 2520670,
+                        "config": [
+                            {
+                                "sizeAttenuation": true,
+                                "type": "Plane",
+                                "uvRatio": 1,
+                                "texType": "vector",
+                                "texImage": {
+                                    "single": {
+                                        "value": "lineIcons/icon_20210918122146393_692291.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "speed": 0,
+                                "postRadialBlur": false,
+                                "offsetHeightAdded": 0,
+                                "glowStrength": 1,
+                                "textureSize": 100,
+                                "textureWrap": "stretch",
+                                "offsetHeight": 0,
+                                "effect": false,
+                                "alpha": 0.2,
+                                "width": {
+                                    "single": {
+                                        "value": 1
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": 3
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "texColor": {
+                                    "single": {
+                                        "value": "rgba(90,90,90,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "blending": false
+                            },
+                            {
+                                "label": {
+                                    "dropShadow": false,
+                                    "color": {
+                                        "shadow": "#FFFFFF",
+                                        "text": "rgba(250,240,240,1)"
+                                    },
+                                    "offset": [
+                                        0,
+                                        20
+                                    ],
+                                    "addBackground": true,
+                                    "conditionOffset": [],
+                                    "zoomByView": false,
+                                    "showLabel": false,
+                                    "imagePadding": [
+                                        16,
+                                        8
+                                    ],
+                                    "labelField": "",
+                                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                                    "faceCamera": false,
+                                    "stringOrNumber": "String",
+                                    "font": {
+                                        "name": "",
+                                        "option": [
+                                            "微软雅黑",
+                                            "宋体",
+                                            "仿宋",
+                                            "黑体",
+                                            "Arial"
+                                        ]
+                                    },
+                                    "height": 12,
+                                    "labelOffsetField": "constant"
+                                },
+                                "type": "Plane",
+                                "uvRatio": 1,
+                                "texType": "vector",
+                                "texImage": {
+                                    "single": {
+                                        "value": "lineIcons/icon_20210918122146393_692291.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "speed": 0,
+                                "postRadialBlur": false,
+                                "offsetHeightAdded": 0,
+                                "glowStrength": 1,
+                                "textureSize": 100,
+                                "textureWrap": "stretch",
+                                "offsetHeight": 0,
+                                "effect": false,
+                                "alpha": 1,
+                                "width": {
+                                    "single": {
+                                        "value": 3
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": 3
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "texColor": {
+                                    "single": {
+                                        "value": "rgba(255,64,39,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "blending": false
+                            },
+                            {
+                                "type": "Plane",
+                                "uvRatio": 1,
+                                "texType": "vector",
+                                "texImage": {
+                                    "single": {
+                                        "value": "lineIcons/icon_20210918122146393_692291.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "speed": 0,
+                                "postRadialBlur": false,
+                                "offsetHeightAdded": 0,
+                                "glowStrength": 1,
+                                "textureSize": 100,
+                                "textureWrap": "stretch",
+                                "offsetHeight": 0,
+                                "effect": false,
+                                "alpha": 1,
+                                "width": {
+                                    "single": {
+                                        "value": 3
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": 3
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "texColor": {
+                                    "single": {
+                                        "value": "rgba(255,64,39,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "blending": false
+                            },
+                            null,
+                            null,
+                            {
+                                "horizontal": {
+                                    "wallImage": "buildingIcons/systemIcons/g_1_w_7.png",
+                                    "lineCount": 5,
+                                    "lineImage": "lineIcons/3d/light_line.png"
+                                },
+                                "offsetHeightAdded": 0,
+                                "extrudeHeight": 8000,
+                                "alpha": 1,
+                                "vertical": {
+                                    "alphaImage": "uvMap/systemIcons/uvMap20.png",
+                                    "alphaSpeed": [
+                                        1.5,
+                                        0
+                                    ],
+                                    "wallImage": "buildingIcons/systemIcons/g_1_w_2.png"
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "blending": true,
+                                "scrollSpeed": [
+                                    0.25,
+                                    0
+                                ],
+                                "type": "vertical"
+                            }
+                        ],
+                        "infoWindow": {
+                            "fieldData": [
+                                {
+                                    "alias": "孪生体ID",
+                                    "enable": true,
+                                    "field": "孪生体ID",
+                                    "height": 100,
+                                    "param": "",
+                                    "target": "new",
+                                    "url": "",
+                                    "width": 100
+                                }
+                            ],
+                            "enable": true,
+                            "style": "default",
+                            "title": "",
+                            "type": "standard",
+                            "displayMode": "none",
+                            "customHtml": "<div class='sign' id='PopupBoard' style='width: 210px;background-color: rgba(192, 192, 192, 0.6);color: #cccccc;top: 0;left: 0;z-index: 100;display: inline-block;position: absolute;border-radius: 4px 4px 0 0;'>    <div class = 'headline' style = 'font-size:12px;color:rgb(238,238,238);padding: 6px 10px;background:linear-gradient(rgba(43,135,230,0.8), rgba(43,135,230,1));line-height:20px;border-radius: 4px 4px 0 0;'>        详细信息    </div>    <div class= 'info' style= 'background-color: rgba(43, 135, 230, 0.6);padding: 10px 8px;'>        <ul class='info-list' style = 'color:#eeeeee;list-style: none;margin:0;padding: 0;' >            <li class='info-item' style = 'font-size:12px;padding: 8px 0px;'>                <div class='info-key' style = 'width: 66px;float:left;text-align: left;text-align:center;overflow: hidden;text-overflow:ellipsis;white-space:nowrap;'>                    height                </div>                <div class='info-value' style = 'margin-left: 66px;'>                    :  {{height}}                </div>            </li>        </ul>    </div>    <div class='point-top' style='position: absolute;top: 5px;right: 5px;cursor:pointer;width: 14px;text-align: center;transform: scale(1.2);'>        x    </div></div>"
+                        },
+                        "service": {
+                            "enable": false,
+                            "url": "",
+                            "lon_field": "",
+                            "lat_field": "",
+                            "refresh": false,
+                            "interval": 10,
+                            "lon_check": 0,
+                            "lat_check": 0
+                        },
+                        "groupId": 1176446,
+                        "labelId": 4,
+                        "templateId": 311,
+                        "scanId": 0,
+                        "isAd": false,
+                        "createTime": 20230725104451,
+                        "modifyTime": 20230725104451,
+                        "dataConfig": {
+                            "visibleLevel": [
+                                0,
+                                22
+                            ]
+                        },
+                        "parentCode": 0,
+                        "data": {
+                            "code": 2520670,
+                            "name": "RoadNorm",
+                            "author": 822998,
+                            "dataNum": 1,
+                            "dataSize": 101470,
+                            "dataType": "Line",
+                            "picPath": "group5/mapCache/445202/1/GCJ02/RoadNorm.png",
+                            "state": 2,
+                            "createTime": 20230725104451,
+                            "modifyTime": 20230725104451,
+                            "dataPath": "cache/layer/C49063425ED2F7EF8DD630BB9306FF6326AC0E2DC63C4D34",
+                            "fieldNames": [],
+                            "boundingSphere": {
+                                "center": [
+                                    2606507.58,
+                                    2543661.85,
+                                    5235877.36
+                                ],
+                                "radius": 19361.13
+                            },
+                            "groupId": 11,
+                            "loadHeight": 0,
+                            "pathMd5": "",
+                            "relativeCrsDataPath": "",
+                            "crs": "02",
+                            "dataAttribution": 0,
+                            "statusId": 53111,
+                            "isTerrain": true,
+                            "isEarthEffect": false,
+                            "dataEarthEffect": false,
+                            "upload": false
+                        },
+                        "layerLabel": {
+                            "code": 4,
+                            "name": "smallroad",
+                            "enname": "普通道路",
+                            "author": "cityadmin",
+                            "geometryType": "Line",
+                            "createTime": 20200102102615,
+                            "modifyTime": 20200102102615,
+                            "status": 1,
+                            "labelOrder": 6
+                        },
+                        "isEarthEffect": 0,
+                        "dataEarthEffect": 0,
+                        "groupEnable": true,
+                        "cityOrderId": 0,
+                        "crs": "02",
+                        "payFlag": false,
+                        "checked": true,
+                        "crsFixAbled": false
+                    },
+                    {
+                        "code": 4784551,
+                        "projectId": 1501242,
+                        "name": "Railway",
+                        "type": "LineLayer",
+                        "enable": true,
+                        "order": 1004,
+                        "geoType": 0,
+                        "dataId": 2520667,
+                        "config": [
+                            {
+                                "postRadialBlur2": false,
+                                "sizeAttenuation": true,
+                                "type": "Plane",
+                                "uvRatio": 1,
+                                "texType": "image",
+                                "texImage": {
+                                    "single": {
+                                        "value": "lineIcons/icon_20200806165622546_803071.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "speed": 0.1,
+                                "postRadialBlur": false,
+                                "offsetHeightAdded": 0,
+                                "glowStrength": 1,
+                                "textureSize": 100,
+                                "textureWrap": "stretch",
+                                "offsetHeight": 0,
+                                "effect": false,
+                                "alpha": 0.3,
+                                "width": {
+                                    "single": {
+                                        "value": 1
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": 3
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "texColor": {
+                                    "single": {
+                                        "value": "rgba(157,214,241,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "blending": false
+                            },
+                            {
+                                "label": {
+                                    "dropShadow": false,
+                                    "color": {
+                                        "shadow": "#FFFFFF",
+                                        "text": "rgba(250,240,240,1)"
+                                    },
+                                    "offset": [
+                                        0,
+                                        20
+                                    ],
+                                    "addBackground": true,
+                                    "conditionOffset": [],
+                                    "zoomByView": false,
+                                    "showLabel": false,
+                                    "imagePadding": [
+                                        16,
+                                        8
+                                    ],
+                                    "labelField": "",
+                                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                                    "faceCamera": false,
+                                    "stringOrNumber": "String",
+                                    "font": {
+                                        "name": "",
+                                        "option": [
+                                            "微软雅黑",
+                                            "宋体",
+                                            "仿宋",
+                                            "黑体",
+                                            "Arial"
+                                        ]
+                                    },
+                                    "height": 12,
+                                    "labelOffsetField": "constant"
+                                },
+                                "type": "Plane",
+                                "uvRatio": 1,
+                                "texType": "vector",
+                                "texImage": {
+                                    "single": {
+                                        "value": "lineIcons/icon_20200806165622546_803071.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "speed": 0,
+                                "postRadialBlur": false,
+                                "offsetHeightAdded": 0,
+                                "glowStrength": 1,
+                                "textureSize": 100,
+                                "textureWrap": "stretch",
+                                "offsetHeight": 0,
+                                "effect": false,
+                                "alpha": 1,
+                                "width": {
+                                    "single": {
+                                        "value": 3
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": 3
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "texColor": {
+                                    "single": {
+                                        "value": "rgba(255,64,39,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "blending": false
+                            },
+                            {
+                                "type": "Plane",
+                                "uvRatio": 1,
+                                "texType": "vector",
+                                "texImage": {
+                                    "single": {
+                                        "value": "lineIcons/icon_20200806165622546_803071.png"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "speed": 0,
+                                "postRadialBlur": false,
+                                "offsetHeightAdded": 0,
+                                "glowStrength": 1,
+                                "textureSize": 100,
+                                "textureWrap": "stretch",
+                                "offsetHeight": 0,
+                                "effect": false,
+                                "alpha": 1,
+                                "width": {
+                                    "single": {
+                                        "value": 3
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": 3
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "texColor": {
+                                    "single": {
+                                        "value": "rgba(255,64,39,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "blending": false
+                            },
+                            null,
+                            null,
+                            {
+                                "postRadialBlur": false,
+                                "horizontal": {
+                                    "wallImage": "buildingIcons/systemIcons/g_1_w_7.png",
+                                    "lineCount": 5,
+                                    "lineImage": "lineIcons/3d/light_line.png"
+                                },
+                                "offsetHeightAdded": 0,
+                                "extrudeHeight": 8000,
+                                "alpha": 1,
+                                "vertical": {
+                                    "alphaImage": "uvMap/systemIcons/uvMap20.png",
+                                    "alphaSpeed": [
+                                        1.5,
+                                        0
+                                    ],
+                                    "wallImage": "buildingIcons/systemIcons/g_1_w_2.png"
+                                },
+                                "colorOverlay": {
+                                    "color": "rgba(255,255,255,1)",
+                                    "useColor": false
+                                },
+                                "blending": true,
+                                "scrollSpeed": [
+                                    0.25,
+                                    0
+                                ],
+                                "type": "vertical",
+                                "uvRatio": [
+                                    1,
+                                    1
+                                ]
+                            }
+                        ],
+                        "infoWindow": {
+                            "fieldData": [
+                                {
+                                    "alias": "孪生体ID",
+                                    "enable": true,
+                                    "field": "孪生体ID",
+                                    "height": 100,
+                                    "param": "",
+                                    "target": "new",
+                                    "url": "",
+                                    "width": 100
+                                }
+                            ],
+                            "enable": true,
+                            "style": "default",
+                            "title": "",
+                            "type": "standard",
+                            "displayMode": "none",
+                            "customHtml": "<div class='sign' id='PopupBoard' style='width: 210px;background-color: rgba(192, 192, 192, 0.6);color: #cccccc;top: 0;left: 0;z-index: 100;display: inline-block;position: absolute;border-radius: 4px 4px 0 0;'>    <div class = 'headline' style = 'font-size:12px;color:rgb(238,238,238);padding: 6px 10px;background:linear-gradient(rgba(43,135,230,0.8), rgba(43,135,230,1));line-height:20px;border-radius: 4px 4px 0 0;'>        详细信息    </div>    <div class= 'info' style= 'background-color: rgba(43, 135, 230, 0.6);padding: 10px 8px;'>        <ul class='info-list' style = 'color:#eeeeee;list-style: none;margin:0;padding: 0;' >            <li class='info-item' style = 'font-size:12px;padding: 8px 0px;'>                <div class='info-key' style = 'width: 66px;float:left;text-align: left;text-align:center;overflow: hidden;text-overflow:ellipsis;white-space:nowrap;'>                    height                </div>                <div class='info-value' style = 'margin-left: 66px;'>                    :  {{height}}                </div>            </li>        </ul>    </div>    <div class='point-top' style='position: absolute;top: 5px;right: 5px;cursor:pointer;width: 14px;text-align: center;transform: scale(1.2);'>        x    </div></div>"
+                        },
+                        "service": {
+                            "enable": false,
+                            "url": "",
+                            "lon_field": "",
+                            "lat_field": "",
+                            "refresh": false,
+                            "interval": 10,
+                            "lon_check": 0,
+                            "lat_check": 0
+                        },
+                        "groupId": 1176446,
+                        "labelId": 66,
+                        "templateId": 311,
+                        "scanId": 0,
+                        "isAd": false,
+                        "createTime": 20230725104451,
+                        "modifyTime": 20230725104451,
+                        "dataConfig": {
+                            "visibleLevel": [
+                                0,
+                                22
+                            ]
+                        },
+                        "parentCode": 0,
+                        "data": {
+                            "code": 2520667,
+                            "name": "Railway",
+                            "author": 822998,
+                            "dataNum": 1,
+                            "dataSize": 5279,
+                            "dataType": "Line",
+                            "picPath": "group5/mapCache/445202/1/GCJ02/Railway.png",
+                            "state": 2,
+                            "createTime": 20230725104451,
+                            "modifyTime": 20230725104451,
+                            "dataPath": "cache/layer/C49063425ED2F7EF8BCD5B22E9260037AEE7D71107B51A2A",
+                            "fieldNames": [],
+                            "boundingSphere": {
+                                "center": [
+                                    2605158.29,
+                                    2544456.53,
+                                    5236186.73
+                                ],
+                                "radius": 13392.27
+                            },
+                            "groupId": 11,
+                            "loadHeight": 0,
+                            "pathMd5": "",
+                            "relativeCrsDataPath": "",
+                            "crs": "02",
+                            "dataAttribution": 0,
+                            "statusId": 53111,
+                            "isTerrain": true,
+                            "isEarthEffect": false,
+                            "dataEarthEffect": false,
+                            "upload": false
+                        },
+                        "layerLabel": {
+                            "code": 66,
+                            "name": "railway",
+                            "enname": "铁路",
+                            "author": "cityadmin",
+                            "geometryType": "Line",
+                            "createTime": 20210609152415,
+                            "modifyTime": 20210609152415,
+                            "status": 1,
+                            "labelOrder": 7
+                        },
+                        "isEarthEffect": 0,
+                        "dataEarthEffect": 0,
+                        "groupEnable": true,
+                        "cityOrderId": 0,
+                        "crs": "02",
+                        "payFlag": false,
+                        "checked": true,
+                        "crsFixAbled": false
+                    },
+                    {
+                        "code": 4784556,
+                        "projectId": 1501242,
+                        "name": "Water",
+                        "type": "PolygonLayer",
+                        "enable": true,
+                        "order": 1002,
+                        "geoType": 2,
+                        "dataId": 2520672,
+                        "config": [
+                            {
+                                "postRadialBlur2": false,
+                                "boundaryPostRadialBlur": false,
+                                "extrudeFactor": 1,
+                                "boundaryImageUrl": "buildingIcons/systemIcons/g_1_w_2.png",
+                                "outlineType": "vector",
+                                "type": "vector",
+                                "envMapUrl": "skybox/system/build/up.jpg",
+                                "boundaryUvRatio": [
+                                    1,
+                                    1
+                                ],
+                                "textureSize": [
+                                    100,
+                                    100
+                                ],
+                                "roughness": [
+                                    0.4,
+                                    0.4
+                                ],
+                                "useBoundary": false,
+                                "boundaryAlphaSpeed": [
+                                    1.5,
+                                    0
+                                ],
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "blending": false,
+                                "extrudeField": "无",
+                                "windowTextureSize": [
+                                    10,
+                                    10
+                                ],
+                                "boundaryAlphaImageUrl": "uvMap/systemIcons/uvMap20.png",
+                                "image": {
+                                    "single": {
+                                        "value": [
+                                            "buildingIcons/systemIcons/g_1_t_0.png",
+                                            "buildingIcons/systemIcons/g_1_w_8.png"
+                                        ]
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "outlineBlending": false,
+                                "outlineEffect": false,
+                                "boundaryOpacity": 1,
+                                "offset": [
+                                    -0.33,
+                                    -0.09
+                                ],
+                                "metalness": [
+                                    0.6,
+                                    0.6
+                                ],
+                                "outlineSizeAttenuation": true,
+                                "boundaryExtrudeHeight": 8000,
+                                "boundarySpeed": [
+                                    0.25,
+                                    0
+                                ],
+                                "windowTextureAroundType": "windowTextureSize",
+                                "offsetHeightAdded": 0,
+                                "isCool": false,
+                                "effect": false,
+                                "outlinePostRadialBlur": false,
+                                "boundaryBlending": false,
+                                "reflectedPanorama": false,
+                                "outlineImageUrl": "lineIcons/3d/lightFlow_strip.png",
+                                "outlineSpeed": 0,
+                                "outlineGlowStrength": 1,
+                                "color": {
+                                    "single": {
+                                        "value": "rgba(255,64,39,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "windowTextureWrap": "normal",
+                                "windowColor": "rgb(7,168,255)",
+                                "isOpenWindow": true,
+                                "AOConfig": {
+                                    "normal": {
+                                        "useAoMap": true,
+                                        "aoMapIntensity": 0.85
+                                    },
+                                    "cool": {
+                                        "useAoMap": false,
+                                        "aoMapIntensity": 0
+                                    },
+                                    "lights": {
+                                        "useAoMap": true,
+                                        "aoMapIntensity": 0.6
+                                    }
+                                },
+                                "boundaryUseColor": false,
+                                "transparent": false,
+                                "outlineLineType": "Plane",
+                                "postRadialBlur": false,
+                                "boundaryOffsetHeightAdded": 0,
+                                "glowStrength": 0.5,
+                                "alpha": 1,
+                                "repeat": [
+                                    0.2,
+                                    0.09
+                                ],
+                                "lights": true,
+                                "windowImageUrl": "windowIcons/buildingMask1.jpg",
+                                "boundaryOffsetHeight": 0,
+                                "envMapIntensity": 0.98,
+                                "label": {
+                                    "dropShadow": false,
+                                    "color": {
+                                        "shadow": "#FFFFFF",
+                                        "text": "rgba(250,240,240,1)"
+                                    },
+                                    "offset": [
+                                        0,
+                                        0
+                                    ],
+                                    "addBackground": true,
+                                    "conditionOffset": [],
+                                    "zoomByView": false,
+                                    "showLabel": false,
+                                    "imagePadding": [
+                                        16,
+                                        8
+                                    ],
+                                    "labelField": "",
+                                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                                    "faceCamera": false,
+                                    "position": {
+                                        "conditionPosition": [],
+                                        "labelPositionField": "constant",
+                                        "stringOrNumber": "String",
+                                        "value": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    },
+                                    "stringOrNumber": "String",
+                                    "font": {
+                                        "name": "",
+                                        "option": [
+                                            "微软雅黑",
+                                            "宋体",
+                                            "仿宋",
+                                            "黑体",
+                                            "Arial"
+                                        ]
+                                    },
+                                    "height": 12,
+                                    "labelOffsetField": "constant"
+                                },
+                                "boundaryColor": "rgba(255,255,255,1)",
+                                "reflectedPanoramaAngle": "",
+                                "windowBrightness": 1.7,
+                                "outlineWidth": 1,
+                                "offsetHeight": 0,
+                                "outlineColor": "rgba(255,64,39,1)",
+                                "outlineOpacity": 1
+                            },
+                            {
+                                "windowSpeed": [
+                                    0,
+                                    0
+                                ],
+                                "extrudeFactor": 1,
+                                "color": {
+                                    "single": {
+                                        "value": "rgba(255,64,39,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "windowTextureWrap": "normal",
+                                "windowColor": "rgb(7,168,255)",
+                                "type": "image",
+                                "isOpenWindow": true,
+                                "AOConfig": {
+                                    "normal": {
+                                        "useAoMap": true,
+                                        "aoMapIntensity": 0.85
+                                    },
+                                    "cool": {
+                                        "useAoMap": false,
+                                        "aoMapIntensity": 0
+                                    },
+                                    "lights": {
+                                        "useAoMap": true,
+                                        "aoMapIntensity": 0.6
+                                    }
+                                },
+                                "specularFactor": [
+                                    1,
+                                    1
+                                ],
+                                "transparent": false,
+                                "speed": [
+                                    0,
+                                    0
+                                ],
+                                "envMapUrl": "skybox/system/build/up.jpg",
+                                "postRadialBlur": false,
+                                "glowStrength": 0.5,
+                                "textureSize": [
+                                    3,
+                                    3
+                                ],
+                                "roughness": [
+                                    0.4,
+                                    0.4
+                                ],
+                                "alpha": 1,
+                                "repeat": [
+                                    0.2,
+                                    0.09
+                                ],
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "blending": false,
+                                "extrudeField": "无",
+                                "windowTextureSize": [
+                                    10,
+                                    10
+                                ],
+                                "lights": true,
+                                "image": {
+                                    "single": {
+                                        "value": [
+                                            "buildingIcons/systemIcons/g_1_t_0.png",
+                                            "buildingIcons/systemIcons/g_1_w_8.png"
+                                        ]
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": [
+                                                "buildingIcons/systemIcons/g_1_t_0.png",
+                                                "buildingIcons/systemIcons/g_1_w_8.png"
+                                            ]
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "windowImageUrl": "windowIcons/buildingMask1.jpg",
+                                "offset": [
+                                    -0.33,
+                                    -0.09
+                                ],
+                                "metalness": [
+                                    0.6,
+                                    0.6
+                                ],
+                                "envMapIntensity": 0.98,
+                                "label": {
+                                    "dropShadow": false,
+                                    "color": {
+                                        "shadow": "#FFFFFF",
+                                        "text": "rgba(250,240,240,1)"
+                                    },
+                                    "offset": [
+                                        0,
+                                        0
+                                    ],
+                                    "addBackground": true,
+                                    "conditionOffset": [],
+                                    "zoomByView": false,
+                                    "showLabel": false,
+                                    "imagePadding": [
+                                        16,
+                                        8
+                                    ],
+                                    "labelField": "",
+                                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                                    "faceCamera": false,
+                                    "position": {
+                                        "conditionPosition": [],
+                                        "labelPositionField": "constant",
+                                        "stringOrNumber": "String",
+                                        "value": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    },
+                                    "stringOrNumber": "String",
+                                    "font": {
+                                        "name": "",
+                                        "option": [
+                                            "微软雅黑",
+                                            "宋体",
+                                            "仿宋",
+                                            "黑体",
+                                            "Arial"
+                                        ]
+                                    },
+                                    "height": 12,
+                                    "labelOffsetField": "constant"
+                                },
+                                "windowImage": {
+                                    "single": {
+                                        "value": "windowIcons/buildingMask1.jpg"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "reflectedPanoramaAngle": "",
+                                "windowTextureAroundType": "windowTextureSize",
+                                "windowBrightness": 1.7,
+                                "offsetHeightAdded": 0,
+                                "isCool": false,
+                                "textureWrap": "repeatY",
+                                "offsetHeight": 0,
+                                "effect": false,
+                                "reflectedPanorama": false
+                            },
+                            {
+                                "offsetHeightAdded": 0,
+                                "color": "rgba(171,171,171,1)",
+                                "flowSpeed": 0.2,
+                                "reflectionNormal": "normal/systemIcons/Water_1_M_Normal.jpg",
+                                "refractionImage": "polygonIcons/systemIcons/water.jpg",
+                                "offsetHeight": 0,
+                                "alpha": 1,
+                                "waveLength": 30,
+                                "reflectionImage": "polygonIcons/icon_20210924144045361_133335.png",
+                                "label": {
+                                    "dropShadow": false,
+                                    "color": {
+                                        "shadow": "#FFFFFF",
+                                        "text": "rgba(250,240,240,1)"
+                                    },
+                                    "offset": [
+                                        0,
+                                        0
+                                    ],
+                                    "addBackground": true,
+                                    "conditionOffset": [],
+                                    "zoomByView": false,
+                                    "showLabel": true,
+                                    "imagePadding": [
+                                        16,
+                                        8
+                                    ],
+                                    "labelField": "",
+                                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                                    "faceCamera": false,
+                                    "position": {
+                                        "conditionPosition": [],
+                                        "labelPositionField": "constant",
+                                        "stringOrNumber": "String",
+                                        "value": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    },
+                                    "stringOrNumber": "String",
+                                    "font": {
+                                        "name": "微软雅黑",
+                                        "option": [
+                                            "微软雅黑",
+                                            "宋体",
+                                            "仿宋",
+                                            "黑体",
+                                            "Arial"
+                                        ]
+                                    },
+                                    "height": 12,
+                                    "labelOffsetField": "constant"
+                                },
+                                "refractionNormal": "normal/systemIcons/normal.jpg"
+                            }
+                        ],
+                        "infoWindow": {
+                            "fieldData": [
+                                {
+                                    "alias": "孪生体ID",
+                                    "enable": true,
+                                    "field": "孪生体ID",
+                                    "height": 100,
+                                    "param": "",
+                                    "target": "new",
+                                    "url": "",
+                                    "width": 100
+                                }
+                            ],
+                            "enable": true,
+                            "style": "default",
+                            "title": "",
+                            "type": "standard",
+                            "displayMode": "none",
+                            "customHtml": "<div class='sign' id='PopupBoard' style='width: 210px;background-color: rgba(192, 192, 192, 0.6);color: #cccccc;top: 0;left: 0;z-index: 100;display: inline-block;position: absolute;border-radius: 4px 4px 0 0;'>    <div class = 'headline' style = 'font-size:12px;color:rgb(238,238,238);padding: 6px 10px;background:linear-gradient(rgba(43,135,230,0.8), rgba(43,135,230,1));line-height:20px;border-radius: 4px 4px 0 0;'>        详细信息    </div>    <div class= 'info' style= 'background-color: rgba(43, 135, 230, 0.6);padding: 10px 8px;'>        <ul class='info-list' style = 'color:#eeeeee;list-style: none;margin:0;padding: 0;' >            <li class='info-item' style = 'font-size:12px;padding: 8px 0px;'>                <div class='info-key' style = 'width: 66px;float:left;text-align: left;text-align:center;overflow: hidden;text-overflow:ellipsis;white-space:nowrap;'>                    height                </div>                <div class='info-value' style = 'margin-left: 66px;'>                    :  {{height}}                </div>            </li>        </ul>    </div>    <div class='point-top' style='position: absolute;top: 5px;right: 5px;cursor:pointer;width: 14px;text-align: center;transform: scale(1.2);'>        x    </div></div>"
+                        },
+                        "service": {
+                            "enable": false,
+                            "url": "",
+                            "lon_field": "",
+                            "lat_field": "",
+                            "refresh": false,
+                            "interval": 10,
+                            "lon_check": 0,
+                            "lat_check": 0
+                        },
+                        "groupId": 1176446,
+                        "labelId": 7,
+                        "templateId": 311,
+                        "scanId": 0,
+                        "isAd": false,
+                        "createTime": 20230725104451,
+                        "modifyTime": 20230725104451,
+                        "dataConfig": {
+                            "visibleLevel": [
+                                0,
+                                22
+                            ]
+                        },
+                        "parentCode": 0,
+                        "data": {
+                            "code": 2520672,
+                            "name": "Water",
+                            "author": 822998,
+                            "dataNum": 68,
+                            "dataSize": 113638,
+                            "dataType": "Polygon",
+                            "picPath": "group5/mapCache/445202/1/GCJ02/Water.png",
+                            "state": 2,
+                            "createTime": 20230725104451,
+                            "modifyTime": 20230725104451,
+                            "dataPath": "cache/layer/7D8A085E7FF2E54BE1A32157B6EAC096E5E9C0901F08FF7B",
+                            "fieldNames": [],
+                            "boundingSphere": {
+                                "center": [
+                                    2605567.67,
+                                    2542026.76,
+                                    5237141.48
+                                ],
+                                "radius": 18712.43
+                            },
+                            "groupId": 11,
+                            "loadHeight": 0,
+                            "pathMd5": "",
+                            "relativeCrsDataPath": "",
+                            "crs": "02",
+                            "dataAttribution": 0,
+                            "statusId": 53111,
+                            "isTerrain": true,
+                            "isEarthEffect": false,
+                            "dataEarthEffect": false,
+                            "upload": false
+                        },
+                        "layerLabel": {
+                            "code": 7,
+                            "name": "water",
+                            "enname": "水系",
+                            "author": "cityadmin",
+                            "geometryType": "Polygon",
+                            "createTime": 20200102102726,
+                            "modifyTime": 20200102102726,
+                            "status": 1,
+                            "labelOrder": 8
+                        },
+                        "isEarthEffect": 0,
+                        "dataEarthEffect": 0,
+                        "groupEnable": true,
+                        "cityOrderId": 0,
+                        "crs": "02",
+                        "payFlag": false,
+                        "checked": true,
+                        "crsFixAbled": false
+                    },
+                    {
+                        "code": 4784550,
+                        "projectId": 1501242,
+                        "name": "Greenland",
+                        "type": "PolygonLayer",
+                        "enable": true,
+                        "order": 1001,
+                        "geoType": 0,
+                        "dataId": 2520666,
+                        "config": [
+                            {
+                                "postRadialBlur2": false,
+                                "boundaryPostRadialBlur": false,
+                                "extrudeFactor": 1,
+                                "boundaryImageUrl": "buildingIcons/systemIcons/g_1_w_2.png",
+                                "outlineType": "vector",
+                                "type": "image",
+                                "envMapUrl": "skybox/system/build/up.jpg",
+                                "boundaryUvRatio": [
+                                    1,
+                                    1
+                                ],
+                                "textureSize": [
+                                    700,
+                                    700
+                                ],
+                                "roughness": [
+                                    0.4,
+                                    0.4
+                                ],
+                                "useBoundary": false,
+                                "boundaryAlphaSpeed": [
+                                    1.5,
+                                    0
+                                ],
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "blending": false,
+                                "extrudeField": "无",
+                                "windowTextureSize": [
+                                    10,
+                                    10
+                                ],
+                                "boundaryAlphaImageUrl": "uvMap/systemIcons/uvMap20.png",
+                                "image": {
+                                    "single": {
+                                        "value": [
+                                            "buildingTopIcons/icon_20210923160630983_827755.png",
+                                            "buildingSideIcons/icon_20210901124557738_616270.png"
+                                        ]
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "outlineBlending": false,
+                                "outlineEffect": false,
+                                "boundaryOpacity": 1,
+                                "offset": [
+                                    -0.33,
+                                    -0.09
+                                ],
+                                "metalness": [
+                                    0.6,
+                                    0.6
+                                ],
+                                "outlineSizeAttenuation": true,
+                                "boundaryExtrudeHeight": 8000,
+                                "boundarySpeed": [
+                                    0.25,
+                                    0
+                                ],
+                                "windowTextureAroundType": "windowTextureSize",
+                                "offsetHeightAdded": 0,
+                                "isCool": false,
+                                "effect": false,
+                                "outlinePostRadialBlur": false,
+                                "boundaryBlending": false,
+                                "reflectedPanorama": false,
+                                "outlineImageUrl": "lineIcons/3d/lightFlow_strip.png",
+                                "outlineSpeed": 0,
+                                "outlineGlowStrength": 1,
+                                "color": {
+                                    "single": {
+                                        "value": "rgba(255,64,39,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "windowTextureWrap": "normal",
+                                "windowColor": "rgb(7,168,255)",
+                                "isOpenWindow": true,
+                                "AOConfig": {
+                                    "normal": {
+                                        "useAoMap": false,
+                                        "aoMapIntensity": 0.85
+                                    },
+                                    "cool": {
+                                        "useAoMap": false,
+                                        "aoMapIntensity": 0
+                                    },
+                                    "lights": {
+                                        "useAoMap": true,
+                                        "aoMapIntensity": 0.6
+                                    }
+                                },
+                                "boundaryUseColor": false,
+                                "transparent": false,
+                                "outlineLineType": "Plane",
+                                "postRadialBlur": false,
+                                "boundaryOffsetHeightAdded": 0,
+                                "glowStrength": 0.5,
+                                "alpha": 0.2,
+                                "repeat": [
+                                    0.2,
+                                    0.09
+                                ],
+                                "lights": false,
+                                "windowImageUrl": "windowIcons/buildingMask1.jpg",
+                                "boundaryOffsetHeight": 0,
+                                "envMapIntensity": 0.98,
+                                "label": {
+                                    "dropShadow": false,
+                                    "color": {
+                                        "shadow": "#FFFFFF",
+                                        "text": "rgba(250,240,240,1)"
+                                    },
+                                    "offset": [
+                                        0,
+                                        0
+                                    ],
+                                    "addBackground": true,
+                                    "conditionOffset": [],
+                                    "zoomByView": false,
+                                    "showLabel": false,
+                                    "imagePadding": [
+                                        16,
+                                        8
+                                    ],
+                                    "labelField": "",
+                                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                                    "faceCamera": false,
+                                    "position": {
+                                        "conditionPosition": [],
+                                        "labelPositionField": "constant",
+                                        "stringOrNumber": "String",
+                                        "value": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    },
+                                    "font": {
+                                        "name": "",
+                                        "option": [
+                                            "微软雅黑",
+                                            "宋体",
+                                            "仿宋",
+                                            "黑体",
+                                            "Arial"
+                                        ]
+                                    },
+                                    "height": 12,
+                                    "labelOffsetField": "constant"
+                                },
+                                "boundaryColor": "rgba(255,255,255,1)",
+                                "reflectedPanoramaAngle": "",
+                                "windowBrightness": 1.7,
+                                "outlineWidth": 0,
+                                "offsetHeight": 0,
+                                "outlineColor": "rgba(255,64,39,1)",
+                                "outlineOpacity": 0.34
+                            },
+                            {
+                                "windowSpeed": [
+                                    0,
+                                    0
+                                ],
+                                "extrudeFactor": 0,
+                                "color": {
+                                    "single": {
+                                        "value": "rgba(26,135,91,1)"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "windowTextureWrap": "normal",
+                                "windowColor": "rgb(7,168,255)",
+                                "type": "image",
+                                "isOpenWindow": true,
+                                "AOConfig": {
+                                    "normal": {
+                                        "useAoMap": false,
+                                        "aoMapIntensity": 0
+                                    },
+                                    "cool": {
+                                        "useAoMap": false,
+                                        "aoMapIntensity": 0
+                                    },
+                                    "lights": {
+                                        "useAoMap": false,
+                                        "aoMapIntensity": 2.56
+                                    }
+                                },
+                                "specularFactor": [
+                                    1,
+                                    1
+                                ],
+                                "transparent": false,
+                                "speed": [
+                                    0,
+                                    0
+                                ],
+                                "envMapUrl": "skybox/system/build/up.jpg",
+                                "postRadialBlur": false,
+                                "glowStrength": 0.5,
+                                "textureSize": [
+                                    3,
+                                    1
+                                ],
+                                "roughness": [
+                                    0.4,
+                                    0.4
+                                ],
+                                "alpha": 0.2,
+                                "repeat": [
+                                    0.2,
+                                    0.09
+                                ],
+                                "colorOverlay": {
+                                    "color": "rgba(255,64,39,1)",
+                                    "useColor": false
+                                },
+                                "blending": false,
+                                "extrudeField": "无",
+                                "windowTextureSize": [
+                                    10,
+                                    10
+                                ],
+                                "lights": false,
+                                "image": {
+                                    "single": {
+                                        "value": [
+                                            "buildingTopIcons/icon_20210705150039287_384557.jpg",
+                                            "buildingIcons/systemIcons/g_2_w_1.png"
+                                        ]
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": [
+                                                "buildingIcons/systemIcons/g_1_t_0.png",
+                                                "buildingIcons/systemIcons/g_1_w_8.png"
+                                            ]
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "windowImageUrl": "windowIcons/buildingMask1.jpg",
+                                "offset": [
+                                    -0.33,
+                                    -0.09
+                                ],
+                                "metalness": [
+                                    0.6,
+                                    0.6
+                                ],
+                                "envMapIntensity": 0.98,
+                                "label": {
+                                    "dropShadow": false,
+                                    "color": {
+                                        "shadow": "#FFFFFF",
+                                        "text": "rgba(250,240,240,1)"
+                                    },
+                                    "offset": [
+                                        0,
+                                        0
+                                    ],
+                                    "addBackground": true,
+                                    "conditionOffset": [],
+                                    "zoomByView": false,
+                                    "showLabel": true,
+                                    "imagePadding": [
+                                        16,
+                                        8
+                                    ],
+                                    "labelField": "",
+                                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                                    "faceCamera": false,
+                                    "position": {
+                                        "conditionPosition": [],
+                                        "labelPositionField": "constant",
+                                        "stringOrNumber": "String",
+                                        "value": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    },
+                                    "font": {
+                                        "name": "微软雅黑",
+                                        "option": [
+                                            "微软雅黑",
+                                            "宋体",
+                                            "仿宋",
+                                            "黑体",
+                                            "Arial"
+                                        ]
+                                    },
+                                    "height": 12,
+                                    "labelOffsetField": "constant"
+                                },
+                                "windowImage": {
+                                    "single": {
+                                        "value": "windowIcons/buildingMask1.jpg"
+                                    },
+                                    "prop": "",
+                                    "multiple": [
+                                        {
+                                            "cnd": "",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "single",
+                                    "stringOrNumber": "String",
+                                    "config": {
+                                        "multiple_index": 0
+                                    }
+                                },
+                                "reflectedPanoramaAngle": "",
+                                "windowTextureAroundType": "windowTextureSize",
+                                "windowBrightness": 1.7,
+                                "offsetHeightAdded": 0,
+                                "isCool": false,
+                                "textureWrap": "repeatY",
+                                "offsetHeight": 0,
+                                "effect": true,
+                                "reflectedPanorama": false
+                            },
+                            {
+                                "offsetHeightAdded": 0,
+                                "color": "rgba(0,250,255,1)",
+                                "flowSpeed": 1,
+                                "reflectionNormal": "normal/systemIcons/waternormals.jpg",
+                                "refractionImage": "polygonIcons/systemIcons/refraction.jpg",
+                                "offsetHeight": 0,
+                                "alpha": 1,
+                                "waveLength": 1,
+                                "reflectionImage": "polygonIcons/systemIcons/refraction.jpg",
+                                "label": {
+                                    "dropShadow": false,
+                                    "color": {
+                                        "shadow": "#FFFFFF",
+                                        "text": "rgba(250,240,240,1)"
+                                    },
+                                    "offset": [
+                                        0,
+                                        0
+                                    ],
+                                    "addBackground": true,
+                                    "conditionOffset": [],
+                                    "zoomByView": false,
+                                    "showLabel": false,
+                                    "imagePadding": [
+                                        16,
+                                        8
+                                    ],
+                                    "labelField": "",
+                                    "imgUrl": "/group6/asserts/uvMap/2023/icon_20230104165128111_387914.png",
+                                    "faceCamera": false,
+                                    "position": {
+                                        "conditionPosition": [],
+                                        "labelPositionField": "constant",
+                                        "stringOrNumber": "String",
+                                        "value": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    },
+                                    "font": {
+                                        "name": "",
+                                        "option": [
+                                            "微软雅黑",
+                                            "宋体",
+                                            "仿宋",
+                                            "黑体",
+                                            "Arial"
+                                        ]
+                                    },
+                                    "height": 12,
+                                    "labelOffsetField": "constant"
+                                },
+                                "refractionNormal": "normal/systemIcons/Water_2_M_Normal.jpg"
+                            }
+                        ],
+                        "infoWindow": {
+                            "fieldData": [
+                                {
+                                    "alias": "孪生体ID",
+                                    "enable": true,
+                                    "field": "孪生体ID",
+                                    "height": 100,
+                                    "param": "",
+                                    "target": "new",
+                                    "url": "",
+                                    "width": 100
+                                }
+                            ],
+                            "enable": true,
+                            "style": "default",
+                            "title": "",
+                            "type": "standard",
+                            "displayMode": "none",
+                            "customHtml": "<div class='sign' id='PopupBoard' style='width: 210px;background-color: rgba(192, 192, 192, 0.6);color: #cccccc;top: 0;left: 0;z-index: 100;display: inline-block;position: absolute;border-radius: 4px 4px 0 0;'>    <div class = 'headline' style = 'font-size:12px;color:rgb(238,238,238);padding: 6px 10px;background:linear-gradient(rgba(43,135,230,0.8), rgba(43,135,230,1));line-height:20px;border-radius: 4px 4px 0 0;'>        详细信息    </div>    <div class= 'info' style= 'background-color: rgba(43, 135, 230, 0.6);padding: 10px 8px;'>        <ul class='info-list' style = 'color:#eeeeee;list-style: none;margin:0;padding: 0;' >            <li class='info-item' style = 'font-size:12px;padding: 8px 0px;'>                <div class='info-key' style = 'width: 66px;float:left;text-align: left;text-align:center;overflow: hidden;text-overflow:ellipsis;white-space:nowrap;'>                    height                </div>                <div class='info-value' style = 'margin-left: 66px;'>                    :  {{height}}                </div>            </li>        </ul>    </div>    <div class='point-top' style='position: absolute;top: 5px;right: 5px;cursor:pointer;width: 14px;text-align: center;transform: scale(1.2);'>        x    </div></div>"
+                        },
+                        "service": {
+                            "enable": false,
+                            "url": "",
+                            "lon_field": "",
+                            "lat_field": "",
+                            "refresh": false,
+                            "interval": 10,
+                            "lon_check": 0,
+                            "lat_check": 0
+                        },
+                        "groupId": 1176446,
+                        "labelId": 5,
+                        "templateId": 311,
+                        "scanId": 0,
+                        "isAd": false,
+                        "createTime": 20230725104451,
+                        "modifyTime": 20230725104451,
+                        "dataConfig": {
+                            "visibleLevel": [
+                                0,
+                                22
+                            ]
+                        },
+                        "parentCode": 0,
+                        "data": {
+                            "code": 2520666,
+                            "name": "Greenland",
+                            "author": 822998,
+                            "dataNum": 1,
+                            "dataSize": 54093,
+                            "dataType": "Polygon",
+                            "picPath": "group5/mapCache/445202/1/GCJ02/Greenland.png",
+                            "state": 2,
+                            "createTime": 20230725104451,
+                            "modifyTime": 20230725104451,
+                            "dataPath": "cache/layer/3D93BCC4896F470E0FE0A1D49220191CB0575B26EB39E7E82224B7C6C511F48E",
+                            "fieldNames": [],
+                            "boundingSphere": {
+                                "center": [
+                                    2607217.17,
+                                    2542707.26,
+                                    5235999.82
+                                ],
+                                "radius": 18087.75
+                            },
+                            "groupId": 11,
+                            "loadHeight": 0,
+                            "pathMd5": "",
+                            "relativeCrsDataPath": "",
+                            "crs": "02",
+                            "dataAttribution": 0,
+                            "statusId": 53111,
+                            "isTerrain": true,
+                            "isEarthEffect": false,
+                            "dataEarthEffect": false,
+                            "upload": false
+                        },
+                        "layerLabel": {
+                            "code": 5,
+                            "name": "green",
+                            "enname": "绿地",
+                            "author": "cityadmin",
+                            "geometryType": "Polygon",
+                            "createTime": 20200102102652,
+                            "modifyTime": 20200102102652,
+                            "status": 1,
+                            "labelOrder": 9
+                        },
+                        "isEarthEffect": 0,
+                        "dataEarthEffect": 0,
+                        "groupEnable": true,
+                        "cityOrderId": 0,
+                        "crs": "02",
+                        "payFlag": false,
+                        "checked": true,
+                        "crsFixAbled": false
+                    }
+                ],
+                "author": 822998,
+                "payFlag": false,
+                "parentId": 0,
+                "isIndeterminate": false,
+                "expand": true,
+                "checked": true,
+                "crsFixAbled": false
+            }
+        ]
+    },
+    {
+        "code": -2,
+        "name": "森地球",
+        "layers": [
+            {
+                "name": "高德街道(02)",
+                "type": "basemap",
+                "enable": true,
+                "order": 5000,
+                "groupId": -2,
+                "createTime": 0,
+                "modifyTime": 0,
+                "isEarthEffect": 1,
+                "dataResource": "basemap",
+                "imgSrc": "baseMap/system/baseMap04.png",
+                "maximumLevel": 18,
+                "url": "https://webrd01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=7&x={x}&y={y}&z={z}",
+                "checked": true,
+                "crsFixAbled": false
+            },
+            {
+                "code": 937139,
+                "type": "terrain",
+                "enable": false,
+                "order": 4000,
+                "groupId": -2,
+                "createTime": 0,
+                "modifyTime": 0,
+                "dataConfig": {
+                    "visibleLevel": [
+                        0,
+                        22
+                    ]
+                },
+                "parentCode": 0,
+                "isEarthEffect": 0,
+                "dataResource": "terrain",
+                "checked": false,
+                "crsFixAbled": false
+            },
+            {
+                "code": 1190422,
+                "projectId": 1501242,
+                "name": "地球粒子",
+                "type": 6,
+                "enable": true,
+                "order": 3000,
+                "groupId": -2,
+                "createTime": 20230724154828,
+                "modifyTime": 20230724154828,
+                "isEarthEffect": 1,
+                "dataResource": "partical",
+                "content": {
+                    "id": "18112014q3t8aunaabahzxbxcochavap",
+                    "density": 0.64,
+                    "listGroups": [
+                        {
+                            "texture": {
+                                "url": "ground/systemIcons/光点黑白02.png"
+                            },
+                            "iMaxParticleCount": 320,
+                            "listEmitters": [
+                                {
+                                    "listSize": [
+                                        {
+                                            "fValue": 1000000,
+                                            "fSpread": 500
+                                        }
+                                    ],
+                                    "listColor": [
+                                        {
+                                            "vec3Value": {
+                                                "x": 1,
+                                                "y": 1,
+                                                "z": 1
+                                            },
+                                            "vec3Spread": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "z": 0
+                                            }
+                                        }
+                                    ],
+                                    "listOpacity": [
+                                        {
+                                            "fValue": 0.8,
+                                            "fSpread": 0
+                                        }
+                                    ],
+                                    "velocity": {
+                                        "vec3Value": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "vec3Spread": {
+                                            "x": 4830000,
+                                            "y": 4830000,
+                                            "z": 4830000
+                                        }
+                                    },
+                                    "position": {
+                                        "vec3Spread": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        }
+                                    },
+                                    "iParticleCount": 320
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dataList": "\"\\\"null\\\"\"",
+                "author": 822998,
+                "checked": true,
+                "crsFixAbled": false
+            }
+        ]
+    }
+]

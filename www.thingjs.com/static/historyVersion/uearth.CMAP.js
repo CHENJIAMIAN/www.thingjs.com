@@ -4240,7 +4240,7 @@ var Style = class extends THING.BaseStyle {
         t._lightGroup.setConfig(e)
     }
 };
-var mt = class {
+var SceneManager = class {
     constructor(t) {
         this.initmaxNum = 1,
         this.error = !1,
@@ -7189,7 +7189,7 @@ class Map extends THING.BaseObject {
             this.onCampusLevelLeaveSceneOperations(t)
         }
         , THING.EventTag.LevelSceneOperations),
-        this.sceneManager = new mt(t),
+        this.sceneManager = new SceneManager(t),
         this.pick3DTilesFeatureIdBuffer = [],
         this.pick3DTilesFeatureIdCurrentValue = CMAP.pickIdStartNum,
         this.pickIdBuffer = [],
@@ -14123,7 +14123,7 @@ class BigDataLayer extends Layer {
 }
 THING.factory.registerClass("BigDataLayer", BigDataLayer);
 var BigDataLayer = BigDataLayer;
-class Oe extends BigDataLayer {
+class BigBuildingLayer extends BigDataLayer {
     constructor(t) {
         super(t),
         this.geometryType = "GeoBuilding"
@@ -14187,8 +14187,8 @@ class Oe extends BigDataLayer {
         return t3djs.util.mergeBufferGeometry(t, e, !0)
     }
 }
-THING.factory.registerClass("BigBuildingLayer", Oe);
-var BigBuildingLayer = Oe;
+THING.factory.registerClass("BigBuildingLayer", BigBuildingLayer);
+var BigBuildingLayer = BigBuildingLayer;
 class He extends BigDataLayer {
     constructor(t) {
         super(t),

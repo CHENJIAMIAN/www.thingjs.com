@@ -1,0 +1,433 @@
+{
+    "code": 1501242,
+    "name": "新建城市3",
+    "type": 1,
+    "author": 822998,
+    "config": {
+        "view": {
+            "lonlat": [
+                108.5001706339384,
+                32.82891839331221,
+                0
+            ],
+            "height": 20373562.08527506,
+            "heading": 4.972748975824137,
+            "tilt": 89.42704220486846,
+            "pitch": 89.42704220486846
+        },
+        "animation": {
+            "fly": false,
+            "during": 2,
+            "rotate": false,
+            "angle": 360
+        },
+        "plugin": {
+            "search": false,
+            "maps": false,
+            "move": false,
+            "layer": false,
+            "cutline": false
+        },
+        "screenShotWithSave": true,
+        "angleWithSave": true
+    },
+    "map": {
+        "terrain": {
+            "terrainExaggeration": 1,
+            "url": "https://city.thingjs.com/rn/ch-terrain-14-g-1?ext=pak",
+            "covered": false,
+            "enable": false
+        },
+        "referencePosition": [
+            2180431.66,
+            4097762.23,
+            4374111.84
+        ],
+        "terrainExaggeration": 1
+    },
+    "mapId": 0,
+    "baseMap": {
+        "maximumLevel": 18,
+        "crs": "02",
+        "name": "高德街道(02)",
+        "imgSrc": "baseMap/system/baseMap04.png",
+        "url": "https://webrd01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=7&x={x}&y={y}&z={z}"
+    },
+    "terrainId": 0,
+    "filterId": 0,
+    "tileLayerStyle": {
+        "gradientColorOverlayType": "night",
+        "gradientColorOverlayEnable": true,
+        "style": "custom",
+        "rgba": "rgba(46,51,54,1)",
+        "brightness": 1,
+        "grayFilterColorBar": [
+            [
+                34,
+                34,
+                34,
+                1
+            ],
+            [
+                44,
+                44,
+                44,
+                1
+            ],
+            [
+                42,
+                42,
+                42,
+                1
+            ],
+            [
+                72,
+                72,
+                72,
+                1
+            ],
+            [
+                68,
+                68,
+                68,
+                1
+            ],
+            [
+                74,
+                74,
+                74,
+                1
+            ],
+            [
+                38,
+                36,
+                36,
+                1
+            ],
+            [
+                122,
+                122,
+                122,
+                1
+            ]
+        ],
+        "grayFilterPerBar": [
+            0,
+            0.13,
+            0.3,
+            0.51,
+            0.66,
+            0.75,
+            0.86,
+            1
+        ],
+        "type": "grayFilter",
+        "singleFilterEnable": false,
+        "grayFilterEnable": true,
+        "contrast": 1.2,
+        "hue": 360,
+        "saturation": 0.1,
+        "gamma": 2.3,
+        "gradientCustomColorPerBar": [
+            0,
+            0.5,
+            0.7,
+            1
+        ],
+        "gradientCustomColorBar": [
+            [
+                255,
+                255,
+                255
+            ],
+            [
+                255,
+                255,
+                255
+            ],
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "angleX": 0,
+        "angleY": 0,
+        "angleZ": 0,
+        "gradientColorBar": [
+            [
+                255,
+                255,
+                255
+            ],
+            [
+                255,
+                255,
+                255
+            ],
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "gradientColorPerBar": [
+            0,
+            0.5,
+            0.7,
+            1
+        ],
+        "gradientMapDirection": [
+            0.6560590289905069,
+            -0.7547095802227722,
+            1.8485053434113212e-16
+        ],
+        "code": 591,
+        "name": "灰金备份"
+    },
+    "postEffectId": 6981,
+    "postEffect": {
+        "code": 2520,
+        "name": "test1",
+        "type": "postEffect",
+        "filter": [
+            {
+                "postEffect": {
+                    "enable": true,
+                    "bloom": {
+                        "enable": true,
+                        "strength": 0.169,
+                        "radius": 3.4,
+                        "threshold": 0.45
+                    },
+                    "colorCorrection": {
+                        "enable": true,
+                        "exposure": 0,
+                        "brightness": 0,
+                        "contrast": 1.3,
+                        "saturation": 1,
+                        "gamma": 1
+                    },
+                    "vignetting": {
+                        "enable": true,
+                        "color": "0x181716",
+                        "offset": 0.6
+                    },
+                    "blurEdge": {
+                        "enable": false,
+                        "offset": 0.6
+                    },
+                    "film": {
+                        "enable": false,
+                        "grayscale": false,
+                        "noiseIntensity": 0.09,
+                        "scanlinesIntensity": 0.1,
+                        "scanlinesCount": 525
+                    },
+                    "chromaticAberration": {
+                        "enable": false,
+                        "chromaFactor": 0.01
+                    },
+                    "screenSpaceReflection": {
+                        "enable": false,
+                        "minGlossiness": 0.2
+                    },
+                    "SmallGlowBloom": {
+                        "enable": false,
+                        "strength": 0.54,
+                        "radius": 0.4,
+                        "threshold": 0.2
+                    },
+                    "MiddleGlowBloom": {
+                        "enable": false,
+                        "strength": 3.5,
+                        "radius": 0.4,
+                        "threshold": 0.2
+                    },
+                    "FXAA": {
+                        "enable": false
+                    },
+                    "screenSpaceAmbientOcclusion": {
+                        "enable": false,
+                        "radius": 0.2,
+                        "quality": "medium",
+                        "intensity": 0.8,
+                        "temporalFilter": true,
+                        "ignoreTransparent": false
+                    },
+                    "GlowBloom": {
+                        "enable": false,
+                        "strength": 0.52,
+                        "radius": 0.4,
+                        "threshold": 0.2
+                    }
+                }
+            },
+            {}
+        ]
+    },
+    "lightId": 4,
+    "light": {
+        "code": 374,
+        "name": "ThingJS默认灯光",
+        "type": "light",
+        "filter": [
+            {
+                "showHelper": false,
+                "ambientLight": {
+                    "intensity": 0.37,
+                    "color": 14803425,
+                    "ambientFlag": true
+                },
+                "hemisphereLight": {
+                    "intensity": 0.3,
+                    "color": 16773563,
+                    "groundColor": 12171705,
+                    "hemisphereFlag": true
+                },
+                "mainLight": {
+                    "flag": true,
+                    "shadow": true,
+                    "shadowQuality": "ultra",
+                    "shadowBias": 0,
+                    "intensity": 0.8,
+                    "color": 16777215,
+                    "alpha": 45,
+                    "beta": 334
+                },
+                "secondaryLight": {
+                    "flag": true,
+                    "shadow": false,
+                    "shadowQuality": "ultra",
+                    "shadowBias": 0,
+                    "intensity": 0.34,
+                    "color": 16777215,
+                    "alpha": 45,
+                    "beta": 120
+                },
+                "tertiaryLight": {
+                    "flag": true,
+                    "shadow": false,
+                    "shadowQuality": "ultra",
+                    "shadowBias": 0,
+                    "intensity": 0.32,
+                    "color": 16777215,
+                    "alpha": 45,
+                    "beta": 233
+                },
+                "distance": 2000
+            },
+            {}
+        ]
+    },
+    "scanId": -1,
+    "skyBoxId": -1,
+    "background": {
+        "type": "skybox",
+        "value": "projectSkyBox/20211015173248696_168868//"
+    },
+    "mapStyle": {
+        "fog": true,
+        "fogExp": true,
+        "fogDensity": 0,
+        "fogExpDensity": 0.3,
+        "fogExpColor": "#2e2d2b",
+        "atmosphere": false
+    },
+    "picPath": "/group4/user/UzvdmihBoSWWd4oXnOnGJf3FHwaSOzrd/map/1501242/20230725095827211_543006.png",
+    "createTime": 20230614084838,
+    "modifyTime": 20230725095827,
+    "state": 4,
+    "overlay": {
+        "cloud": {
+            "visible": false
+        },
+        "gradient": {
+            "gradientColorOverlayType": "none",
+            "gradientColorOverlayEnable": false,
+            "gradientColorPerBar": [
+                0,
+                0.5,
+                0.7,
+                1
+            ],
+            "gradientColorBar": [
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "gradientCustomColorPerBar": [
+                0,
+                0.5,
+                0.7,
+                1
+            ],
+            "gradientCustomColorBar": [
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "angleX": 0,
+            "angleY": 0,
+            "angleZ": 0,
+            "gradientMapDirection": [
+                1,
+                0,
+                0
+            ]
+        }
+    },
+    "isImport": false,
+    "lock": 0,
+    "isThingMap": 0,
+    "dataPrice": 0,
+    "templatePrice": 0,
+    "isCityLayer": 0,
+    "templateId": 311,
+    "areaCode": 440513,
+    "isTemp": false
+}
