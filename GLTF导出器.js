@@ -1972,16 +1972,21 @@ function saveArrayBuffer(buffer, filename) {
     save(new Blob([buffer], { type: "application/octet-stream" }), filename);
 }
 
-function exportGLTF(input) {
+function exportGLTF(input,filename='scene') {
     var gltfExporter = new GLTFExporter();
 
     gltfExporter.parse(input, function (result) {
         if (result instanceof ArrayBuffer) {
-            saveArrayBuffer(result, "scene.glb");
+            saveArrayBuffer(result, filename+".glb");
         } else {
             var output = JSON.stringify(result, null, 2);
             console.log(output.length);
-            saveString(output, "scene.gltf");
+            saveString(output, filename+".gltf");
         }
     });
 }
+
+window.modellist = [];
+// 1.在thing.min.js的末尾加上条件断点,内容为这个文件
+// 2.然后在o._successCallback(t, e)打条件断点,内容为 modellist.forEach(i=>exportGLTF(i.node, i.url.split('/').at(-3)))
+// 3.即可下载所有模型
