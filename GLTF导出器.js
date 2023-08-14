@@ -1987,6 +1987,9 @@ function exportGLTF(input,filename='scene') {
 }
 
 window.modellist = [];
+// r120版本的GLTFExporter
+
 // 1.在thing.min.js的末尾加上条件断点,内容为这个文件
-// 2.然后在o._successCallback(t, e)打条件断点,内容为 modellist.forEach(i=>exportGLTF(i.node, i.url.split('/').at(-3)))
-// 3.即可下载所有模型
+// 2.然后在o._successCallback(t, e) 打条件断点,内容为 在modellist.push(t.node)
+// 3.在控制台执行 modellist.forEach(i=>exportGLTF(i.node, i.url.split('/').at(-3)))
+// 4.即可下载所有模型
