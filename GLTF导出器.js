@@ -1993,3 +1993,7 @@ window.modellist = [];
 // 2.然后在o._successCallback(t, e) 打条件断点,内容为 在modellist.push(t.node)
 // 3.在控制台执行 modellist.forEach(i=>exportGLTF(i.node, i.url.split('/').at(-3)))
 // 4.即可下载所有模型
+// 
+// 不适用于ThingJS 2.0,因为2.0已经完全剔除了THREE
+// 2023年10月25日 https://campus.thingjs.com/#/zh 的版本是THING.VERSION '2.0.0-beta11'
+// 2023年10月25日 https://campus.thingjs.com/preview?sceneCode=DPNmDFfPw1X 的版本是 ThingJS: 1.4.22
