@@ -1,3 +1,11 @@
+[English](./README.en.md)
+
+<!-- codex-github-rules:bilingual-summary -->
+> **中文简介**：用于本地调试的纯 ThingJS 演示
+>
+> **English summary**: A pure ThingJS demo for local debugging
+
+---
 ## 运行
 - 在powershell中运行`cd .\www.thingjs.com; serve`
 - 或在cmd中运行`cd /d ".\www.thingjs.com" & serve`
